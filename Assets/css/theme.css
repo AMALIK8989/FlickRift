@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:rgba(41, 40, 40, 0.904);
+    --icon-color:red;
+}
+body{
+    background-color: var(--bg-color);
+}
+header {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    background: url('../Img/marques-kaspbrak-n1amn-SHKzw-unsplash.jpg') no-repeat center center/cover;
+    background-size: cover;
+    backdrop-filter: blur(20px); /* Applying backdrop filter for a blurred effect */
+    filter: grayscale(60%);
+    height: auto !important;
+
+}
+header {
+    position: relative; /* Position relative for positioning the pseudo-element */
+    background-color: transparent;
+    padding: 1rem 2rem;
+    background: url('../Img/marques-kaspbrak-n1amn-SHKzw-unsplash.jpg') no-repeat center center/cover;
+    background-size: cover;
+    backdrop-filter: blur(20px); /* Applying backdrop filter for a blurred effect */
+    filter: grayscale(60%);
+    overflow: hidden; /* Prevents overflow of the pseudo-element */
+}
+
+header::before {
+    content: ""; /* Required to create the pseudo-element */
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Aligns to the top */
+    left: 0; /* Aligns to the left */
+    width: 100%; /* Covers full width */
+    height: 100%; /* Covers full height */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black for the vignette */
+    filter: blur(10px); /* Blur effect */
+    z-index: 1; /* Place it below other content in the header */
+}
+
+header > * {
+    position: relative; /* Ensures content appears above the pseudo-element */
+    z-index: 2; /* Stack on top of the pseudo-element */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo img{
+   width: 120px;
+   height: 120px;
+   display: flex;
+   border-radius: 20px;
+}
+
+
+
+
+.btn-signup {
+    background-color: #e50914;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.btn-signup:hover {
+    background-color: #f40612;
+}
+/* Hero Section */
+#hero {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Adds a gradient overlay */
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    max-width: 600px;
+    color: white;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #eee;
+    line-height: 1.6;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background-color: #e50914;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(229, 9, 20, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.hero-content .btn:hover {
+    background-color: #f40612;
+    box-shadow: 0px 6px 15px rgba(244, 6, 18, 0.4);
+    transform: scale(1.05);
+}
+
+
+main{
+    margin-top: 15px !important;
+}
+
+
+.our-vision {
+   
+    padding-top: 5rem !important; /* Top padding for spacing */
+    padding-bottom: 5rem !important; /* Bottom padding for spacing */
+}
+
+/* Heading Styles */
+.our-vision h2 {
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    margin-bottom: 2rem !important;
+}
+
+/* Styling the list items */
+.our-vision .list-group-item {
+    font-size: 1rem !important;
+    color: #ffffff !important;
+    padding: 0.75rem 1rem !important;
+    border-radius: 0.375rem !important; /* Rounded corners */
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.our-vision .list-group-item i {
+    color: #007bff !important; /* Primary blue for icons */
+    font-size: 1.25rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.our-vision .list-group-item:hover {
+    background-color: #e9ecef !important; /* Light hover effect */
+    color: black !important;
+}
+
+/* List Group for better layout */
+#vision-list-1, #vision-list-2 {
+    margin-bottom: 1.5rem !important; /* Space between the lists */
+}
+
+/* Paragraph Styling */
+.our-vision p {
+    font-size: 1.125rem !important;
+    line-height: 1.8 !important;
+    color: #ffffff !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .our-vision .row {
+        flex-direction: column !important;
+    }
+
+    .our-vision .col-md-6 {
+        margin-bottom: 2rem !important;
+    }
+}
+
+/* Image Styling */
+#about-img img {
+    border-radius: 0.375rem !important; /* Rounded corners */
+    max-width: 100% !important; /* Ensure the image takes full width */
+    height: auto !important; /* Maintain aspect ratio */
+}
+
+/* Paragraph and Text Styling */
+#about-para p {
+    color: white !important; /* Set text color to white */
+    font-size: 1.125rem !important; /* Slightly larger font for readability */
+    line-height: 1.8 !important; /* Improve line spacing */
+    margin-bottom: 1rem !important; /* Space between paragraphs */
+}
+
+/* Bold text inside paragraphs */
+#about-para p strong {
+    font-weight: 600 !important;
+    color: #ffffff !important; /* Keep strong text white */
+}
+hr{
+    color: white;
+    margin: 5rem !important;
+}
+#why-us {
+    background-color: #222 !important;
+    color: white !important;
+    padding: 30px 0 !important;
+}
+
+.why {
+    margin-top: 20px;
+}
+
+#why-us h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white !important;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #333 !important;
+    color: white !important;
+    padding: 20px;
+    border: 1px solid white !important;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out !important;
+}
+
+.card:hover {
+    transform: scale(1.05) !important;
+}
+
+.card svg {
+    color: var(--icon-color) !important;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5rem !important;
+    margin-bottom: 10px;
+    color: white !important;
+}
+
+.card p {
+    font-size: 1rem;
+    color: white !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-6,
+.col-sm-12,
+.col-xl-4,
+.col-lg-3 {
+    margin-bottom: 30px;
+}
+
+.animate__animated {
+    visibility: visible !important;
+}
+
+.animate__fadeInUp {
+    animation: fadeInUp 1s ease-in-out !important;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#for-kids {
+    padding: 3rem 0 !important;
+}
+
+.kid-image {
+    margin-right: 20px !important;
+}
+
+.kid-text {
+    color: white !important;
+}
+
+.kid-text h2 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.kid-text p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1rem !important;
+}
+
+.kid-text strong {
+    color: red !important;
+}
