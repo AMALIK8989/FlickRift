@@ -343,3 +343,92 @@ hr{
 .kid-text strong {
     color: red !important;
 }
+#donate {
+    background-color: #ffffff; /* Example dark background color */
+  }
+  
+  /* #donate h1,
+  #donate p,
+  #donate li {
+    color: white;
+  } */
+
+  footer {
+    margin-top: 13px !important;
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1f1c18c5, #8e0e00c5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1f1c18d0, #8e0e00a2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #fff; /* White text */
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo Styling */
+.footer-logo img {
+    width: 120px;
+    height: 90px;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.493);
+}
+
+/* Footer Links */
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Spacing between links */
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #1DA1F2; /* Light blue hover effect */
+}
+
+/* Social Media Links */
+.footer-social-link ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.footer-social-link ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social-link ul li a:hover {
+    color: #1DA1F2; /* Light blue hover effect */
+}
+
+/* Copyright Section */
+.foot-cpyrht {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.foot-cpyrht a.nex {
+    color: #1DA1F2; /* Light blue for the link */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.foot-cpyrht a.nex:hover {
+    color: #f1c40f; /* Yellow hover effect */
+}
+h1,h2,h3,h4,h5,h6{
+    color: white !important;
+}
