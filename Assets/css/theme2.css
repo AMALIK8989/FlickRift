@@ -112,6 +112,7 @@ main {
 }
 
  .carousel-item img {
+     width:100% !important;
     height: 350px !important; /* Reduce image height for smaller screens */
 }
 
