@@ -83,16 +83,21 @@ main {
 }
 #slider .carousel-item {
     position: relative;
+    width:100% !important;
+    height:auto;
 }
 
 #slider .carousel-inner {
     position: relative;
+    width:100% !important;
+    height:auto;
 }
 
 #slider .carousel-item img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    
 }
 
 #slider .overlay {
