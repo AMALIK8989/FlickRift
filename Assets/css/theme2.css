@@ -208,13 +208,13 @@ main {
 }
     .row {
     margin-left: 0 !important; /* Center content on smaller screens */
-    padding: 15px 10px !important; /* Adjust padding for better spacing */
+    
     grid-template-columns: repeat(auto-fit, 170px, 1fr) !important;
     gap: 10px !important;
 }
 
 .card-slider {
-    width: 170px !important;
+    width: 150px !important;
     height: auto !important;
     background-color: #333 !important;
     position: relative !important;
