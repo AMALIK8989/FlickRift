@@ -207,3 +207,57 @@ main {
     justify-self: center; /* Center the last card */
 }
 }
+.base-template__wrapper {
+	max-width: 100dvw;
+	padding-bottom: 50px;
+}
+
+
+
+.swiper-free-mode > .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+/* 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+} */
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+.u-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.c-carousel {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.c-carousel__wrapper.swiper {
+  margin: 0 48px;
+  position: static;
+}
+
+.c-carousel__inner-wrapper.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.c-carousel img {
+  margin: 0 auto;
+}
