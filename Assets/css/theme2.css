@@ -54,14 +54,14 @@ main {
 }
 
 #slider .slide-details h3 {
-    font-size: 1.2rem !important;
+    font-size: 0.7rem !important;
     font-weight: bold !important;
     text-transform: uppercase !important;
     color: white !important;
 }
 
 #slider .slide-details p {
-    font-size: 0.9rem !important;
+    font-size: 0.6rem !important;
     color: white !important;
 }
 
