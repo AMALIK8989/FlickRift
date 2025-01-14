@@ -65,51 +65,54 @@
 </head>
 <body>
     <main>
-<section class="container-fluid px-5 py-5" id="slider">
-        <div class="row">
-            <!-- Slide 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card position-relative">
-                    <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Atomic%20Blonde.png" class="card-img-top" alt="Atomic Blonde">
-                    <div class="card-body position-absolute w-100 h-100 d-flex align-items-center justify-content-center p-4 text-white bg-dark bg-opacity-50 opacity-0 hover-opacity-100 transition-opacity">
-                        <div>
-                            <h3 class="card-title">Atomic Blonde</h3>
-                            <p class="card-text">"Atomic Blonde" is a thrilling action film set against the backdrop of the Cold War era. Starring Charlize Theron as MI6 agent Lorraine Broughton...</p>
-                            <a href="./Atomic-blonde.html" class="btn btn-light"><i class="fas fa-play-circle"></i></a>
-                        </div>
-                    </div>
+<section class="slider container-fluid px-5 py-5" id="slider">
+    <div class="slider-content">
+      <div class="container px-2 py-2">
+        <div id="movieCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Carousel inner -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="slide1">
+              <div class="card position-relative">
+                <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Atomic%20Blonde.png" alt="Atomic Blonde" class="d-block w-100">
+                <div class="card-details position-absolute bottom-0 start-0 w-100 p-3 bg-dark text-white opacity-0 hover-opacity-100">
+                  <h3>Atomic Blonde</h3>
+                  <p>"Atomic Blonde" is a thrilling action film set against the backdrop of the Cold War era...</p>
+                  <a href="./Atomic-blonde.html"><i class="fas fa-play-circle"></i></a>
                 </div>
+              </div>
             </div>
+            <div class="carousel-item" id="slide2">
+              <div class="card position-relative">
+                <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg" alt="Arrow" class="d-block w-100">
+                <div class="card-details position-absolute bottom-0 start-0 w-100 p-3 bg-dark text-white opacity-0 hover-opacity-100">
+                  <h3>Arrow</h3>
+                  <p>"Arrow" follows billionaire vigilante Oliver Queen as he battles crime...</p>
+                  <a href="#"><i class="fas fa-play-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" id="slide3">
+              <div class="card position-relative">
+                <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg" alt="Mission Impossible" class="d-block w-100">
+                <div class="card-details position-absolute bottom-0 start-0 w-100 p-3 bg-dark text-white opacity-0 hover-opacity-100">
+                  <h3>Mission Impossible 1</h3>
+                  <p>"Mission: Impossible" (1996) is a classic espionage thriller...</p>
+                  <a href="#"><i class="fas fa-play-circle"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <!-- Slide 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card position-relative">
-                    <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg" class="card-img-top" alt="Arrow">
-                    <div class="card-body position-absolute w-100 h-100 d-flex align-items-center justify-content-center p-4 text-white bg-dark bg-opacity-50 opacity-0 hover-opacity-100 transition-opacity">
-                        <div>
-                            <h3 class="card-title">Arrow</h3>
-                            <p class="card-text">"Arrow" is a TV series...</p>
-                            <a href="#" class="btn btn-light"><i class="fas fa-play-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card position-relative">
-                    <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg" class="card-img-top" alt="Mission Impossible">
-                    <div class="card-body position-absolute w-100 h-100 d-flex align-items-center justify-content-center p-4 text-white bg-dark bg-opacity-50 opacity-0 hover-opacity-100 transition-opacity">
-                        <div>
-                            <h3 class="card-title">Mission Impossible 1</h3>
-                            <p class="card-text">"Mission: Impossible" (1996) is a classic espionage thriller directed by Brian De Palma...</p>
-                            <a href="#" class="btn btn-light"><i class="fas fa-play-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <!-- Pagination -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#movieCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#movieCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#movieCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
     </main>
 </body>
 </html>
