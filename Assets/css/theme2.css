@@ -294,13 +294,17 @@ main {
     }
 
     .slider-container {
-        grid-template-columns: 1fr !important; /* Single column on small screens */
+        grid-template-columns: repeat(2, 1fr) !important; /* Two columns on small screens */
         padding: 10px !important;
     }
 
     .card-slider {
         width: 150px !important;
         height: 220px !important;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 50% !important; /* Two cards per row */
     }
 }
 
@@ -319,6 +323,10 @@ main {
         width: 180px !important;
         height: 250px !important;
     }
+
+    .col-sm-6 {
+        flex: 0 0 50% !important; /* Two cards per row */
+    }
 }
 
 /* For screens 768px and up (md) */
@@ -334,7 +342,11 @@ main {
 
     .card-slider {
         width: 200px !important;
-        height: 280px !important;
+        height: 250px !important;
+    }
+
+    .col-md-2 {
+        flex: 0 0 33.33% !important; /* Three cards per row */
     }
 }
 
@@ -353,6 +365,10 @@ main {
         width: 220px !important;
         height: 300px !important;
     }
+
+    .col-lg-3 {
+        flex: 0 0 25% !important; /* Four cards per row */
+    }
 }
 
 /* For screens 1200px and up (xl) */
@@ -370,5 +386,8 @@ main {
         width: 240px !important;
         height: 320px !important;
     }
-}
 
+    .col-xl-4 {
+        flex: 0 0 20% !important; /* Five cards per row */
+    }
+}
