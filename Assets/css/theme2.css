@@ -11,12 +11,23 @@ body{
     background-color: var(--bg-color);
 }
 /* Navbar styles */
+/* Navbar styles */
 .navbar {
   width: 100% !important;
   height: 80px !important;
   background-color: gray !important;
+  position: fixed; /* Keeps navbar at the top */
+  top: 0; /* Aligns the navbar at the top of the page */
+  left: 0; /* Ensures it's aligned to the left edge */
+  z-index: 1000; /* Ensures the navbar stays on top of other content */
 }
-
+/* Navbar Toggler (hamburger icon) */
+.navbar-toggler {
+  position: absolute;
+  right: 15px; /* Position it on the right side of the navbar */
+  top: 50%; /* Center it vertically */
+  transform: translateY(-50%); /* Corrects the vertical alignment */
+}
 /* Dropdown menu styles */
 .navbar-nav .dropdown-menu {
   display: none;
@@ -45,6 +56,22 @@ body{
   border-radius: 5px;
 }
 
+/* Navbar Collapse (when menu is opened on small screens) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 80px; /* Position it below the navbar */
+    left: 0;
+    width: 100%;
+    background-color: gray !important;
+    display: none; /* Initially hidden */
+    z-index: 999; /* Just below the navbar */
+  }
+
+  .navbar-collapse.show {
+    display: block; /* Show the menu when toggled */
+  }
+}
 main {
     width: 100% !important;
     height: auto !important;
