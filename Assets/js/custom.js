@@ -96,13 +96,7 @@ $(document).ready(function () {
 
 var swiper = new Swiper(".swiper-container", swiperOptions);
 
-const swiper = new Swiper('.swiper-container', {
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
+
 
 // const $card = document.querySelector('.card');
 // let bounds;
