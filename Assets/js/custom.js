@@ -76,25 +76,23 @@ $(document).ready(function() {
 // };
 
 $(document).ready(function () {
-  const swiper = new Swiper('.swiper', {
-    spaceBetween: 0,
-    speed: 5000,
-    direction: 'horizontal',
-    autoplay: { delay: 0, disableOnInteraction: false },
-    loop: true,
-    slidesPerView: 1,
-    freeMode: true,
-    lazy: { loadPrevNext: true },
-    breakpoints: {
-      640: { slidesPerView: 2 },
-      768: { slidesPerView: 3 },
-      1024: { slidesPerView: 5 },
-    },
+    const swiperOptions = {
+      spaceBetween: 0,
+      speed: 15000,
+      direction: 'horizontal',
+      autoplay: { delay: 0, disableOnInteraction: false },
+      loop: true,
+      slidesPerView: 1,
+      freeMode: true,
+      lazy: { loadPrevNext: true },
+      breakpoints: {
+        640: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        1024: { slidesPerView: 5 },
+      },
+    };
+    var swiper = new Swiper('.swiper', swiperOptions);
   });
-});
-
-
-var swiper = new Swiper(".swiper-container", swiperOptions);
 
 
 
