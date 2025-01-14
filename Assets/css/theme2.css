@@ -209,185 +209,36 @@ main {
     
     
 }
-#genre-cards {
-    width: 100% !important;
-    padding: 10px 13px !important;
-    overflow: visible !important;
-}
-
-#genre-cards h2 {
-    text-align: center !important;
-    font-size: 2rem !important;
-    margin: 20px 0 !important;
-    color: #fff !important;
-    font-family: 'Arial', sans-serif !important;
-}
-
-.slider-container {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important; /* Responsive grid layout */
-    gap: 10px !important;
-    justify-items: center !important; /* Center cards horizontally */
-    margin: 10px 0 !important;
-    padding: 22px 15px !important;
-    box-sizing: border-box !important;
-    width: 100% !important;
-}
-
 .card-slider {
-    width: 200px !important;
-    height: 280px !important;
-    background-color: #333 !important;
-    position: relative !important;
-    cursor: pointer !important;
-    overflow: hidden !important; /* Ensures no overflow outside the card */
-    border-radius: 8px !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
-    transition: transform 0.3s ease !important, box-shadow 0.3s ease !important;
-}
-
-.card-slider:hover {
-    transform: scale(1.08) !important;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3) !important;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-slider img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-slider:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card-details {
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    padding: 12px !important;
-    box-sizing: border-box !important;
-    transition: opacity 0.3s ease !important, transform 0.3s ease !important;
-    opacity: 0 !important;
-    transform: translateY(100%) !important;
-}
-
-.card-slider:hover .card-details {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
 }
 
 .card-details h3 {
-    margin: 0 !important;
-    color: #fff !important;
-    font-size: 1rem !important;
-    transform: translateY(20px) !important;
-    transition: opacity 0.3s ease !important, transform 0.3s ease !important;
-}
-
-.card-slider:hover .card-details h3 {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-}
-/* For screens smaller than 576px (xs or < sm) */
-@media (max-width: 575px) {
-    #genre-cards {
-        padding: 10px !important;
-    }
-
-    .slider-container {
-        grid-template-columns: repeat(2, 1fr) !important; /* Two columns on small screens */
-        padding: 10px !important;
-    }
-
-    .card-slider {
-        width: 150px !important;
-        height: 220px !important;
-    }
-
-    .col-sm-6 {
-        flex: 0 0 50% !important; /* Two cards per row */
-    }
-}
-
-/* For screens 576px and up (sm) */
-@media (min-width: 576px) {
-    #genre-cards {
-        padding: 12px !important;
-    }
-
-    .slider-container {
-        grid-template-columns: repeat(2, 1fr) !important; /* Two columns on small screens */
-        padding: 15px !important;
-    }
-
-    .card-slider {
-        width: 180px !important;
-        height: 250px !important;
-    }
-
-    .col-sm-6 {
-        flex: 0 0 50% !important; /* Two cards per row */
-    }
-}
-
-/* For screens 768px and up (md) */
-@media (min-width: 768px) {
-    #genre-cards {
-        padding: 15px !important;
-    }
-
-    .slider-container {
-        grid-template-columns: repeat(3, 1fr) !important; /* Three columns on medium screens */
-        padding: 18px !important;
-    }
-
-    .card-slider {
-        width: 200px !important;
-        height: 250px !important;
-    }
-
-    .col-md-2 {
-        flex: 0 0 33.33% !important; /* Three cards per row */
-    }
-}
-
-/* For screens 992px and up (lg) */
-@media (min-width: 992px) {
-    #genre-cards {
-        padding: 18px !important;
-    }
-
-    .slider-container {
-        grid-template-columns: repeat(4, 1fr) !important; /* Four columns on large screens */
-        padding: 20px !important;
-    }
-
-    .card-slider {
-        width: 220px !important;
-        height: 300px !important;
-    }
-
-    .col-lg-3 {
-        flex: 0 0 25% !important; /* Four cards per row */
-    }
-}
-
-/* For screens 1200px and up (xl) */
-@media (min-width: 1200px) {
-    #genre-cards {
-        padding: 20px !important;
-    }
-
-    .slider-container {
-        grid-template-columns: repeat(5, 1fr) !important; /* Five columns on extra-large screens */
-        padding: 25px !important;
-    }
-
-    .card-slider {
-        width: 240px !important;
-        height: 320px !important;
-    }
-
-    .col-xl-4 {
-        flex: 0 0 20% !important; /* Five cards per row */
-    }
+    margin: 0;
+    color: #fff;
+    font-size: 1.2rem;
 }
