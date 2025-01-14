@@ -2,17 +2,24 @@ document.addEventListener("DOMContentLoaded", function () {
     new WOW().init();
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
     $(".owl-carousel").owlCarousel({
-      items: 1, // Display one item per slide
-      loop: true, // Loop through slides
-      autoplay: true, // Enable autoplay
-      autoplayTimeout: 5000, // 5 seconds interval between slides
-      autoplayHoverPause: true, // Pause autoplay on hover
-      nav: true, // Show next/prev buttons
-      dots: true, // Show navigation dots
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
     });
-  });
+});
 
 // document.addEventListener("DOMContentLoaded", () => {
 // 	const isDesktop = () => window.innerWidth > 767.9;
