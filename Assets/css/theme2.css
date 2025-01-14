@@ -206,67 +206,7 @@ main {
 .slider-container .card-slider:nth-last-child(1) {
     justify-self: center; /* Center the last card */
 }
-    .row {
-    margin-left: 0 !important; /* Center content on smaller screens */
     
-    grid-template-columns: repeat(auto-fit, 170px, 1fr) !important;
-    gap: 10px !important;
-}
-
-.card-slider {
-    width: 150px !important;
-    height: auto !important;
-    background-color: #333 !important;
-    position: relative !important;
-    cursor: pointer !important;
-    overflow: hidden !important; /* Ensures no overflow outside the card */
-    border-radius: 8px !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
-    transition: transform 0.3s ease !important, box-shadow 0.3s ease !important;
-}
-
-.card-slider:hover {
-    transform: scale(1.08) !important;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3) !important;
-}
-
-.card-slider img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-}
-
-.card-details {
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    padding: 12px !important;
-    box-sizing: border-box !important;
-    transition: opacity 0.3s ease !important, transform 0.3s ease !important;
-    opacity: 0 !important;
-    transform: translateY(100%) !important;
-}
-
-.card-slider:hover .card-details {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-}
-
-.card-details h3 {
-    margin: 0 !important;
-    color: #fff !important;
-    font-size: 1rem !important;
-    transform: translateY(20px) !important;
-    transition: opacity 0.3s ease !important, transform 0.3s ease !important;
-}
-
-.card-slider:hover .card-details h3 {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-}
-
     
 }
 #genre-cards {
@@ -347,3 +287,88 @@ main {
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
+/* For screens smaller than 576px (xs or < sm) */
+@media (max-width: 575px) {
+    #genre-cards {
+        padding: 10px !important;
+    }
+
+    .slider-container {
+        grid-template-columns: 1fr !important; /* Single column on small screens */
+        padding: 10px !important;
+    }
+
+    .card-slider {
+        width: 150px !important;
+        height: 220px !important;
+    }
+}
+
+/* For screens 576px and up (sm) */
+@media (min-width: 576px) {
+    #genre-cards {
+        padding: 12px !important;
+    }
+
+    .slider-container {
+        grid-template-columns: repeat(2, 1fr) !important; /* Two columns on small screens */
+        padding: 15px !important;
+    }
+
+    .card-slider {
+        width: 180px !important;
+        height: 250px !important;
+    }
+}
+
+/* For screens 768px and up (md) */
+@media (min-width: 768px) {
+    #genre-cards {
+        padding: 15px !important;
+    }
+
+    .slider-container {
+        grid-template-columns: repeat(3, 1fr) !important; /* Three columns on medium screens */
+        padding: 18px !important;
+    }
+
+    .card-slider {
+        width: 200px !important;
+        height: 280px !important;
+    }
+}
+
+/* For screens 992px and up (lg) */
+@media (min-width: 992px) {
+    #genre-cards {
+        padding: 18px !important;
+    }
+
+    .slider-container {
+        grid-template-columns: repeat(4, 1fr) !important; /* Four columns on large screens */
+        padding: 20px !important;
+    }
+
+    .card-slider {
+        width: 220px !important;
+        height: 300px !important;
+    }
+}
+
+/* For screens 1200px and up (xl) */
+@media (min-width: 1200px) {
+    #genre-cards {
+        padding: 20px !important;
+    }
+
+    .slider-container {
+        grid-template-columns: repeat(5, 1fr) !important; /* Five columns on extra-large screens */
+        padding: 25px !important;
+    }
+
+    .card-slider {
+        width: 240px !important;
+        height: 320px !important;
+    }
+}
+
