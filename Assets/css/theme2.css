@@ -191,17 +191,17 @@ main {
 
 /* Slide details font size adjustments */
 .slide-details h3 {
-    font-size: 0.5rem; /* Reduce title font size for mobile */
+    font-size: 0.6rem !important; /* Reduce title font size for mobile */
 }
 
 .slide-details p {
-    font-size: 0.7rem; /* Reduce paragraph font size */
+    font-size: 0.8rem !important; /* Reduce paragraph font size */
     margin-bottom: 8px;
 }
 
 .slide-details a {
     padding: 15px 20px; /* Reduce button padding */
-    font-size: 0.9rem;  /* Slightly smaller font for buttons */
+    font-size: 0.9rem !important;  /* Slightly smaller font for buttons */
 }
 .slider-container .card-slider:nth-last-child(1) {
     justify-self: center; /* Center the last card */
