@@ -3,16 +3,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 $(document).ready(function(){
-    $("#clientsCarousel").owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 10,
-        nav: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true
+    $(".owl-carousel").owlCarousel({
+      items: 1, // Display one item per slide
+      loop: true, // Loop through slides
+      autoplay: true, // Enable autoplay
+      autoplayTimeout: 5000, // 5 seconds interval between slides
+      autoplayHoverPause: true, // Pause autoplay on hover
+      nav: true, // Show next/prev buttons
+      dots: true, // Show navigation dots
     });
-});
+  });
 
 // document.addEventListener("DOMContentLoaded", () => {
 // 	const isDesktop = () => window.innerWidth > 767.9;
