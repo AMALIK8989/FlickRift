@@ -20,9 +20,13 @@ main {
 }
 
 .slider-content {
-    background-color: #f8f9fa !important;
+    background-color: transparent !important;
     padding: 30px !important;
     border-radius: 10px !important;
+}
+
+.carousel-item {
+    position: relative !important;
 }
 
 .slide img {
@@ -48,7 +52,7 @@ main {
     transition: opacity 0.3s ease-in-out !important;
 }
 
-.slide:hover .slide-details {
+.carousel-item:hover .slide-details {
     opacity: 1 !important;
 }
 
@@ -70,6 +74,28 @@ main {
 
 .slide-details a:hover {
     color: #0056b3 !important;
+}
+
+/* Pagination styles */
+.carousel-indicators {
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 10 !important;
+}
+
+.carousel-indicators button {
+    background-color: #007bff !important;
+    border-radius: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    opacity: 0.5 !important;
+}
+
+.carousel-indicators .active {
+    background-color: #0056b3 !important;
+    opacity: 1 !important;
 }
 
 /* Responsive breakpoints */
