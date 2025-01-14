@@ -14,115 +14,67 @@ main {
     width: 100% !important;
     height: auto !important;
 }
-#slider{
-    width:100% !important;
-    height:auto !important;
+#slider .carousel-item {
+    position: relative;
 }
 
-.slider-content {
-    background-color: transparent !important;
-    padding: 30px !important;
-    border-radius: 10px !important;
+#slider .carousel-inner {
+    position: relative;
 }
 
-.carousel-item {
-    position: relative !important;
+#slider .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-.slide img {
-    width: 100% !important;
-    height: auto !important;
-    border-radius: 10px !important;
-    transition: transform 0.3s ease !important;
+#slider .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
 }
 
-.slide:hover img {
-    transform: scale(1.05) !important;
+#slider .carousel-item:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.slide-details {
-    position: absolute !important;
-    bottom: 20px !important;
-    left: 20px !important;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    padding: 15px !important;
-    border-radius: 8px !important;
-    color: #fff !important;
-    opacity: 0 !important;
-    transition: opacity 0.3s ease-in-out !important;
+#slider .slide-details {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
-.carousel-item:hover .slide-details {
+#slider .carousel-item:hover .slide-details {
     opacity: 1 !important;
+    visibility: visible !important;
 }
 
-.slide-details h3 {
-    font-size: 24px !important;
+#slider .slide-details h3 {
+    font-size: 1.2rem !important;
     font-weight: bold !important;
+    text-transform: uppercase !important;
+    color: white !important;
 }
 
-.slide-details p {
-    font-size: 16px !important;
-    margin: 10px 0 !important;
+#slider .slide-details p {
+    font-size: 0.9rem !important;
+    color: white !important;
 }
 
-.slide-details a {
-    font-size: 24px !important;
-    color: #007bff !important;
-    text-decoration: none !important;
+#slider .slide-details a {
+    font-size: 1.5rem !important;
+    color: white !important;
+    transition: transform 0.3s ease-in-out;
 }
 
-.slide-details a:hover {
-    color: #0056b3 !important;
+#slider .slide-details a:hover {
+    transform: scale(1.2) !important;
 }
 
-/* Pagination styles */
-.carousel-indicators {
-    position: absolute !important;
-    bottom: 10px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    z-index: 10 !important;
-}
-
-.carousel-indicators button {
-    background-color: #007bff !important;
-    border-radius: 50% !important;
-    width: 12px !important;
-    height: 12px !important;
-    opacity: 0.5 !important;
-}
-
-.carousel-indicators .active {
-    background-color: #0056b3 !important;
-    opacity: 1 !important;
-}
-
-/* Responsive breakpoints */
-@media (max-width: 768px) {
-    .slide-details h3 {
-        font-size: 20px !important;
-    }
-
-    .slide-details p {
-        font-size: 14px !important;
-    }
-
-    .slide-details a {
-        font-size: 20px !important;
-    }
-}
-
-@media (max-width: 576px) {
-    .slide-details h3 {
-        font-size: 18px !important;
-    }
-
-    .slide-details p {
-        font-size: 12px !important;
-    }
-
-    .slide-details a {
-        font-size: 18px !important;
-    }
+.carousel-item img {
+    border-radius: 8px !important;
 }
