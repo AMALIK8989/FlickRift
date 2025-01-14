@@ -175,11 +175,11 @@ main {
     
    /* Adjust slider container width */
    .slider {
-    padding: 15px; /* Reduce padding for smaller screens */
+    padding: 10px; /* Reduce padding for smaller screens */
 }
 
  .carousel-item img {
-     width:100% !important;
+     width: 350px !important;
     height: 350px !important; /* Reduce image height for smaller screens */
 }
 
