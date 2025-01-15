@@ -81,7 +81,7 @@ header{
     background: linear-gradient(to right, #2c3e50, #bdc3c7) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
     position: absolute;
-    left: 50%; /* Centers the dropdown */
+    left: 50% !important; /* Centers the dropdown */
     transform: translateX(-50%); /* Ensures it's centered */
     top: 100%; /* Positions it below the nav item */
   }
@@ -625,29 +625,78 @@ footer {
 .foot-cpyrht a.nex:hover {
   color: #f1c40f; /* Yellow hover effect */
 }
-@media screen and (min-width: 250px) and (max-width: 914px) {
-    #movie-pals, #description, #casts {
-        margin-bottom: 10px; /* Reduce margin for smaller screens */
-        font-size: 0.8rem; /* Make font size more readable */
-        background-size: cover; /* Scale the background properly */
+/* Small devices (portrait tablets and up) */
+@media (min-width: 576px) {
+    #movie-pals h2 {
+        font-size: 2.5rem !important;
     }
 
-    #movie-pals h2, #description h2, #casts h2 {
-        font-size: 1rem; /* Readable font size for headings */
+    #description h2 {
+        font-size: 1.8rem !important;
     }
 
-    /* Movie Player Styles */
-    #movie-player {
-        margin-bottom: 20px; /* Adjust spacing */
-        border-radius: 5px;
-        padding: 5px;
-        width: 100%; /* Ensure full width */
+    .cast-card .card-title {
+        font-size: 1.25rem !important;
     }
 
-    #movie-player iframe {
-        width: 100%; /* Responsive width */
-        height: 50vw; /* Responsive height based on screen width */
-        max-height: 280px; /* Prevents height from becoming too large */
+    .cast-card .card-text {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Medium devices (landscape tablets and up) */
+@media (min-width: 768px) {
+    #movie-pals h2 {
+        font-size: 2.8rem !important;
     }
 
+    #description h2 {
+        font-size: 1.9rem !important;
+    }
+
+    .cast-card .card-title {
+        font-size: 1.35rem !important;
+    }
+
+    .cast-card .card-text {
+        font-size: 1rem !important;
+    }
+}
+
+/* Large devices (desktops and up) */
+@media (min-width: 992px) {
+    #movie-pals h2 {
+        font-size: 3rem !important;
+    }
+
+    #description h2 {
+        font-size: 2rem !important;
+    }
+
+    .cast-card .card-title {
+        font-size: 1.5rem !important;
+    }
+
+    .cast-card .card-text {
+        font-size: 1rem !important;
+    }
+}
+
+/* Extra large devices (large desktops and up) */
+@media (min-width: 1200px) {
+    #movie-pals h2 {
+        font-size: 3rem !important;
+    }
+
+    #description h2 {
+        font-size: 2rem !important;
+    }
+
+    .cast-card .card-title {
+        font-size: 1.5rem !important;
+    }
+
+    .cast-card .card-text {
+        font-size: 1rem !important;
+    }
 }
