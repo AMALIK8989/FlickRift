@@ -168,3 +168,79 @@ var swiper = new Swiper(".swiper-container", swiperOptions);
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
   })
+
+  $(document).ready(function() {
+    // Define an array of celebrations with their respective dates, images, and wishes
+    var celebrations = [
+      {
+        name: "New Year",
+        date: new Date(new Date().getFullYear(), 0, 1), 
+        image: "new_year.jpg",
+        wish: "Happy New Year!"
+      },
+      {
+        name: "Pride Day",
+        date: new Date(new Date().getFullYear(), 6, 28), 
+        image: "../Img/",
+        wish: "Happy Pride Day!"
+      },
+      {
+        name: "Thanksgiving Day",
+        date: new Date(new Date().getFullYear(), 10, new Date('November ' + (new Date().getFullYear()) + ' ' + '4').getDate()), 
+        image: "thanksgiving.jpg",
+        wish: "Happy Thanksgiving!"
+      },
+      {
+        name: "Independence Day (USA)",
+        date: new Date(new Date().getFullYear(), 6, 4), 
+        image: "4th_july.jpg",
+        wish: "Happy 4th of July!"
+      },
+      {
+        name: "Independence Day (India/Pakistan)",
+        date: new Date(new Date().getFullYear(), 7, 14), 
+        image: "15th_august.jpg",
+        wish: "Happy Independence Day!"
+      },
+      {
+        name: "Christmas",
+        date: new Date(new Date().getFullYear(), 11, 25), 
+        image: "christmas.jpg",
+        wish: "Merry Christmas!"
+      },
+      {
+        name: "Hanukkah",
+        date: new Date(new Date().getFullYear(), 11, getHanukkahStartDate(new Date().getFullYear())), 
+        image: "hanukkah.jpg",
+        wish: "Happy Hanukkah!"
+      }
+      // Add more celebrations here
+    ];
+  
+    // Function to get the start date of Hanukkah
+    function getHanukkahStartDate(year) {
+      // Implement your Hanukkah start date calculation logic here
+      // This is a simplified example, you might need a more accurate calculation
+      return 25 + Math.floor((234 - 23 * year / 4 + 19 * Math.floor(year / 4)) % 19) - Math.floor(year / 4); 
+    }
+  
+    // Check for upcoming celebrations
+    var today = new Date();
+    var upcomingCelebrations = celebrations.filter(function(celebration) {
+      return celebration.date >= today;
+    });
+  
+    // Sort upcoming celebrations by date
+    upcomingCelebrations.sort(function(a, b) {
+      return a.date - b.date;
+    });
+  
+    // Display the image and wish for the nearest upcoming celebration
+    if (upcomingCelebrations.length > 0) {
+      var nearestCelebration = upcomingCelebrations[0];
+      $(".celebration-images").html(
+        "<img src='" + nearestCelebration.image + "' alt='" + nearestCelebration.name + "'>"
+      );
+      $(".celebration-images").append("<p>" + nearestCelebration.wish + "</p>");
+    }
+  });
