@@ -488,6 +488,66 @@ hr{
 
 
 }
+/* General layout and heading styling */
+#movie-pals, #description, #casts {
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    text-align: center; /* Center-align content */
+    padding: 0 20px; /* Slight padding for better alignment */
+}
+
+/* Section Heading Styles */
+#movie-pals h2, #description h2, #casts h2 {
+    color: #ff4500; /* Orange color for section headings */
+    font-size: 24px; /* Adjusted for better readability */
+    margin-bottom: 20px; /* Space below the headings */
+    font-weight: 600; /* Make the headings bold */
+    letter-spacing: 1px; /* Add slight spacing between letters */
+    text-transform: uppercase; /* Make headings all uppercase */
+}
+.description-content{
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    text-align: center; /* Center-align content */
+    padding: 0 20px; /* Slight padding for better alignment */
+}
+
+/* Content Text Styling */
+.description-content p {
+    color: #ffffff; /* Darker text for better readability */
+    font-size: 18px; /* Slightly larger font for easy reading */
+    line-height: 1.6; /* Increased line height for readability */
+    margin-bottom: 15px; /* Space between paragraphs */
+    text-align: left; /* Left-align for better reading flow */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+}
+
+/* Enhance the first letter for emphasis */
+/* Content Text Styling */
+.description-content p:first-letter {
+    font-size: 22px; /* Slightly larger first letter */
+    font-weight: bold; /* Bold for emphasis */
+    color: #ff4500; /* Matches heading color for consistency */
+}
+
+
+/* Movie player styling */
+#movie-player {
+    margin: 0 auto 40px auto; /* Center movie player and add bottom margin */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #222;
+    padding: 20px; /* Increased padding for spacing */
+    width: 680px;
+}
+
+#movie-player iframe {
+    width: 100%; /* Set to 100% to fit the player */
+    height: 360px;
+    border-radius: 10px; /* Add rounded corners */
+    }
 
 footer {
   background-color: #141414; /* Dark background */
