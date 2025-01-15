@@ -9,254 +9,338 @@
 }
 body{
     background-color: var(--bg-color);
+    overflow-y: scroll; /* Ensures the vertical scrollbar is always visible */
+    overflow-x: hidden !important; /* Hides horizontal scrollbar */
+  margin: 0; /* Removes any default margin that might cause overflow */
 }
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  /* Style the scrollbar track (background) */
+  ::-webkit-scrollbar-track {
+    background: #bdc3c7; /* Set the background color of the track */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #2c3e50; /* Set the color of the thumb */
+    border-radius: 10px; /* Optional: Adds rounded corners to the thumb */
+    border: 3px solid #bdc3c7; /* Optional: Add a border around the thumb */
+  }
+  
+  /* Style the scrollbar thumb when hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #34495e; /* Change thumb color on hover */
+  }
 header{
     width:100%;
     height:auto;
 }
-/* Navbar styles */
-/* Navbar styles */
+
+/* Navbar setup */
 .navbar {
-  width: 100% !important;
-  height: 80px !important;
-  background-color: gray !important;
-  position: fixed; /* Keeps navbar at the top */
-  top: 0; /* Aligns the navbar at the top of the page */
-  left: 0; /* Ensures it's aligned to the left edge */
-  z-index: 1000; /* Ensures the navbar stays on top of other content */
-}
-/* Navbar Toggler (hamburger icon) */
-.navbar-toggler {
-  position: absolute;
-  right: 15px; /* Position it on the right side of the navbar */
-  top: 50%; /* Center it vertically */
-  transform: translateY(-50%); /* Corrects the vertical alignment */
-}
-/* Dropdown menu styles */
-.navbar-nav .dropdown-menu {
-  display: none;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
-  gap: 10px;
-  background-color: gray !important;
-  border: none;
-}
+    width: 100% !important;
+    height: 80px !important;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top: 0;
+    left: 0; 
+    z-index: 1000; 
+    display: flex; /* Use flexbox layout */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* Logo styling */
+  .img-logo {
+    width: 100px; /* Logo width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the logo and other navbar items */
 
-/* Show dropdown on hover */
-.navbar-nav .nav-item:hover .dropdown-menu {
-  display: grid;
-}
-
-/* Adjusting the dropdown items */
-.navbar-nav .dropdown-item {
-  color: white !important;
-  text-decoration: none;
-  padding: 5px;
-  text-align: center;
-}
-
-.navbar-nav .dropdown-item:hover {
-  background-color: darkgray !important;
-  border-radius: 5px;
-}
-
-/* Navbar Collapse (when menu is opened on small screens) */
-@media (max-width: 991px) {
-  .navbar-collapse {
+  }
+  
+  /* Navbar Toggler (hamburger icon) */
+  .navbar-toggler {
     position: absolute;
-    top: 80px; /* Position it below the navbar */
-    left: 0;
-    width: 100%;
-    background-color: gray !important;
-    display: none; /* Initially hidden */
-    z-index: 999; /* Just below the navbar */
+    right: 15px; /* Position it on the right side of the navbar */
+    top: 50%; /* Center it vertically */
+    transform: translateY(-50%); /* Corrects the vertical alignment */
   }
-
-  .navbar-collapse.show {
-    display: block; /* Show the menu when toggled */
+  
+  /* Dropdown menu styles */
+  .navbar-nav .dropdown-menu {
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 10px;
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    position: absolute;
+    left: 50%; /* Centers the dropdown */
+    transform: translateX(-50%); /* Ensures it's centered */
+    top: 100%; /* Positions it below the nav item */
   }
-}
+  
+  /* Show dropdown on hover */
+  .navbar-nav .nav-item:hover .dropdown-menu {
+    display: grid;
+    margin-top: 10px !important; /* Adjust the top margin to position it properly */
+  }
+  
+  /* Adjusting the dropdown items */
+  .navbar-nav .dropdown-item {
+    color: white !important;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .navbar-dropdown {
+    color: white !important;
+  }
+  
+  .navbar-nav .dropdown-item:hover {
+    background-color: darkgray !important;
+    border-radius: 5px;
+  }
+  
+  /* Navbar Collapse (when menu is opened on small screens) */
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      position: absolute;
+      top: 80px; /* Position it below the navbar */
+      left: 0;
+      width: 100%;
+      background-color: gray !important;
+      display: none; /* Initially hidden */
+      z-index: 999; /* Just below the navbar */
+    }
+  
+    .navbar-collapse.show {
+      display: block; /* Show the menu when toggled */
+    }
+  }
+  
+  
 main {
     margin-top:100px !important;
     width: 100% !important;
     height: auto !important;
 }
-#slider .carousel-item {
+
+/* Set general styles for the section */
+#slider {
+    width: 100% !important;
+    height: auto !important;
     position: relative;
-    width:100% !important;
-    height:auto;
-}
-
-#slider .carousel-inner {
+    overflow: hidden;
+  }
+  
+  /* Ensure each carousel item fills the container */
+  .owl-carousel .item {
     position: relative;
-    width:100% !important;
-    height:auto;
-}
-
-#slider .carousel-item img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    
-}
-
-#slider .overlay {
-    position: absolute;
+  }
+  
+  /* Style the images to take full width */
+  .owl-carousel .item img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+  
+  /* Overlay styling for each carousel item */
+  .owl-carousel .item .overlay {
+    position: absolute !important;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: background-color 0.3s ease-in-out;
-}
-
-#slider .carousel-item:hover .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-#slider .slide-details {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-}
-
-#slider .carousel-item:hover .slide-details {
-    opacity: 1 !important;
-    visibility: visible !important;
-}
-
-.slide-details {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.75) !important; /* Darker background for contrast */
-    padding: 15px !important; /* More padding for a cleaner layout */
-    box-sizing: border-box !important;
-}
-
-.slide-details h3,
-.slide-details p {
-    margin: 0 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  /* Style the content inside the overlay */
+  .owl-carousel .item .slide-details {
+    text-align: center !important;
+    padding: 20px !important;
+  }
+  
+  /* Text color and size for the title */
+  .owl-carousel .item .slide-details h3 {
+    font-size: 0.8rem !important;
+    font-weight: bold !important;
     color: #fff !important;
-    font-family: 'Arial', sans-serif !important; /* Professional font choice */
-}
-
-.slide-details h3 {
-    font-size: 1.2rem !important; /* Larger title for better emphasis */
-    margin-bottom: 8px !important;
-}
-
-.slide-details p {
-    font-size: 0.9rem !important;
-    line-height: 1.4 !important;
-    margin-bottom: 12px !important;
-}
-
-/* Play Button */
-.slide-details a {
-    display: inline-block !important;
-    background-color: #e50914 !important;
+    margin-bottom: 10px !important;
+  }
+  
+  /* Text color and size for the description */
+  .owl-carousel .item .slide-details p {
+    font-size: 1.0rem !important;
     color: #fff !important;
-    text-decoration: none !important;
-    padding: 20px 25px !important; /* Larger padding for a bold look */
-    border-radius: 6px !important;
+    margin-bottom: 20px !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Style for the play button */
+  .owl-carousel .item .btn {
+    padding: 10px 20px !important;
+    font-size: 1.5rem !important;
+    background-color: #ff0000 !important;
+    border: none !important;
+    color: #ffffff !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  /* Hover effect for the play button */
+  .owl-carousel .item .btn:hover {
+    background-color: #f1f1f1 !important;
+    color: #000 !important;
+  } 
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .owl-carousel .item .slide-details h3 {
+      font-size: 1.5rem !important;
+    }
+  
+    .owl-carousel .item .slide-details p {
+      font-size: 1rem !important;
+    }
+  
+    .owl-carousel .item .btn {
+      font-size: 1.2rem !important;
+    }
+  }
+  
+
+  #genre-cards {
+    padding: 20px 0 !important;
+  }
+  
+  #genre-cards h2 {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    color: #f5f5f5 !important;
+    margin-bottom: 40px !important;
+  }
+  
+  .card {
+    flex: 1 1 30%; /* Adjust the width percentage as needed */
+    height: 100%; /* This makes all cards the same height */
+    position: relative !important;
+    border: none !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease !important;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  .card-img-top {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 10px !important;
+  }
+  
+  .card-body {
+    padding: 15px !important;
+  }
+  
+  .card-details h5 {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    margin-bottom: 10px !important;
+  }
+  
+  .d-flex {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  
+  .btn {
+    font-size: 1.2rem !important;
+    padding: 10px 15px !important;
+    border-radius: 50% !important;
     transition: background-color 0.3s ease !important;
+  }
+  
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .btn-primary {
+    background-color: #007bff !important;
+    border: none !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3 !important;
+  }
+  
+  .btn-success {
+    background-color: #28a745 !important;
+    border: none !important;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838 !important;
+  }
+  
+  .bi {
+    font-size: 1.5rem !important;
+    color: white !important;
+  }
+  
+  .card-wrapper {
+    margin-bottom: 20px !important;
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-2,
+    .col-lg-3,
+    .col-xl-4,
+    .col-sm-5 {
+      flex: 0 0 45% !important;
+      max-width: 45% !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .col-md-2,
+    .col-lg-3,
+    .col-xl-4,
+    .col-sm-5 {
+      flex: 0 0 30% !important;
+      max-width: 30% !important;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .col-md-2,
+    .col-lg-3,
+    .col-xl-4,
+    .col-sm-5 {
+      flex: 0 0 18% !important;
+      max-width: 18% !important;
+    }
+  }
+  
+hr{
+    color: white;
+    margin: 5rem !important;
 }
-
-.slide-details a:hover {
-    background-color: #f40612 !important;
-}
-
-/* Play Icon */
-.slide-details i {
-    font-size: 1.4rem !important; 
-    color: #fff !important; 
-    margin-top: 8px !important;
-}
-
-#genre-cards {
-    width: 100%;
-    padding: 10px 13px;
-    overflow: visible;
-}
-
-#genre-cards h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin: 20px 0;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-}
-
-.slider-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200, 1fr)); /* Responsive grid layout */
-    gap: 10px;
-    justify-items: center; /* Center cards horizontally */
-    margin: 10px 0;
-    padding: 22px 15px;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.card-slider {
-    width: 200px;
-    height: 280px;
-    background-color: #333;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden; /* Ensures no overflow outside the card */
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-slider:hover {
-    transform: scale(1.08);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-}
-
-.card-slider img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card-details {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 12px;
-    box-sizing: border-box;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    opacity: 0;
-    transform: translateY(100%);
-}
-
-.card-slider:hover .card-details {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.card-details h3 {
-    margin: 0;
-    color: #fff;
-    font-size: 1rem;
-    transform: translateY(20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.card-slider:hover .card-details h3 {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/@media screen and (min-width: 250px) and (max-width: 914px){
+@media screen and (min-width: 250px) and (max-width: 914px){
             
-    
    /* Adjust slider container width */
    .slider {
     padding: 10px; /* Reduce padding for smaller screens */
@@ -265,7 +349,7 @@ main {
  .carousel-item img {
      width: 350px !important;
     height: 350px !important; /* Reduce image height for smaller screens */
-     object-fit:contain !important;
+     object-fit: cover !important;
 }
 
 /* Slide details font size adjustments */
@@ -287,66 +371,6 @@ main {
 }
     
     
-}
-.slider-container {
-        margin-left: 0; /* Center content on smaller screens */
-        padding: 15px 15px; /* Adjust padding for better spacing */
-        grid-template-columns: repeat(2, 1fr);
-    }
 
-    
-.card-slider {
-    width: 170px;
-    height: auto;
-    background-color: #333;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden; /* Ensures no overflow outside the card */
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-slider:hover {
-    transform: scale(1.08);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-}
-
-.card-slider img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card-details {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 12px;
-    box-sizing: border-box;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    opacity: 0;
-    transform: translateY(100%);
-}
-
-.card-slider:hover .card-details {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.card-details h3 {
-    margin: 0;
-    color: #fff;
-    font-size: 1rem;
-    transform: translateY(20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.card-slider:hover .card-details h3 {
-    opacity: 1;
-    transform: translateY(0);
-    }
 
 }
