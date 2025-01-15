@@ -35,8 +35,8 @@ body{
     background: #34495e; /* Change thumb color on hover */
   }
 header{
-    width:100%;
-    height:auto;
+    width:100% !important;
+    height:auto !important;
 }
 
 /* Navbar setup */
@@ -57,7 +57,7 @@ header{
   /* Logo styling */
   .img-logo {
     width: 100px; /* Logo width */
-    height: auto; /* Maintain aspect ratio */
+    height: 80px; /* Maintain aspect ratio */
     margin-right: 20px; /* Space between the logo and other navbar items */
 
   }
@@ -135,89 +135,203 @@ main {
 
 /* Set general styles for the section */
 #slider {
-    width: 100% !important;
-    height: auto !important;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Ensure each carousel item fills the container */
-  .owl-carousel .item {
-    position: relative;
-  }
-  
-  /* Style the images to take full width */
-  .owl-carousel .item img {
-    width: 100% !important;
-    height: auto !important;
-    object-fit: cover !important;
-  }
-  
-  /* Overlay styling for each carousel item */
-  .owl-carousel .item .overlay {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-  
-  /* Style the content inside the overlay */
-  .owl-carousel .item .slide-details {
-    text-align: center !important;
-    padding: 20px !important;
-  }
-  
-  /* Text color and size for the title */
+  width: 100% !important;
+  height: auto !important;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ensure each carousel item fills the container */
+.owl-carousel .item {
+  position: relative;
+  height: 100%; /* Make sure the item takes full height */
+}
+
+/* Style the images to take full width */
+.owl-carousel .item img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+
+/* Overlay styling for each carousel item */
+.owl-carousel .item .overlay {
+  position: absolute !important;
+  bottom: 0; /* Ensure overlay is positioned at the bottom of the image */
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  display: flex !important;
+  align-items: flex-end !important; /* Align overlay content at the bottom */
+  justify-content: center !important;
+  height: 50%; /* Adjust the height of the overlay */
+  padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+/* Style the content inside the overlay */
+.owl-carousel .item .slide-details {
+  text-align: center !important;
+  padding: 20px !important;
+  color: #fff !important; /* Ensure text color is white */
+  width: 100%;
+}
+
+/* Text color and size for the title */
+.owl-carousel .item .slide-details h3 {
+  font-size: 0.8rem !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+/* Text color and size for the description */
+.owl-carousel .item .slide-details p {
+  font-size: 1.0rem !important;
+  margin-bottom: 20px !important;
+  line-height: 1.5 !important;
+}
+
+/* Style for the play button */
+.owl-carousel .item .btn {
+  padding: 10px 20px !important;
+  font-size: 1.5rem !important;
+  background-color: #ff0000 !important;
+  border: none !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+}
+
+.item img {
+  height: 100% !important; /* Make all images the same height */
+}
+
+/* Hover effect for the play button */
+.owl-carousel .item .btn:hover {
+  background-color: #f1f1f1 !important;
+  color: #000 !important;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Extra small screens (xs) - default, no need for media query */
+@media (max-width: 575px) {
   .owl-carousel .item .slide-details h3 {
-    font-size: 0.8rem !important;
-    font-weight: bold !important;
-    color: #fff !important;
-    margin-bottom: 10px !important;
+    font-size: 0.7rem !important;
   }
-  
-  /* Text color and size for the description */
+
   .owl-carousel .item .slide-details p {
-    font-size: 1.0rem !important;
-    color: #fff !important;
-    margin-bottom: 20px !important;
-    line-height: 1.5 !important;
+    font-size: 0.9rem !important;
   }
-  
-  /* Style for the play button */
+
   .owl-carousel .item .btn {
-    padding: 10px 20px !important;
+    font-size: 1.2rem !important;
+    padding: 8px 15px !important;
+  }
+
+  .item img {
+    height: 100% !important; /* Make images full width on small screens */
+  }
+
+  .owl-carousel .item .overlay {
+    height: 40%; /* Adjust overlay size for small screens */
+  }
+}
+
+/* Small screens (sm) - for screens greater than or equal to 576px */
+@media (min-width: 576px) {
+  .owl-carousel .item .slide-details h3 {
+    font-size: 0.75rem !important;
+  }
+
+  .owl-carousel .item .slide-details p {
+    font-size: 1rem !important;
+  }
+
+  .owl-carousel .item .btn {
+    font-size: 1.4rem !important;
+    padding: 9px 18px !important;
+  }
+
+  .item img {
+    flex: 1 1 45% !important; /* Images will take up 45% of the width */
+  }
+
+  .owl-carousel .item .overlay {
+    height: 45%; /* Adjust overlay size for small screens */
+  }
+}
+
+/* Medium screens (md) - for screens greater than or equal to 768px */
+@media (min-width: 768px) {
+  .owl-carousel .item .slide-details h3 {
+    font-size: 1rem !important;
+  }
+
+  .owl-carousel .item .slide-details p {
+    font-size: 1.1rem !important;
+  }
+
+  .owl-carousel .item .btn {
     font-size: 1.5rem !important;
-    background-color: #ff0000 !important;
-    border: none !important;
-    color: #ffffff !important;
-    transition: all 0.3s ease !important;
+    padding: 10px 20px !important;
   }
-  
-  /* Hover effect for the play button */
-  .owl-carousel .item .btn:hover {
-    background-color: #f1f1f1 !important;
-    color: #000 !important;
-  } 
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .owl-carousel .item .slide-details h3 {
-      font-size: 1.5rem !important;
-    }
-  
-    .owl-carousel .item .slide-details p {
-      font-size: 1rem !important;
-    }
-  
-    .owl-carousel .item .btn {
-      font-size: 1.2rem !important;
-    }
+
+  .item img {
+    flex: 1 1 30% !important; /* Images will take up 30% of the width */
   }
+
+  .owl-carousel .item .overlay {
+    height: 50%; /* Adjust overlay size for medium screens */
+  }
+}
+
+/* Large screens (lg) - for screens greater than or equal to 992px */
+@media (min-width: 992px) {
+  .owl-carousel .item .slide-details h3 {
+    font-size: 1.1rem !important;
+  }
+
+  .owl-carousel .item .slide-details p {
+    font-size: 1.2rem !important;
+  }
+
+  .owl-carousel .item .btn {
+    font-size: 1.6rem !important;
+    padding: 12px 25px !important;
+  }
+
+  .item img {
+    flex: 1 1 30% !important; /* Images will take up 30% of the width */
+  }
+
+  .owl-carousel .item .overlay {
+    height: 50%; /* Keep overlay height consistent on larger screens */
+  }
+}
+
+/* Extra large screens (xl) - for screens greater than or equal to 1200px */
+@media (min-width: 1200px) {
+  .owl-carousel .item .slide-details h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .owl-carousel .item .slide-details p {
+    font-size: 1.3rem !important;
+  }
+
+  .owl-carousel .item .btn {
+    font-size: 1.8rem !important;
+    padding: 14px 30px !important;
+  }
+
+  .item img {
+    flex: 1 1 25% !important; /* Images will take up 25% of the width */
+  }
+
+  .owl-carousel .item .overlay {
+    height: 50%; /* Keep overlay height consistent on larger screens */
+  }
+}
+
   
 
   #genre-cards {
@@ -248,7 +362,7 @@ main {
   .card-img-top {
     width: 100% !important;
     height: auto !important;
-    border-radius: 10px !important;
+    /* border-radius: 10px !important; */
   }
   
   .card-body {
