@@ -290,9 +290,10 @@ main {
 }
 .slider-container {
         margin-left: 0; /* Center content on smaller screens */
-        padding: 15px 10px; /* Adjust padding for better spacing */
+        padding: 15px 15px; /* Adjust padding for better spacing */
         grid-template-columns: repeat(2, 1fr);
     }
+
     
 .card-slider {
     width: 170px;
