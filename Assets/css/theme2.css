@@ -620,3 +620,29 @@ footer {
 .foot-cpyrht a.nex:hover {
   color: #f1c40f; /* Yellow hover effect */
 }
+@media screen and (min-width: 250px) and (max-width: 914px) {
+    #movie-pals, #description, #casts {
+        margin-bottom: 10px; /* Reduce margin for smaller screens */
+        font-size: 0.8rem; /* Make font size more readable */
+        background-size: cover; /* Scale the background properly */
+    }
+
+    #movie-pals h2, #description h2, #casts h2 {
+        font-size: 1rem; /* Readable font size for headings */
+    }
+
+    /* Movie Player Styles */
+    #movie-player {
+        margin-bottom: 20px; /* Adjust spacing */
+        border-radius: 5px;
+        padding: 5px;
+        width: 100%; /* Ensure full width */
+    }
+
+    #movie-player iframe {
+        width: 100%; /* Responsive width */
+        height: 50vw; /* Responsive height based on screen width */
+        max-height: 280px; /* Prevents height from becoming too large */
+    }
+
+}
