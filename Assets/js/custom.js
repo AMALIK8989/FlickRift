@@ -2,23 +2,16 @@ document.addEventListener("DOMContentLoaded", function () {
     new WOW().init();
 });
 
+
 $(document).ready(function() {
-    $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        }
-    });
+  $(".owl-carousel").owlCarousel({
+    items: 1,              // One item per slide
+    loop: true,            // Infinite loop
+    autoplay: true,        // Auto-play
+    autoplayTimeout: 10000, // Time between transitions
+    dots: true,            // Show navigation dots
+    nav: false             // Hide navigation arrows
+  });
 });
 
 // document.addEventListener("DOMContentLoaded", () => {
@@ -76,25 +69,25 @@ $(document).ready(function() {
 // };
 
 $(document).ready(function () {
-    const swiperOptions = {
-      spaceBetween: 0,
-      speed: 15000,
-      direction: 'horizontal',
-      autoplay: { delay: 0, disableOnInteraction: false },
-      loop: true,
-      slidesPerView: 1,
-      freeMode: true,
-      lazy: { loadPrevNext: true },
-      breakpoints: {
-        640: { slidesPerView: 2 },
-        768: { slidesPerView: 3 },
-        1024: { slidesPerView: 5 },
-      },
-    };
-    var swiper = new Swiper('.swiper', swiperOptions);
+  const swiper = new Swiper('.swiper', {
+    spaceBetween: 0,
+    speed: 5000,
+    direction: 'horizontal',
+    autoplay: { delay: 0, disableOnInteraction: false },
+    loop: true,
+    slidesPerView: 1,
+    freeMode: true,
+    lazy: { loadPrevNext: true },
+    breakpoints: {
+      640: { slidesPerView: 2 },
+      768: { slidesPerView: 3 },
+      1024: { slidesPerView: 5 },
+    },
   });
+});
 
 
+var swiper = new Swiper(".swiper-container", swiperOptions);
 
 // const $card = document.querySelector('.card');
 // let bounds;
@@ -169,3 +162,9 @@ $(document).ready(function () {
 //     card.style.transform = "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)";
 //   });
 // });
+
+  // Initialize tooltips
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
