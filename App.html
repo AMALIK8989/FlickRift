@@ -1,209 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> FlickRift | Watch Free, No Strings Attached </title>
-    <link rel="stylesheet" href="./Assets/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlickRift | Watch Free, No Strings Attached</title>
+    <link rel="stylesheet" href="./Assets/css/bootstrap.min.css" />
     <script src="./Assets/js/bootstrap.min.js"></script>
     <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+<!-- Add Bootstrap JS and Popper.js for Tooltip functionality -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
 
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
-  />
+    <script src="./assets/js/all.js"></script>
 
-  <script src="./assets/js/all.js"></script>
+    <link rel="stylesheet" href="./assets/css/all.css" />
 
-  <link rel="stylesheet" href="./assets/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+      integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
-    integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
+      integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
-    integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+    <script src="./Assets/js/custom.js"></script>
 
-  <script src="./Assets/js/custom.js"></script>
-
-  <link rel="stylesheet" href="./Assets/css/theme2.css" />
-
-</head>
-<body>
+    <link rel="stylesheet" href="./Assets/css/theme2.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <!-- Logo -->
-      <a class="navbar-brand" href="#">
-        <img src="./Assets/Logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-        
-      </a>
-      
-      <!-- Navbar Toggler for small screens -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="./Assets/Logo.png"
+              alt="Logo"
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top img-logo"
+            />
+          </a>
 
-      <!-- Navbar Links -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <!-- Dropdown for Genres -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Genres
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Comedy</a></li>
-              <li><a class="dropdown-item" href="#">Drama</a></li>
-              <li><a class="dropdown-item" href="#">Horror</a></li>
-              <li><a class="dropdown-item" href="#">Romance</a></li>
-                <li class="nav-item">
-            <a class="nav-link" href="#">TV Shows</a>
-                </li>
-              <!-- Add more genres as needed -->
+          <!-- Navbar Toggler for small screens -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <!-- Dropdown for Genres -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Genres
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Comedy</a></li>
+                  <li><a class="dropdown-item" href="#">Drama</a></li>
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li> <a class="dropdown-item" href="#">TV Shows</a></li>
+                  <!-- Add more genres as needed -->
+                </ul>
+              </li>
+
+              <!-- TV Shows Link -->
             </ul>
-          </li>
-
-          <!-- TV Shows Link -->
-          
-        </ul>
-      </div>
-    </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-<main>
-  <section class="slider container-fluid" id="slider">
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="position-relative">
-                        <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Atomic%20Blonde.png" class="d-block w-100" alt="Atomic Blonde">
-                        <div class="overlay card-img-overlay d-flex align-items-center justify-content-center">
-                            <div class="slide-details text-center text-white">
-                                <h3>Atomic Blonde</h3>
-                                <p>"Atomic Blonde" is a thrilling action film set against the backdrop of the Cold War era. Starring Charlize Theron as MI6 agent Lorraine Broughton, the story unfolds in Berlin just before the fall of the Berlin Wall. Broughton is tasked with retrieving a valuable dossier and navigating a city rife with espionage, betrayal, and deadly secrets.</p>
-                                <a href="./Atomic-blonde.html" class="btn btn-light"><i class="fas fa-play-circle"></i></a>
-                            </div>
-                        </div>
+    <main>
+        <section class="slider-place container-fluid" id="slider">
+            <div class="owl-carousel owl-theme">
+              <!-- Carousel Item 1 -->
+              <div class="item">
+                <div class="position-relative">
+                  <img
+                    src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Atomic%20Blonde.png"
+                    class="d-block w-100"
+                    alt="Atomic Blonde"
+                  />
+                  <div class="overlay card-img-overlay d-flex align-items-center justify-content-center">
+                    <div class="slide-details text-center text-white">
+                      <h3>Atomic Blonde</h3>
+                      <p>
+                        "Atomic Blonde" is a thrilling action film set against the backdrop of the Cold War era. Starring Charlize Theron as MI6 agent Lorraine Broughton, the story unfolds in Berlin just before the fall of the Berlin Wall. Broughton is tasked with retrieving a valuable dossier and navigating a city rife with espionage, betrayal, and deadly secrets.
+                      </p>
+                      <a href="./Atomic-blonde.html" class="btn btn-light">
+                        <i class="fas fa-play-circle"></i>
+                      </a>
                     </div>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg" class="d-block w-100" alt="Arrow">
-                        <div class="overlay card-img-overlay d-flex align-items-center justify-content-center">
-                            <div class="slide-details text-center text-white">
-                                <h3>Arrow</h3>
-                                <p>"Arrow" is an action-packed TV series following billionaire playboy Oliver Queen, who is stranded on a deserted island and returns home to fight crime as the vigilante Green Arrow.</p>
-                                <a href="#" class="btn btn-light"><i class="fas fa-play-circle"></i></a>
-                            </div>
-                        </div>
+              </div>
+              
+              <!-- Carousel Item 2 -->
+              <div class="item">
+                <div class="position-relative">
+                  <img
+                    src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg"
+                    class="d-block w-100"
+                    alt="Arrow"
+                  />
+                  <div class="overlay card-img-overlay d-flex align-items-center justify-content-center">
+                    <div class="slide-details text-center text-white">
+                      <h3>Arrow</h3>
+                      <p>
+                        "Arrow" is an action-packed TV series following billionaire playboy Oliver Queen, who is stranded on a deserted island and returns home to fight crime as the vigilante Green Arrow.
+                      </p>
+                      <a href="#" class="btn btn-light">
+                        <i class="fas fa-play-circle"></i>
+                      </a>
                     </div>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg" class="d-block w-100" alt="Mission Impossible">
-                        <div class="overlay card-img-overlay d-flex align-items-center justify-content-center">
-                            <div class="slide-details text-center text-white">
-                                <h3>Mission Impossible 1</h3>
-                                <p>"Mission: Impossible" (1996) is a classic espionage thriller directed by Brian De Palma and starring Tom Cruise as Ethan Hunt, a skilled operative framed for the murder of his team during a mission gone wrong.</p>
-                                <a href="#" class="btn btn-light"><i class="fas fa-play-circle"></i></a>
-                            </div>
-                        </div>
+              </div>
+              
+              <!-- Carousel Item 3 -->
+              <div class="item">
+                <div class="position-relative">
+                  <img
+                    src="https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%20Cover.jpg"
+                    class="d-block w-100"
+                    alt="Mission Impossible"
+                  />
+                  <div class="overlay card-img-overlay d-flex align-items-center justify-content-center">
+                    <div class="slide-details text-center text-white">
+                      <h3>Mission Impossible 1</h3>
+                      <p>
+                        "Mission: Impossible" (1996) is a classic espionage thriller directed by Brian De Palma and starring Tom Cruise as Ethan Hunt, a skilled operative framed for the murder of his team during a mission gone wrong.
+                      </p>
+                      <a href="#" class="btn btn-light">
+                        <i class="fas fa-play-circle"></i>
+                      </a>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
-    <section id="genre-cards">
-    <h2 class="text-center mb-4">Action</h2>
-    <div class="slider-container">
-            <div class="card-wrapper">
-            <div class="card-slider" id="card-slider1">
-                <a href="#">
-                    <img src="https://m.media-amazon.com/images/M/MV5BN2RkYWVkZDQtNTMxMi00NWQ4LWE2ODctNmQzOWM2NjQzYzdlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" alt="MI:1">
-                </a>
+          </section>
+    <hr class="my-5">
+    <section id="genre-cards" class="container-fluid">
+        <h2 class="text-center mb-4">Action</h2>
+        <div class="row justify-content-center">
+          
+          <!-- Card 1 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+         
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BN2RkYWVkZDQtNTMxMi00NWQ4LWE2ODctNmQzOWM2NjQzYzdlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+                  class="card-img-top"
+                  alt="MI:1"
+                />
+             
+              <div class="card-body text-center">
                 <div class="card-details">
-                    <h3>Mission: Impossible 2</h3>
-            
+                <h5 class="card-title">Mission: Impossible 2</h5>
                 </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-        </div>
-            <div class="card-slider card" id="card-slider2">
-                <a href="./Action/The-Jackal.html">
-                    <img src="https://m.media-amazon.com/images/M/MV5BOWY2ZDFiOTktNzk0OC00NTc5LTkzOWItMTZhZTdjOTBmYzU5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg" alt="The Jackal">
-                </a>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BOWY2ZDFiOTktNzk0OC00NTc5LTkzOWItMTZhZTdjOTBmYzU5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg"
+                  class="card-img-top"
+                  alt="The Jackal"
+                />
+       
+              <div class="card-body text-center">
                 <div class="card-details">
-                    <h3>The Jackal</h3>
-                    
+                <h5 class="card-title">The Jackal</h5>
                 </div>
-            </div>
-            <div class="card-slider card" id="card-slider2">
-                <a href="./Batman-Begins.html">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg   " alt="Batman Begins">
-                </a>
-                <div class="card-details">
-                    <h3>Batman Begins</h3>
-                    
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
                 </div>
+              </div>
             </div>
-            <div class="card-slider card" id="card-slider2">
-                <a href="./Action/Venom.html">
-                    <img src="./Img/Venom One Info-card.jpg" alt="Spiderman 2">
-                </a>
-                <div class="card-details">
-                    <h3>Venom</h3> 
-                    
-                </div>
-            </div>
-            <div class="card-slider" id="card-slider2">
-                <a href="#">
-                    <img src="./Img/RoboCop Info-card.jpg" alt="Spiderman 2">
-                </a>
-                <div class="card-details">
-                    <h3>RoboCop</h3>
-                    
-                </div>
-            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg"
+                  class="card-img-top"
+                  alt="Batman Begins"
+                />
 
-    </div>
-    </section>
-    
-   <!-- <section id="genre-cards" class="container-fluid px-2 py-2">
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">Batman Begins</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 4 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+                <img
+                  src="./Img/Venom One Info-card.jpg"
+                  class="card-img-top"
+                  alt="Venom"
+                />
+
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">Venom</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 5 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+             
+                <img
+                  src="./Img/RoboCop Info-card.jpg"
+                  class="card-img-top"
+                  alt="RoboCop"
+                />
+  
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">RoboCop</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+
+      <hr class="my-5">
+      <section id="genre-cards" class="container-fluid">
+        <h2 class="text-center mb-4">Romance</h2>
+        <div class="row justify-content-center">
+          
+          <!-- Card 1 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+         
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BN2RkYWVkZDQtNTMxMi00NWQ4LWE2ODctNmQzOWM2NjQzYzdlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+                  class="card-img-top"
+                  alt="MI:1"
+                />
+             
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">Tell It To The Bees</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BOWY2ZDFiOTktNzk0OC00NTc5LTkzOWItMTZhZTdjOTBmYzU5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg"
+                  class="card-img-top"
+                  alt="The Jackal"
+                />
+       
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">The Jackal</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg"
+                  class="card-img-top"
+                  alt="Batman Begins"
+                />
+
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">Batman Begins</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 4 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+                <img
+                  src="./Img/Venom One Info-card.jpg"
+                  class="card-img-top"
+                  alt="Venom"
+                />
+
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">Venom</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 5 -->
+          <div class="col-md-2 col-lg-3 col-xl-4 col-sm-5 mb-4">
+            <div class="card" id="genre-card">
+             
+                <img
+                  src="./Img/RoboCop Info-card.jpg"
+                  class="card-img-top"
+                  alt="RoboCop"
+                />
+  
+              <div class="card-body text-center">
+                <div class="card-details">
+                <h5 class="card-title">RoboCop</h5>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Trailer">
+                    <i class="bi bi-play-circle"></i>
+                  </button>
+                  <button class="btn btn-success mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Watch Movie">
+                    <i class="bi bi-film"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <hr class="my-5">
+
+      <!-- <section id="genre-cards" class="container-fluid px-2 py-2">
     <h2 class="text-center text-white">Action</h2>
     <div class="slider-container">
         <div class="row justify-content-center">
@@ -269,11 +531,6 @@
         </div>
     </div>
 </section>-->
-
-
-
-</main>
-
-    
-</body>
+    </main>
+  </body>
 </html>
