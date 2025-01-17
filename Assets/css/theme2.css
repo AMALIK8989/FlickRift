@@ -13,6 +13,8 @@ body{
     overflow-x: hidden !important; /* Hides horizontal scrollbar */
   margin: 0; /* Removes any default margin that might cause overflow */
 }
+
+
 /* Style the scrollbar track */
 ::-webkit-scrollbar {
     width: 12px; /* Set the width of the scrollbar */
@@ -34,129 +36,98 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #34495e; /* Change thumb color on hover */
   }
-header{
-    width:100% !important;
-    height:auto !important;
-}
 
-/* Navbar setup */
-.navbar {
-    width: 100% !important;
-    height: 80px !important;
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #274046, #E6DADA) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    top: 0;
-    left: 0; 
+header {
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    .navbar {
+      width: 100% !important;
+      height: 80px !important;
+      background: linear-gradient(to right, #274046, #e6dada) !important;
       margin: 0 !important;
-    padding: 0 !important;
-    z-index: 1000; 
-    display: flex; /* Use flexbox layout */
-    justify-content: flex-start; /* Align items to the left */
-    align-items: center; /* Vertically center items */
-  }
-  
-  /* Logo styling */
-  .img-logo {
-    width: 100px; /* Logo width */
-    height: 80px; /* Maintain aspect ratio */
-    
-
-  }
-  
-  /* Navbar Toggler (hamburger icon) */
-  .navbar-toggler {
-       margin: 0 !important;
-    padding: 0 !important;
-    position: absolute;
-    right: 15px; /* Position it on the right side of the navbar */
-    top: 50%; /* Center it vertically */
-    transform: translateY(-50%); /* Corrects the vertical alignment */
-  }
-  
-  /* Dropdown menu styles */
-  .navbar-nav .dropdown-menu {
-    display: none;
-     margin: 0 !important;
-    padding: 0 !important;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 10px;
-    gap: 10px;
-    background: #bdc3c7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: none;
-    position: absolute;
-    left: 50% !important; /* Centers the dropdown */
-    transform: translateX(-50%); /* Ensures it's centered */
-    top: 100%; /* Positions it below the nav item */
-  }
-
-.navbar-collapse {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-}
-  
-  /* Show dropdown on hover */
-  .navbar-nav .nav-item:hover .dropdown-menu {
-    display: grid;
-    margin-top: 10px !important; /* Adjust the top margin to position it properly */
-  }
-  
-  /* Adjusting the dropdown items */
-  .navbar-nav .dropdown-item {
-    color: white !important;
-    text-decoration: none;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .navbar-dropdown {
-    color: white !important;
-  }
-  
-  .navbar-nav .dropdown-item:hover {
-    background-color: darkgray !important;
-    border-radius: 5px;
-  }
-  
-  /* Navbar Collapse (when menu is opened on small screens) */
-  @media (max-width: 991px) {
-      .navbar {
-        display: block !important; /* Change to block for better stacking */
-        justify-content: flex-start !important; /* Align items properly */
+      padding: 0 !important;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
     }
 
-    .navbar-collapse {
-        display: block !important; /* Make collapse content stack properly */
-        padding: 0 10px !important; /* Add some internal padding */
+    .img-logo {
+      width: 100px;
+      height: 80px;
     }
 
-    .navbar-nav {
-        width: 100%;
-        flex-direction: column; /* Stack nav items vertically */
-        align-items: flex-start; /* Align to the left */
-    }
-
-    .nav-item {
-        width: 100%; /* Ensure each item spans the full width */
-    }
-    .navbar-collapse {
+    .navbar-toggler {
       position: absolute;
-      top: 80px; /* Position it below the navbar */
-      left: 0;
-      width: 100%;
-      background-color: gray !important;
-      display: none; /* Initially hidden */
-      z-index: 999; /* Just below the navbar */
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
     }
-  
-    .navbar-collapse.show {
-      display: block; /* Show the menu when toggled */
+
+    .navbar-nav .dropdown-menu {
+      display: none;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 10px;
+      gap: 10px;
+      background: linear-gradient(to right, #2c3e50, #bdc3c7) !important;
+      border: none;
+      position: absolute;
+      left: 50% !important;
+      transform: translateX(-50%);
+      top: 100%;
+      z-index: 1000;
     }
-  }
-  
-  
+
+    .navbar-nav .nav-item:hover .dropdown-menu {
+      display: grid;
+      margin-top: 5px !important;
+    }
+
+    .navbar-nav .dropdown-item {
+      color: white !important;
+      text-decoration: none;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .navbar-nav .dropdown-item:hover {
+      background-color: darkgray !important;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 991px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .nav-item {
+        width: 100%;
+      }
+
+      .navbar-collapse {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: gray !important;
+        z-index: 999;
+      }
+
+      .navbar-collapse.show {
+        display: block;
+      }
+    }
+
+
+
 main {
     margin-top:100px !important;
     width: 100% !important;
