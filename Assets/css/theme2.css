@@ -454,38 +454,7 @@ hr{
     color: white;
     margin: 5rem !important;
 }
-@media screen and (min-width: 250px) and (max-width: 914px){
-            
-   /* Adjust slider container width */
-   .slider {
-    padding: 10px; /* Reduce padding for smaller screens */
-}
 
- .carousel-item img {
-     width: 350px !important;
-    height: 350px !important; /* Reduce image height for smaller screens */
-     object-fit: cover !important;
-}
-
-/* Slide details font size adjustments */
-.slide-details h3 {
-    font-size: 0.6rem !important; /* Reduce title font size for mobile */
-}
-
-.slide-details p {
-    font-size: 0.8rem !important; /* Reduce paragraph font size */
-    margin-bottom: 8px;
-}
-
-.slide-details a {
-    padding: 15px 20px; /* Reduce button padding */
-    font-size: 0.9rem !important;  /* Slightly smaller font for buttons */
-}
-.slider-container .card-slider:nth-last-child(1) {
-    justify-self: center; /* Center the last card */
-}
-    
-    
 
 
 }
