@@ -48,6 +48,8 @@ header{
     background: linear-gradient(to right, #274046, #E6DADA) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     top: 0;
     left: 0; 
+      margin: 0 !important;
+    padding: 0 !important;
     z-index: 1000; 
     display: flex; /* Use flexbox layout */
     justify-content: flex-start; /* Align items to the left */
@@ -64,6 +66,8 @@ header{
   
   /* Navbar Toggler (hamburger icon) */
   .navbar-toggler {
+       margin: 0 !important;
+    padding: 0 !important;
     position: absolute;
     right: 15px; /* Position it on the right side of the navbar */
     top: 50%; /* Center it vertically */
@@ -73,6 +77,8 @@ header{
   /* Dropdown menu styles */
   .navbar-nav .dropdown-menu {
     display: none;
+     margin: 0 !important;
+    padding: 0 !important;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     gap: 10px;
@@ -85,6 +91,11 @@ header{
     transform: translateX(-50%); /* Ensures it's centered */
     top: 100%; /* Positions it below the nav item */
   }
+
+.navbar-collapse {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
   
   /* Show dropdown on hover */
   .navbar-nav .nav-item:hover .dropdown-menu {
