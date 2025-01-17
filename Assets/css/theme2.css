@@ -58,7 +58,7 @@ header{
   .img-logo {
     width: 100px; /* Logo width */
     height: 80px; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between the logo and other navbar items */
+    
 
   }
   
@@ -111,6 +111,25 @@ header{
   
   /* Navbar Collapse (when menu is opened on small screens) */
   @media (max-width: 991px) {
+      .navbar {
+        display: block !important; /* Change to block for better stacking */
+        justify-content: flex-start !important; /* Align items properly */
+    }
+
+    .navbar-collapse {
+        display: block !important; /* Make collapse content stack properly */
+        padding: 0 10px !important; /* Add some internal padding */
+    }
+
+    .navbar-nav {
+        width: 100%;
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: flex-start; /* Align to the left */
+    }
+
+    .nav-item {
+        width: 100%; /* Ensure each item spans the full width */
+    }
     .navbar-collapse {
       position: absolute;
       top: 80px; /* Position it below the navbar */
