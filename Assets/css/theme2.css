@@ -540,7 +540,7 @@ hr{
     display: flex !important;
     justify-content: center !important;
 }
-.card{
+.casted-card{
   display: flex;
   width: 290px;
   flex-direction: column;
