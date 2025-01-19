@@ -122,19 +122,21 @@ header {
       transform: translateY(-50%);
     }
 
-    .navbar-nav .dropdown-menu {
-      display: none;
-      grid-template-columns: repeat(3, 1fr);
-      padding: 10px;
-      gap: 10px;
-      background: linear-gradient(to right, #2c3e50, #bdc3c7) !important;
-      border: none;
-      position: absolute;
-      left: 50% !important;
-      transform: translateX(-50%);
-      top: 100%;
-      z-index: 1000;
-    }
+.navbar-nav .dropdown-menu {
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  gap: 10px;
+  background: linear-gradient(to right, #2c3e50, #bdc3c7) !important;
+  border: none;
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  overflow: auto; /* Allow content to stay within viewport */
+  max-width: calc(100vw - 20px); /* Prevent dropdown from overflowing */
+}
 
     .navbar-nav .nav-item:hover .dropdown-menu {
       display: grid;
