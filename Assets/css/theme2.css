@@ -17,7 +17,7 @@ body{
 
 /* Style the scrollbar track */
 ::-webkit-scrollbar {
-    width: 12px; /* Set the width of the scrollbar */
+    width: 10px; /* Set the width of the scrollbar */
   }
   
   /* Style the scrollbar track (background) */
@@ -134,10 +134,10 @@ main {
     height: auto !important;
 }
 
-/* Set general styles for the section */
+/* General styles for the section */
 #slider {
-  width: 100% !important;
-  height: auto !important;
+  width: 100%;
+  height: auto;
   position: relative;
   overflow: hidden;
 }
@@ -145,70 +145,70 @@ main {
 /* Ensure each carousel item fills the container */
 .owl-carousel .item {
   position: relative;
-  height: 100%; /* Make sure the item takes full height */
+  height: 100%;
+  display: flex;  /* Use flexbox for proper alignment */
+  flex-direction: column;  /* Align child elements vertically */
+  justify-content: flex-end;  /* Align content at the bottom */
 }
 
 /* Style the images to take full width */
 .owl-carousel .item img {
-  width: 100% !important;
-  height: auto !important;
-  object-fit: cover !important;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  flex-grow: 1;  /* Allow the image to take remaining space in the container */
 }
 
 /* Overlay styling for each carousel item */
 .owl-carousel .item .overlay {
-  position: absolute !important;
-  bottom: 0; /* Ensure overlay is positioned at the bottom of the image */
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  display: flex !important;
-  align-items: flex-end !important; /* Align overlay content at the bottom */
-  justify-content: center !important;
-  height: 50%; /* Adjust the height of the overlay */
-  padding: 20px; /* Optional: Add padding for better spacing */
+  display: flex;
+  flex-direction: column;  /* Align the overlay content vertically */
+  justify-content: flex-end;  /* Position content at the bottom of the overlay */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;  /* Ensure it stretches to fill the container */
+  box-sizing: border-box;  /* Prevent padding from affecting width */
+  height: 50%; /* Ensure overlay height is half of the container */
+  position: relative;
 }
 
 /* Style the content inside the overlay */
 .owl-carousel .item .slide-details {
-  text-align: center !important;
-  padding: 20px !important;
-  color: #fff !important; /* Ensure text color is white */
+  text-align: center;
+  padding: 20px;
+  color: #fff;
   width: 100%;
+  box-sizing: border-box;
 }
 
 /* Text color and size for the title */
 .owl-carousel .item .slide-details h3 {
-  font-size: 0.8rem !important;
-  font-weight: bold !important;
-  margin-bottom: 10px !important;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 /* Text color and size for the description */
 .owl-carousel .item .slide-details p {
-  font-size: 1.0rem !important;
-  margin-bottom: 20px !important;
-  line-height: 1.5 !important;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 /* Style for the play button */
 .owl-carousel .item .btn {
-  padding: 10px 20px !important;
-  font-size: 1.5rem !important;
-  background-color: #ff0000 !important;
-  border: none !important;
-  color: #ffffff !important;
-  transition: all 0.3s ease !important;
-}
-
-.item img {
-  height: 100% !important; /* Make all images the same height */
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #ff0000;
+  border: none;
+  color: #ffffff;
+  transition: all 0.3s ease;
 }
 
 /* Hover effect for the play button */
 .owl-carousel .item .btn:hover {
-  background-color: #f1f1f1 !important;
-  color: #000 !important;
+  background-color: #f1f1f1;
+  color: #000;
 }
 
 /* Media Queries for Responsive Design */
@@ -216,20 +216,16 @@ main {
 /* Extra small screens (xs) - default, no need for media query */
 @media (max-width: 575px) {
   .owl-carousel .item .slide-details h3 {
-    font-size: 0.7rem !important;
+    font-size: 0.7rem;
   }
 
   .owl-carousel .item .slide-details p {
-    font-size: 0.9rem !important;
+    font-size: 0.9rem;
   }
 
   .owl-carousel .item .btn {
-    font-size: 1.2rem !important;
-    padding: 8px 15px !important;
-  }
-
-  .item img {
-    height: 100% !important; /* Make images full width on small screens */
+    font-size: 1.2rem;
+    padding: 8px 15px;
   }
 
   .owl-carousel .item .overlay {
@@ -240,20 +236,16 @@ main {
 /* Small screens (sm) - for screens greater than or equal to 576px */
 @media (min-width: 576px) {
   .owl-carousel .item .slide-details h3 {
-    font-size: 0.75rem !important;
+    font-size: 0.75rem;
   }
 
   .owl-carousel .item .slide-details p {
-    font-size: 1rem !important;
+    font-size: 1rem;
   }
 
   .owl-carousel .item .btn {
-    font-size: 1.4rem !important;
-    padding: 9px 18px !important;
-  }
-
-  .item img {
-    flex: 1 1 45% !important; /* Images will take up 45% of the width */
+    font-size: 1.4rem;
+    padding: 9px 18px;
   }
 
   .owl-carousel .item .overlay {
@@ -264,20 +256,16 @@ main {
 /* Medium screens (md) - for screens greater than or equal to 768px */
 @media (min-width: 768px) {
   .owl-carousel .item .slide-details h3 {
-    font-size: 1rem !important;
+    font-size: 1rem;
   }
 
   .owl-carousel .item .slide-details p {
-    font-size: 1.1rem !important;
+    font-size: 1.1rem;
   }
 
   .owl-carousel .item .btn {
-    font-size: 1.5rem !important;
-    padding: 10px 20px !important;
-  }
-
-  .item img {
-    flex: 1 1 30% !important; /* Images will take up 30% of the width */
+    font-size: 1.5rem;
+    padding: 10px 20px;
   }
 
   .owl-carousel .item .overlay {
@@ -288,20 +276,16 @@ main {
 /* Large screens (lg) - for screens greater than or equal to 992px */
 @media (min-width: 992px) {
   .owl-carousel .item .slide-details h3 {
-    font-size: 1.1rem !important;
+    font-size: 1.1rem;
   }
 
   .owl-carousel .item .slide-details p {
-    font-size: 1.2rem !important;
+    font-size: 1.2rem;
   }
 
   .owl-carousel .item .btn {
-    font-size: 1.6rem !important;
-    padding: 12px 25px !important;
-  }
-
-  .item img {
-    flex: 1 1 30% !important; /* Images will take up 30% of the width */
+    font-size: 1.6rem;
+    padding: 12px 25px;
   }
 
   .owl-carousel .item .overlay {
@@ -312,26 +296,23 @@ main {
 /* Extra large screens (xl) - for screens greater than or equal to 1200px */
 @media (min-width: 1200px) {
   .owl-carousel .item .slide-details h3 {
-    font-size: 1.2rem !important;
+    font-size: 1.2rem;
   }
 
   .owl-carousel .item .slide-details p {
-    font-size: 1.3rem !important;
+    font-size: 1.3rem;
   }
 
   .owl-carousel .item .btn {
-    font-size: 1.8rem !important;
-    padding: 14px 30px !important;
-  }
-
-  .item img {
-    flex: 1 1 25% !important; /* Images will take up 25% of the width */
+    font-size: 1.8rem;
+    padding: 14px 30px;
   }
 
   .owl-carousel .item .overlay {
     height: 50%; /* Keep overlay height consistent on larger screens */
   }
 }
+
 
   
 
@@ -371,7 +352,7 @@ main {
   }
   
   .card-details h5 {
-    font-size: 1.2rem !important;
+    font-size: 1.0rem !important;
     font-weight: 600 !important;
     color: #333 !important;
     margin-bottom: 10px !important;
@@ -583,77 +564,86 @@ height: 350px;
 } */
 
 
-footer {
-  background-color: #141414; /* Dark background */
-  color: #fff; /* White text */
-  padding: 2rem 0;
-  text-align: center;
-  font-family: Arial, sans-serif;
+
+footer.container-fluid {
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00) !important; /* W3C, IE 10+/ Edge, */
+  color: #fff !important;
+  padding: 40px 0 !important;
 }
 
-/* Logo Styling */
-.footer-logo img {
-  width: 120px;
-  height: 90px;
-  margin-bottom: 1rem;
+footer .foot {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
 }
 
-/* Footer Links */
-.footer-links ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem; /* Spacing between links */
-  margin: 0;
-  padding: 0;
+footer .footer-logo img {
+  background-color: rgba(255, 255, 255, 0.747);
+  max-width: 150px !important;
 }
 
-.footer-links ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: color 0.3s ease;
+footer .footer-links ul {
+  padding-left: 0 !important;
+  list-style-type: none !important;
 }
 
-.footer-links ul li a:hover {
-  color: #1DA1F2; /* Light blue hover effect */
+footer .footer-links a {
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 5px 0 !important;
+  display: block !important;
 }
 
-/* Social Media Links */
-.footer-social-link ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 1.2rem;
-  margin: 1rem 0;
-  padding: 0;
+footer .footer-links a:hover {
+  color: #ffd700 !important;
 }
 
-.footer-social-link ul li a {
-  color: #fff;
-  font-size: 1.5rem;
-  transition: color 0.3s ease;
+footer .footer-social-link ul {
+  padding-left: 0 !important;
+  list-style-type: none !important;
 }
 
-.footer-social-link ul li a:hover {
-  color: #1DA1F2; /* Light blue hover effect */
+footer .footer-social-link a {
+  color: #fff !important;
+  font-size: 24px !important;
+  margin: 0 10px !important;
 }
 
-/* Copyright Section */
-.foot-cpyrht {
-  margin-top: 1rem;
-  font-size: 0.8rem;
+footer .footer-social-link a:hover {
+  color: #ffd700 !important;
 }
 
-.foot-cpyrht a.nex {
-  color: #1DA1F2; /* Light blue for the link */
-  text-decoration: none;
-  transition: color 0.3s ease;
+footer .foot-cpyrht {
+  margin-top: 20px !important;
 }
 
-.foot-cpyrht a.nex:hover {
-  color: #f1c40f; /* Yellow hover effect */
+footer .foot-cpyrht p {
+  margin: 0 !important;
+  font-size: 14px !important;
 }
+
+footer .foot-cpyrht #power a {
+  color: #ffd700 !important;
+  text-decoration: none !important;
+}
+
+footer .foot-cpyrht #power a:hover {
+  text-decoration: underline !important;
+}
+
+@media (max-width: 768px) {
+  footer .foot {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  footer .footer-social-link ul {
+    justify-content: center !important;
+  }
+}
+
 /* Small devices (portrait tablets and up) */
 @media (min-width: 576px) {
     #movie-pals h2 {
