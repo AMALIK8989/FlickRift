@@ -9,7 +9,33 @@
 }
 body{
     background-color: var(--bg-color);
+    overflow-y: scroll; /* Ensures the vertical scrollbar is always visible */
+    overflow-x: hidden !important; /* Hides horizontal scrollbar */
+  margin: 0; /* Removes any default margin that might cause overflow */
 }
+
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+  }
+  
+  /* Style the scrollbar track (background) */
+  ::-webkit-scrollbar-track {
+    background: #bdc3c7; /* Set the background color of the track */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #2c3e50; /* Set the color of the thumb */
+    border-radius: 10px; /* Optional: Adds rounded corners to the thumb */
+    border: 3px solid #bdc3c7; /* Optional: Add a border around the thumb */
+  }
+  
+  /* Style the scrollbar thumb when hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #34495e; /* Change thumb color on hover */
+  }
 header {
     background-color: transparent;
     padding: 1rem 2rem;
