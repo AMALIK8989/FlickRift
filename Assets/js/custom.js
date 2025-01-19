@@ -244,3 +244,14 @@ var swiper = new Swiper(".swiper-container", swiperOptions);
       $(".celebration-images").append("<p>" + nearestCelebration.wish + "</p>");
     }
   });
+document.addEventListener('click', function (event) {
+  const dropdown = document.querySelector('.dropdown-menu');
+  if (!event.target.closest('.nav-item')) {
+    dropdown.style.display = 'none';
+  }
+});
+
+document.querySelector('.nav-item').addEventListener('mouseenter', function () {
+  const dropdown = this.querySelector('.dropdown-menu');
+  dropdown.style.display = 'grid';
+});
