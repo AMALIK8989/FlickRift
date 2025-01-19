@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    --bg-color:rgba(41, 40, 40, 0.904);
+    --bg-color:black;
     --icon-color:red;
 }
 body{
