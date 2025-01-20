@@ -621,6 +621,7 @@ hr{
 
 .card-img-top-pf {
   height: 350px;
+  width:auto;
 }
 
 .card-title,
