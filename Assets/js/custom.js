@@ -181,7 +181,7 @@ var swiper = new Swiper(".swiper-container", swiperOptions);
       {
         name: "Pride Day",
         date: new Date(new Date().getFullYear(), 6, 28), 
-        image: "../Img/",
+        image: "../Assets/Img/Footer Pride.png",
         wish: "Happy Pride Day!"
       },
       {
