@@ -497,19 +497,13 @@ hr{
 }
 
 
-/* #movie-pals {
-    padding: 50px 0 !important;
-}
+/* 
 
 #movie-pals h2 {
     color: white !important;
     font-size: 3rem !important;
 }
 
-#movie-player iframe {
-    height: 330px !important;
-    width: 100% !important;
-}
 #movie-pals, #description, #casts {
   margin-bottom: 40px;
   width: 100%;
@@ -517,7 +511,15 @@ hr{
   text-align: center;
   padding: 0 20px; 
 } */
+#movie-pals {
+  padding: 50px 0 !important;
+}
 
+#movie-player iframe {
+  height: 330px !important;
+  width: 100% !important;
+  overflow: hidden;
+}
 /* Section Heading Styles */
 #movie-pals h2, #description h2, #casts h2 {
   color: #ff4500 !important;
@@ -552,8 +554,26 @@ hr{
   font-weight: bold; /* Bold for emphasis */
   color: #ff4500; /* Matches heading color for consistency */
 }
+@media (min-width: 576px) { /* For small screens and above (sm) */
+  #movie-player iframe {
+    height: 400px !important;
+    width: 100% !important; /* Set width to 100% of the container */
+  }
+}
 
+@media (min-width: 768px) { /* For medium screens and above (md) */
+  #movie-player iframe {
+    height: 500px !important;
+    width: 100% !important;
+  }
+}
 
+@media (min-width: 992px) { /* For large screens and above (lg) */
+  #movie-player iframe {
+    height: 600px !important;
+    width: 100% !important;
+  }
+}
 /* #description {
     padding: 50px 0 !important;
     background-color: transparent !important;
@@ -573,32 +593,41 @@ hr{
     font-size: 1.2rem !important;
 } */
 
-#casts {
-    padding: 50px 0 !important;
+.casts {
+  text-align: center; /* Center content within the 'casts' container */
+  padding: 50px 0 !important;
 }
 
 .casts .row {
-    display: flex !important;
-    justify-content: center !important;
+  display: flex !important;
+  justify-content: center !important;
 }
-.casted-card{
+
+.casted-card {
   display: flex;
-  width: 290px;
+  width: auto;
   flex-direction: column;
   align-items: center; /* Center content horizontally */
   justify-content: center; /* Center content vertically */
-  border: 1px solid #ccc !important; /* Optional: border for visual clarity */
-  border-radius: 10px; /* Rounded corners */
-  padding: 15px; /* Padding inside each card */
-  background-color: #333; /* Card background */
-  flex: 1 1 30% !important; /* Adjust the width percentage as needed */
-    height: 100% !important; /* This makes all cards the same height */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border: 1px solid #ccc !important;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #333;
+  flex: 1 1 30% !important;
+  height: 100% !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
- .card-img-top{
-height: 350px; 
+
+.card-img-top-pf {
+  height: 350px;
 }
+
+.card-title,
+.card-text {
+  color: white;
+}
+
 /* .cast-card .card {
     background-color: transparent !important;
     border: none !important;
