@@ -99,97 +99,194 @@ header {
       height: auto !important;
     }
 
-    .navbar {
-      width: 100% !important;
-      height: 80px !important;
-      background: linear-gradient(to right, #274046, #e6dada) !important;
-      margin: 0 !important;
-      padding: 0 !important;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-    }
-
-    .img-logo {
-      width: 100px;
-      height: 80px;
-    }
-
-    .navbar-toggler {
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-.navbar-nav .dropdown-menu {
-  display: none;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
-  gap: 10px;
-  background: linear-gradient(to right, #2c3e50, #bdc3c7) !important;
-  border: none;
-  position: absolute;
-  top: 100%;
-  right: 50%;
-   left:50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  overflow: auto; /* Allow content to stay within viewport */
-  max-width: calc(100vw - 20px); /* Prevent dropdown from overflowing */
+   /* Navbar Styling */
+.navbar {
+  width: 100% !important;
+  /* background: linear-gradient(to right, #274046, #e6dada) !important; */
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: flex-start !important; /* Align navbar items to the left */
+  align-items: center !important;
 }
 
-    .navbar-nav .nav-item:hover .dropdown-menu {
-      display: grid;
-      margin-top: 5px !important;
-    }
+#navb-nav {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important; /* Make space between logo and navbar links */
+  align-items: center !important;
+  padding: 0 !important;
+}
 
-    .navbar-nav .dropdown-item {
-      color: white !important;
-      text-decoration: none;
-      padding: 5px;
-      text-align: center;
-    }
+/* Logo Styling */
+.navbar .navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+}
 
-    .navbar-nav .dropdown-item:hover {
-      background-color: darkgray !important;
-      border-radius: 5px;
-    }
+.img-logo {
+  background-color: rgba(255, 255, 255, 0.61);
+  width: 100px !important; /* Adjust logo size */
+  height: 80px !important;
+}
 
-    @media (max-width: 991px) {
-      .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
+/* Navbar Toggler for small screens */
+.navbar-toggler {
+  border: none !important;
+  background-color: transparent !important;
+  color: #fff !important; /* Toggler icon color */
+}
 
-      .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-      }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
 
-      .nav-item {
-        width: 100%;
-      }
+/* Navbar Links */
+.navbar-collapse {
+  flex-grow: 1 !important;
+}
 
-      .navbar-collapse {
-        display: none;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        background-color: gray !important;
-        z-index: 999;
-      }
+.navbar-nav {
+  display: flex !important;
+  justify-content: flex-start !important; /* Align nav items to the left */
+  align-items: center !important;
+  gap: 15px !important; /* Space between nav items */
+}
 
-      .navbar-collapse.show {
-        display: block;
-      }
-    }
+.nav-item {
+  position: relative !important;
+}
+
+.nav-link {
+  color: #ffffff !important; /* White text for links */
+  text-decoration: none !important;
+  padding: 10px 15px !important;
+  font-weight: bold !important;
+}
+
+.nav-link:hover {
+  color: #3498db !important; /* Light blue on hover */
+}
+
+/* Dropdown Menu Styling */
+.nav-item .dropdown-menu {
+  display: none !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  padding: 10px !important;
+  gap: 10px !important;
+  background: linear-gradient(to right, #2c3e50, #bdc3c7) !important;
+  border: none !important;
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  transform: translateX(0) !important;
+  z-index: 1150 !important;  /* Ensure the dropdown appears on top */
+  overflow: auto !important;
+  max-width: calc(100vw - 20px) !important;
+  width: max-content !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: grid !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 5px !important;
+  text-align: center !important;
+}
+
+.dropdown-item:hover {
+  background-color: darkgray !important;
+  border-radius: 5px !important;
+}
+
+    
+/* Mobile View - Toggler and Dropdown Behavior */
+@media (max-width: 991px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  /* For Navbar collapse */
+  .navbar-collapse {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: gray !important;
+    z-index: 999;
+  }
+
+  /* Show navbar on toggle */
+  .navbar-collapse.show {
+    display: block;
+  }
+
+  /* Ensure dropdown toggle works correctly for mobile */
+  .nav-item.dropdown .dropdown-menu {
+    display: none !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    width: 100% !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .nav-item.dropdown.show .dropdown-menu {
+    display: block !important;  /* Change to block to show the dropdown */
+    animation: slideDown 0.3s ease-in-out !important;
+  }
+
+  /* Ensure dropdown menu is aligned correctly for mobile */
+  .nav-item.dropdown .dropdown-toggle {
+    width: 100% !important;
+    text-align: left !important;
+  }
+}
+
+/* Animation for dropdown appearance */
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* For extra small screens (mobile-first) */
+@media (max-width: 576px) {
+  .navbar-nav {
+    text-align: left !important;
+  }
+
+  .nav-item .dropdown-menu {
+    width: 100% !important; /* Ensure full-width dropdown on mobile */
+    left: 0 !important;
+  }
+}
 
 
 
 main {
-    margin-top:100px !important;
+    margin-top: 100px !important;
     width: 100% !important;
     height: auto !important;
 }
@@ -613,6 +710,7 @@ hr{
   border-radius: 10px;
   padding: 15px;
   background-color: #333;
+  width: 100% !important;
   flex: 1 1 30% !important;
   height: 100% !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -620,15 +718,14 @@ hr{
 }
 
 .card-img-top-pf {
-  height: 350px;
-  width:auto;
+  height: 320px !important;
+  width: 100% !important;
 }
 
 .card-title,
 .card-text {
   color: white;
 }
-/* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
   .casts {
     padding: 30px 0;
@@ -693,7 +790,7 @@ hr{
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .casts {
     padding: 70px 0;
   }
@@ -706,7 +803,7 @@ hr{
   .card-img-top-pf {
     height: 450px;
   }
-}
+} */
 
 
 
@@ -737,6 +834,7 @@ hr{
 
 
 footer.container-fluid {
+  margin-top: 100px !important;
   background: #8E0E00;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1F1C18, #8E0E00) !important; /* W3C, IE 10+/ Edge, */
@@ -889,4 +987,111 @@ footer .foot-cpyrht #power a:hover {
     .cast-card .card-text {
         font-size: 1rem !important;
     }
+}
+#card-wrapper {
+  margin: 15px 0 !important; /* Add vertical spacing between rows */
+  padding: 0 15px !important; /* Add horizontal padding for consistent spacing */
+  display: flex !important; /* Ensures flexibility for alignment */
+  justify-content: center !important; /* Centers content horizontally */
+  align-items: center !important; /* Centers content vertically (if needed) */
+  background-color: transparent;
+  
+}
+/* Set a consistent height for all cards */
+#movie-card { 
+  margin: 0 !important; /* Remove margins around the card */
+  padding: 0 !important; /* Remove padding inside the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0) !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  /* transition: transform 0.3s ease-in-out !important; */
+  height: 260px !important; /* Set the card to a fixed height */
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Hover glow animation */
+#card-wrapper:hover {
+  /* transform: scale(1.05) !important; */
+  animation: glowing 1.5s infinite alternate ease-in-out !important; /* Apply the glowing animation */
+}
+
+/* Glow effect keyframe */
+@keyframes glowing {
+  0% {
+    box-shadow: 0px 4px 10px rgba(214, 100, 100, 0.25); /* Default shadow */
+  }
+  10% {
+    box-shadow: 0px 5px 11px rgb(52, 139, 132);
+  }
+  20% {
+    box-shadow: 0px 6px 12px rgb(27, 109, 105);
+  }
+  30% {
+    box-shadow: 0px 7px 13px rgba(150, 72, 72, 0.986);
+  }
+  40% {
+    box-shadow: 0px 8px 14px rgba(214, 100, 100, 0.45);
+  }
+  50% {
+    box-shadow: 0px 9px 15px rgba(15, 117, 117, 0.5); /* Intermediate glow */
+  }
+  60% {
+    box-shadow: 0px 10px 16px rgba(15, 117, 117, 0.55);
+  }
+  70% {
+    box-shadow: 0px 11px 17px rgba(15, 117, 117, 0.6);
+  }
+  80% {
+    box-shadow: 0px 12px 18px rgba(15, 117, 117, 0.65);
+  }
+  90% {
+    box-shadow: 0px 13px 19px rgb(15, 117, 117);
+  }
+  100% {
+    box-shadow: 0px 14px 20px rgba(167, 31, 121, 0.75); /* Strong glow */
+  }
+}
+
+
+
+/* Ensure the image fills the card height */
+.card-img-top-af {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important; /* Make the image fill the card height */
+  object-fit: cover !important; /* Prevent distortion and fill the card */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important; /* Remove link underlining */
+  display: block !important;
+}
+@media (max-width: 575.98px) {
+  #movie-card {
+    height: 240px !important; /* Adjust card height for smaller screens */
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #movie-card {
+    height: 260px !important; /* Slightly larger height for small devices */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #movie-card {
+    height: 280px !important; /* Adjust card height for medium screens */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #movie-card {
+    height: 290px !important; /* Default height for large devices */
+  }
 }
