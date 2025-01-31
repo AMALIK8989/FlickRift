@@ -244,14 +244,30 @@ var swiper = new Swiper(".swiper-container", swiperOptions);
       $(".celebration-images").append("<p>" + nearestCelebration.wish + "</p>");
     }
   });
-document.addEventListener('click', function (event) {
-  const dropdown = document.querySelector('.dropdown-menu');
-  if (!event.target.closest('.nav-item')) {
-    dropdown.style.display = 'none';
-  }
-});
+  $(document).ready(function() {
+    // Toggle navbar collapse on mobile
+    $('.navbar-toggler').click(function() {
+        $('.navbar-collapse').collapse('toggle'); // Use Bootstrap's toggle
+    });
 
-document.querySelector('.nav-item').addEventListener('mouseenter', function () {
-  const dropdown = this.querySelector('.dropdown-menu');
-  dropdown.style.display = 'grid';
+    // Toggle dropdown menu on mobile view
+    $('.nav-item.dropdown > a').click(function(event) {
+        event.stopPropagation(); // Prevent event bubbling to document click
+        $(this).next('.dropdown-menu').collapse('toggle'); // Use Bootstrap's toggle for dropdown
+    });
+
+    // Close dropdown and navbar collapse if clicked outside
+    $(document).click(function(event) {
+        if (!$(event.target).closest('.nav-item.dropdown').length) {
+            $('.nav-item.dropdown .dropdown-menu').collapse('hide'); // Use Bootstrap's hide
+        }
+        if (!$(event.target).closest('.navbar-toggler, .navbar-collapse').length) {
+            $('.navbar-collapse').collapse('hide'); // Use Bootstrap's hide
+        }
+    });
+
+    // Close navbar collapse when a link inside is clicked
+    $('.navbar-collapse').on('click', 'a', function() {
+        $('.navbar-collapse').collapse('hide'); // Use Bootstrap's hide
+    });
 });
