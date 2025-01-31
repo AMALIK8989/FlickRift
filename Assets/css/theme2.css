@@ -139,6 +139,7 @@ header {
 }
 
 .navbar-toggler-icon {
+  background-color: white !important;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
@@ -205,86 +206,56 @@ header {
 }
 
     
-/* Mobile View - Toggler and Dropdown Behavior */
 @media (max-width: 991px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .nav-item {
-    width: 100%;
-  }
-
-  /* For Navbar collapse */
-  .navbar-collapse {
-    display: none;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    background-color: gray !important;
-    z-index: 999;
-  }
-
-  /* Show navbar on toggle */
-  .navbar-collapse.show {
-    display: block;
-  }
-
-  /* Ensure dropdown toggle works correctly for mobile */
-  .nav-item.dropdown .dropdown-menu {
-    display: none !important;
-    position: absolute !important;
-    top: 100% !important;
-    left: 0 !important;
-    width: 100% !important;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
-  }
-
-  .nav-item.dropdown.show .dropdown-menu {
-    display: block !important;  /* Change to block to show the dropdown */
-    animation: slideDown 0.3s ease-in-out !important;
-  }
-
-  /* Ensure dropdown menu is aligned correctly for mobile */
-  .nav-item.dropdown .dropdown-toggle {
-    width: 100% !important;
-    text-align: left !important;
-  }
+.navbar .navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
 }
 
-/* Animation for dropdown appearance */
-@keyframes slideDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* For extra small screens (mobile-first) */
-@media (max-width: 576px) {
-  .navbar-nav {
-    text-align: left !important;
-  }
-
-  .nav-item .dropdown-menu {
-    width: 100% !important; /* Ensure full-width dropdown on mobile */
-    left: 0 !important;
-  }
+.img-logo {
+  background-color: rgba(255, 255, 255, 0.61);
+  width: 60px !important; /* Adjust logo size */
+  height: 60px !important;
 }
 
 
+.navbar-collapse {
+  display: none !important;
+  position: absolute !important;
+  top: 80px !important;
+  left: 0 !important;
+  width: 100% !important;
+  background-color: gray !important;
+  z-index: 999 !important;
+}
 
+.navbar-collapse.show {
+  display: block !important;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  display: none !important;
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  width: 100% !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+}
+
+.nav-item.dropdown .dropdown-menu.show {
+  display: block !important;
+  animation: slideDown 0.3s ease-in-out !important;
+}
+
+.nav-item.dropdown .dropdown-toggle {
+  width: 100% !important;
+  text-align: left !important;
+}
+  
+}
 main {
     margin-top: 100px !important;
     width: 100% !important;
@@ -356,12 +327,19 @@ main {
 .owl-carousel .item .btn {
   padding: 10px 20px;
   font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
   background-color: #ff0000;
   border: none;
   color: #ffffff;
   transition: all 0.3s ease;
 }
-
+#slide-button {
+  margin: 20px auto; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Hover effect for the play button */
 .owl-carousel .item .btn:hover {
   background-color: #f1f1f1;
