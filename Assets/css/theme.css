@@ -38,6 +38,7 @@ body{
   }
 @media (max-width: 575.98px) {
     body {
+        width: 100vw;
         font-size: 14px; /* Adjust font size for small screens */
     }
 
@@ -94,16 +95,16 @@ body{
         width: 14px; /* Larger scrollbar for larger displays */
     }
 }
-header {
+/* header {
     background-color: transparent;
     padding: 1rem 2rem;
     background: url('../marques-kaspbrak-n1amn-SHKzw-unsplash.jpg') no-repeat center center/cover;
     background-size: cover;
-    backdrop-filter: blur(20px); /* Applying backdrop filter for a blurred effect */
+    backdrop-filter: blur(20px); 
     filter: grayscale(60%);
     height: auto !important;
 
-}
+} */
 header {
     position: relative; /* Position relative for positioning the pseudo-element */
     background-color: transparent;
@@ -131,6 +132,11 @@ header > * {
     position: relative; /* Ensures content appears above the pseudo-element */
     z-index: 2; /* Stack on top of the pseudo-element */
 }
+@media (max-width: 575.98px) {
+    header {
+      background-size: 100% 100% !important; /* or contain, depending on desired effect */
+    }
+  }
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -506,3 +512,9 @@ footer.container-fluid {
     }
   }
   
+#about-head{
+    color: white !important;
+}
+#why-head{
+    color: white !important;
+}
