@@ -297,3 +297,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+document.addEventListener("click", function(event) {
+    var navbarCollapse = document.getElementById("navbarNav");
+
+    // Check if click is outside navbar and toggler button
+    if (!event.target.closest(".navbar-toggler, .navbar-collapse")) {
+        navbarCollapse.classList.remove("show");
+    }
+});
