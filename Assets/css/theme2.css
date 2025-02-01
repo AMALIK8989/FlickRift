@@ -966,98 +966,68 @@ footer .foot-cpyrht #power a:hover {
         font-size: 1rem !important;
     }
 }
+
+
+/* Ensure the card wrapper and card use flexbox correctly */
 #card-wrapper {
-  margin: 15px 0 !important; /* Add vertical spacing between rows */
-  padding: 0 15px !important; /* Add horizontal padding for consistent spacing */
+  margin: 15px 0 !important; /* Vertical spacing between rows */
+  padding: 0 15px !important; /* Horizontal padding for consistent spacing */
   display: flex !important; /* Ensures flexibility for alignment */
   justify-content: center !important; /* Centers content horizontally */
   align-items: center !important; /* Centers content vertically (if needed) */
   background-color: transparent;
-  
+  height: 100% !important; /* Make sure wrapper takes full height */
 }
+
 /* Set a consistent height for all cards */
-#movie-card { 
+#movie-card {
   margin: 0 !important; /* Remove margins around the card */
   padding: 0 !important; /* Remove padding inside the card */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0) !important;
   border-radius: 10px !important;
   overflow: hidden !important;
-  /* transition: transform 0.3s ease-in-out !important; */
-  height: 260px !important; /* Set the card to a fixed height */
+  height: 260px !important; /* Fixed card height */
   display: flex !important;
   flex-direction: column !important;
+  justify-content: flex-start !important; /* Align children at the top */
+}
+
+/* Image behavior inside the card */
+.card-img-top-af {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important; /* Make image fill the card height */
+  object-fit: cover !important; /* Ensures image fills the card without distortion */
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* Hover glow animation */
 #card-wrapper:hover {
-  /* transform: scale(1.05) !important; */
-  animation: glowing 1.5s infinite alternate ease-in-out !important; /* Apply the glowing animation */
+  animation: glowing 1.5s infinite alternate ease-in-out !important; /* Apply glowing animation */
 }
 
 /* Glow effect keyframe */
 @keyframes glowing {
   0% {
-    box-shadow: 0px 4px 10px rgba(214, 100, 100, 0.25); /* Default shadow */
-  }
-  10% {
-    box-shadow: 0px 5px 11px rgb(52, 139, 132);
-  }
-  20% {
-    box-shadow: 0px 6px 12px rgb(27, 109, 105);
-  }
-  30% {
-    box-shadow: 0px 7px 13px rgba(150, 72, 72, 0.986);
-  }
-  40% {
-    box-shadow: 0px 8px 14px rgba(214, 100, 100, 0.45);
-  }
-  50% {
-    box-shadow: 0px 9px 15px rgba(15, 117, 117, 0.5); /* Intermediate glow */
-  }
-  60% {
-    box-shadow: 0px 10px 16px rgba(15, 117, 117, 0.55);
-  }
-  70% {
-    box-shadow: 0px 11px 17px rgba(15, 117, 117, 0.6);
-  }
-  80% {
-    box-shadow: 0px 12px 18px rgba(15, 117, 117, 0.65);
-  }
-  90% {
-    box-shadow: 0px 13px 19px rgb(15, 117, 117);
+    box-shadow: 0px 4px 10px rgba(214, 100, 100, 0.25);
   }
   100% {
-    box-shadow: 0px 14px 20px rgba(167, 31, 121, 0.75); /* Strong glow */
+    box-shadow: 0px 14px 20px rgba(167, 31, 121, 0.75);
   }
-}
-
-
-
-/* Ensure the image fills the card height */
-.card-img-top-af {
-  display: block !important;
-  width: 100% !important;
-  height: 100% !important; /* Make the image fill the card height */
-  object-fit: cover !important; /* Prevent distortion and fill the card */
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   #movie-card {
     height: 240px !important; /* Adjust card height for smaller screens */
-    display: flex;
-    flex-direction: column;
   }
   #card-wrapper {
-    height: 240px !important; /* Ensure wrapper takes full height */
+    height: 240px !important;
   }
   .card-img-top-af {
     width: 100% !important;
-    height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly */
-    display: block !important; /* Prevent any space below the image */
+    height: 100% !important;
   }
 }
 
@@ -1065,52 +1035,40 @@ footer .foot-cpyrht #power a:hover {
 @media (min-width: 576px) and (max-width: 767.98px) {
   #movie-card {
     height: 260px !important; /* Slightly larger height for small devices */
-    display: flex;
-    flex-direction: column;
   }
   #card-wrapper {
-    height: 260px !important; /* Ensure wrapper takes full height */
+    height: 260px !important;
   }
   .card-img-top-af {
     width: 100% !important;
-    height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly */
-    display: block !important; /* Prevent any space below the image */
+    height: 100% !important;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   #movie-card {
-    height: 280px !important; /* Adjust card height for medium screens */
-    display: flex;
-    flex-direction: column;
+    height: 280px !important;
   }
   #card-wrapper {
-    height: 280px !important; /* Ensure wrapper takes full height */
+    height: 280px !important;
   }
   .card-img-top-af {
     width: 100% !important;
-    height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly */
-    display: block !important; /* Prevent any space below the image */
+    height: 100% !important;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #movie-card {
-    height: 250px !important; /* Adjust card height for larger devices */
-    display: flex;
-    flex-direction: column;
+    height: 250px !important;
   }
   #card-wrapper {
-    height: 250px !important; /* Ensure wrapper takes full height */
+    height: 250px !important;
   }
   .card-img-top-af {
     width: 100% !important;
-    height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly */
-    display: block !important; /* Prevent any space below the image */
+    height: 100% !important;
   }
 }
