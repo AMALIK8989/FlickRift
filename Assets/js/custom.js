@@ -275,28 +275,53 @@ document.addEventListener("DOMContentLoaded", function() {
     var dropdowns = document.querySelectorAll(".nav-item.dropdown");
 
     dropdowns.forEach(function(dropdown) {
+        var dropdownToggle = dropdown.querySelector(".dropdown-toggle");
+        var dropdownMenu = dropdown.querySelector(".dropdown-menu");
+
+        function closeDropdowns() {
+            document.querySelectorAll(".dropdown-menu.show").forEach(function(menu) {
+                menu.classList.remove("show");
+            });
+        }
+
+        // **Hover for Mobile Screens (< 992px)**
         dropdown.addEventListener("mouseenter", function() {
             if (window.innerWidth < 992) {
-                this.querySelector(".dropdown-menu").classList.add("show");
+                dropdownMenu.classList.add("show");
             }
         });
 
         dropdown.addEventListener("mouseleave", function() {
             if (window.innerWidth < 992) {
-                this.querySelector(".dropdown-menu").classList.remove("show");
+                dropdownMenu.classList.remove("show");
+            }
+        });
+
+        // **Click for Large Screens (≥ 992px)**
+        dropdownToggle.addEventListener("click", function(event) {
+            if (window.innerWidth >= 992) {
+                event.preventDefault();
+                var isOpen = dropdownMenu.classList.contains("show");
+
+                // Close all open dropdowns before opening another one
+                closeDropdowns();
+
+                // Toggle current dropdown
+                if (!isOpen) {
+                    dropdownMenu.classList.add("show");
+                }
             }
         });
     });
 
-    // Close dropdown when clicking outside
+    // **Close dropdowns when clicking outside**
     document.addEventListener("click", function(event) {
         if (!event.target.closest(".nav-item.dropdown")) {
-            document.querySelectorAll(".dropdown-menu.show").forEach(function(menu) {
-                menu.classList.remove("show");
-            });
+            closeDropdowns();
         }
     });
 });
+
 document.addEventListener("click", function(event) {
     var navbarCollapse = document.getElementById("navbarNav");
 
