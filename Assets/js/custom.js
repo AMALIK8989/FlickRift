@@ -244,30 +244,30 @@ var swiper = new Swiper(".swiper-container", swiperOptions);
       $(".celebration-images").append("<p>" + nearestCelebration.wish + "</p>");
     }
   });
-  $(document).ready(function() {
+//  $(document).ready(function() {
     // Toggle navbar collapse on mobile
-    $('.navbar-toggler').click(function() {
-        $('.navbar-collapse').collapse('toggle'); // Use Bootstrap's toggle
-    });
+//    $('.navbar-toggler').click(function() {
+    //    $('.navbar-collapse').collapse('toggle'); // Use Bootstrap's toggle
+//    });
 
     // Toggle dropdown menu on mobile view
-    $('.nav-item.dropdown > a').click(function(event) {
-        event.stopPropagation(); // Prevent event bubbling to document click
-        $(this).next('.dropdown-menu').toggleClass('show'); // Toggle the show class for dropdown menu
-    });
+//    $('.nav-item.dropdown > a').click(function(event) {
+    //    event.stopPropagation(); // Prevent event bubbling to document click
+    //    $(this).next('.dropdown-menu').toggleClass('show'); // Toggle the show class for dropdown menu
+ //   });
 
     // Close dropdown and navbar collapse if clicked outside
-    $(document).click(function(event) {
-        if (!$(event.target).closest('.nav-item.dropdown').length) {
-            $('.nav-item.dropdown .dropdown-menu').removeClass('show'); // Remove show class to close dropdown
-        }
-        if (!$(event.target).closest('.navbar-toggler, .navbar-collapse').length) {
-            $('.navbar-collapse').collapse('hide'); // Use Bootstrap's hide
-        }
-    });
+ //   $(document).click(function(event) {
+     //   if (!$(event.target).closest('.nav-item.dropdown').length) {
+        //    $('.nav-item.dropdown .dropdown-menu').removeClass('show'); // Remove show class to close dropdown
+   //     }
+    //    if (!$(event.target).closest('.navbar-toggler, .navbar-collapse').length) {
+    //        $('.navbar-collapse').collapse('hide'); // Use Bootstrap's hide
+     //   }
+ //   });
 
     // Close navbar collapse when a link inside is clicked
-    $('.navbar-collapse').on('click', 'a', function() {
-        $('.navbar-collapse').collapse('hide'); // Use Bootstrap's hide
-    });
-});
+   // $('.navbar-collapse').on('click', 'a', function() {
+     //   $('.navbar-collapse').collapse('hide'); // Use Bootstrap's hide
+  //  });
+//});
