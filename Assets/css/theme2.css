@@ -1051,6 +1051,11 @@ a {
   #movie-card {
     height: 240px !important; /* Adjust card height for smaller screens */
   }
+    .card-img-top-af {
+        width: 100%;
+        height:auto;
+        
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -1058,6 +1063,11 @@ a {
   #movie-card {
     height: 260px !important; /* Slightly larger height for small devices */
   }
+    .card-img-top-af {
+        width: 100%;
+        height:auto;
+        
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1065,6 +1075,11 @@ a {
   #movie-card {
     height: 280px !important; /* Adjust card height for medium screens */
   }
+    .card-img-top-af {
+        width: 100%;
+        height:auto;
+        
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1072,4 +1087,9 @@ a {
   #movie-card {
     height: 290px !important; /* Default height for large devices */
   }
+    .card-img-top-af {
+        width: 100%;
+        height:auto;
+        
+    }
 }
