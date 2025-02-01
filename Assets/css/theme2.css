@@ -205,57 +205,64 @@ header {
   border-radius: 5px !important;
 }
 
-    
 @media (max-width: 991px) {
+  .navbar .navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+  }
 
-.navbar .navbar-brand {
-  display: flex !important;
-  align-items: center !important;
-  text-decoration: none !important;
+  .img-logo {
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 60px !important; /* Adjust logo size */
+    height: 60px !important;
+  }
+
+  .navbar-collapse {
+    display: none !important;
+    position: absolute !important;
+    top: 80px !important;
+    left: 0 !important;
+    width: 100% !important;
+    background-color: gray !important;
+    z-index: 999 !important;
+  }
+
+  .navbar-collapse.show {
+    display: block !important;
+  }
+
+  .nav-item.dropdown .dropdown-menu {
+    display: none !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    width: 100% !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+  }
+
+  .nav-item.dropdown .dropdown-menu.show {
+    display: block !important;
+    animation: slideDown 0.3s ease-in-out !important;
+  }
+
+  .nav-item.dropdown .dropdown-toggle {
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  /* Ensure navbar toggle button is visible and clickable */
+  .navbar-toggler {
+    display: block !important;
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff !important;
+  }
 }
 
-.img-logo {
-  background-color: rgba(255, 255, 255, 0.61);
-  width: 60px !important; /* Adjust logo size */
-  height: 60px !important;
-}
+    
 
-
-.navbar-collapse {
-  display: none !important;
-  position: absolute !important;
-  top: 80px !important;
-  left: 0 !important;
-  width: 100% !important;
-  background-color: gray !important;
-  z-index: 999 !important;
-}
-
-.navbar-collapse.show {
-  display: block !important;
-}
-
-.nav-item.dropdown .dropdown-menu {
-  display: none !important;
-  position: absolute !important;
-  top: 100% !important;
-  left: 0 !important;
-  width: 100% !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
-}
-
-.nav-item.dropdown .dropdown-menu.show {
-  display: block !important;
-  animation: slideDown 0.3s ease-in-out !important;
-}
-
-.nav-item.dropdown .dropdown-toggle {
-  width: 100% !important;
-  text-align: left !important;
-}
-  
-}
 main {
     margin-top: 100px !important;
     width: 100% !important;
