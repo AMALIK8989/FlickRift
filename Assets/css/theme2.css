@@ -233,17 +233,18 @@ header {
   }
 
   .nav-item.dropdown .dropdown-menu {
-    display: none !important;
     position: absolute !important;
     top: 100% !important;
     left: 0 !important;
     width: 100% !important;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+    display: none !important; /* Keep hidden by default */
   }
 
   .nav-item.dropdown .dropdown-menu.show {
     display: block !important;
+    position: relative !important; /* To show it properly */
     animation: slideDown 0.3s ease-in-out !important;
   }
 
@@ -251,15 +252,10 @@ header {
     width: 100% !important;
     text-align: left !important;
   }
-
-  /* Ensure navbar toggle button is visible and clickable */
-  .navbar-toggler {
-    display: block !important;
-    background-color: transparent !important;
-    border: none !important;
-    color: #fff !important;
-  }
 }
+
+
+
 
     
 
