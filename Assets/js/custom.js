@@ -253,13 +253,13 @@ var swiper = new Swiper(".swiper-container", swiperOptions);
     // Toggle dropdown menu on mobile view
     $('.nav-item.dropdown > a').click(function(event) {
         event.stopPropagation(); // Prevent event bubbling to document click
-        $(this).next('.dropdown-menu').collapse('toggle'); // Use Bootstrap's toggle for dropdown
+        $(this).next('.dropdown-menu').toggleClass('show'); // Toggle the show class for dropdown menu
     });
 
     // Close dropdown and navbar collapse if clicked outside
     $(document).click(function(event) {
         if (!$(event.target).closest('.nav-item.dropdown').length) {
-            $('.nav-item.dropdown .dropdown-menu').collapse('hide'); // Use Bootstrap's hide
+            $('.nav-item.dropdown .dropdown-menu').removeClass('show'); // Remove show class to close dropdown
         }
         if (!$(event.target).closest('.navbar-toggler, .navbar-collapse').length) {
             $('.navbar-collapse').collapse('hide'); // Use Bootstrap's hide
