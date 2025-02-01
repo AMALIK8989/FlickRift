@@ -1048,18 +1048,20 @@ a {
   display: block !important;
 }
 /* Extra small devices (portrait phones, less than 576px) */
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
+@media (max-width: 575.98px) {
   #movie-card {
     height: 240px !important; /* Adjust card height for smaller screens */
+    display: flex;
+    flex-direction: column;
   }
   #card-wrapper {
-    height: 240px !important; /* Ensure wrapper also takes the full height */
+    height: 240px !important; /* Ensure wrapper takes full height */
   }
   .card-img-top-af {
     width: 100% !important;
     height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly while preserving aspect ratio */
+    object-fit: cover !important; /* Ensures image scales correctly */
+    display: block !important; /* Prevent any space below the image */
   }
 }
 
@@ -1067,14 +1069,17 @@ a {
 @media (min-width: 576px) and (max-width: 767.98px) {
   #movie-card {
     height: 260px !important; /* Slightly larger height for small devices */
+    display: flex;
+    flex-direction: column;
   }
   #card-wrapper {
-    height: 260px !important; /* Ensure wrapper also takes the full height */
+    height: 260px !important; /* Ensure wrapper takes full height */
   }
   .card-img-top-af {
     width: 100% !important;
     height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly while preserving aspect ratio */
+    object-fit: cover !important; /* Ensures image scales correctly */
+    display: block !important; /* Prevent any space below the image */
   }
 }
 
@@ -1082,14 +1087,17 @@ a {
 @media (min-width: 768px) and (max-width: 991.98px) {
   #movie-card {
     height: 280px !important; /* Adjust card height for medium screens */
+    display: flex;
+    flex-direction: column;
   }
   #card-wrapper {
-    height: 280px !important; /* Ensure wrapper also takes the full height */
+    height: 280px !important; /* Ensure wrapper takes full height */
   }
   .card-img-top-af {
     width: 100% !important;
     height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly while preserving aspect ratio */
+    object-fit: cover !important; /* Ensures image scales correctly */
+    display: block !important; /* Prevent any space below the image */
   }
 }
 
@@ -1097,13 +1105,16 @@ a {
 @media (min-width: 992px) {
   #movie-card {
     height: 290px !important; /* Default height for large devices */
+    display: flex;
+    flex-direction: column;
   }
   #card-wrapper {
-    height: 290px !important; /* Ensure wrapper also takes the full height */
+    height: 290px !important; /* Ensure wrapper takes full height */
   }
   .card-img-top-af {
     width: 100% !important;
     height: 100% !important; /* Ensures image takes full height of the card */
-    object-fit: cover !important; /* Ensures image scales correctly while preserving aspect ratio */
+    object-fit: cover !important; /* Ensures image scales correctly */
+    display: block !important; /* Prevent any space below the image */
   }
 }
