@@ -1043,10 +1043,6 @@ footer .foot-cpyrht #power a:hover {
   padding: 0 !important;
 }
 
-a {
-  text-decoration: none !important; /* Remove link underlining */
-  display: block !important;
-}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   #movie-card {
@@ -1104,12 +1100,12 @@ a {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #movie-card {
-    height: 290px !important; /* Default height for large devices */
+    height: 250px !important; /* Adjust card height for larger devices */
     display: flex;
     flex-direction: column;
   }
   #card-wrapper {
-    height: 290px !important; /* Ensure wrapper takes full height */
+    height: 250px !important; /* Ensure wrapper takes full height */
   }
   .card-img-top-af {
     width: 100% !important;
