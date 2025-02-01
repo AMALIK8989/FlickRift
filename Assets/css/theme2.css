@@ -242,16 +242,13 @@ header {
     display: none !important; /* Keep hidden by default */
   }
 
-  .nav-item.dropdown .dropdown-menu.show {
-    display: block !important;
-    position: relative !important; /* To show it properly */
-    animation: slideDown 0.3s ease-in-out !important;
-  }
-
-  .nav-item.dropdown .dropdown-toggle {
-    width: 100% !important;
-    text-align: left !important;
-  }
+.navbar-nav .dropdown:hover .dropdown-menu {
+        display: block !important;
+        position: absolute;
+        background-color: white;
+        left: 0;
+        right: 0;
+    }
 }
 
 
