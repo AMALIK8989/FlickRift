@@ -272,23 +272,18 @@ var swiper = new Swiper(".swiper-container", swiperOptions);
   //  });
 //});
 document.addEventListener("DOMContentLoaded", function() {
-    // Select all dropdown toggles
-    var dropdowns = document.querySelectorAll(".nav-item.dropdown > a");
+    var dropdowns = document.querySelectorAll(".nav-item.dropdown");
 
     dropdowns.forEach(function(dropdown) {
-        dropdown.addEventListener("click", function(event) {
-            if (window.innerWidth < 992) { // Mobile screen (lg breakpoint)
-                event.preventDefault(); // Prevent navigation
-                var menu = this.nextElementSibling;
-                if (menu.classList.contains("show")) {
-                    menu.classList.remove("show");
-                } else {
-                    // Close other open dropdowns before opening a new one
-                    document.querySelectorAll(".dropdown-menu.show").forEach(function(openMenu) {
-                        openMenu.classList.remove("show");
-                    });
-                    menu.classList.add("show");
-                }
+        dropdown.addEventListener("mouseenter", function() {
+            if (window.innerWidth < 992) {
+                this.querySelector(".dropdown-menu").classList.add("show");
+            }
+        });
+
+        dropdown.addEventListener("mouseleave", function() {
+            if (window.innerWidth < 992) {
+                this.querySelector(".dropdown-menu").classList.remove("show");
             }
         });
     });
