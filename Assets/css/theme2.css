@@ -1001,15 +1001,14 @@ footer .foot-cpyrht #power a:hover {
   padding: 0 !important;
 }
 
-/* Media Queries for Different Screen Sizes */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 280px) and (max-width: 575.98px) {
   #movie-card {
     height: 240px !important; /* Adjust card height for smaller screens */
+    min-width: 150px !important; /* Set a minimum width for the card */
   }
   #card-wrapper {
     height: 240px !important;
+    min-width: 150px !important; /* Ensure wrapper respects the minimum width */
   }
   .card-img-top-af {
     width: 100% !important;
