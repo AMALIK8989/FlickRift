@@ -1012,7 +1012,7 @@ footer .foot-cpyrht #power a:hover {
   }
   .card-img-top-af {
     width: 100% !important;
-    height: 100% !important;
+    height: 240px !important;
     object-fit: cover !important; /* Ensure image scales correctly */
   }
 }
