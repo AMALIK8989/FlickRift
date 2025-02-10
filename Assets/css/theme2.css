@@ -1001,21 +1001,6 @@ footer .foot-cpyrht #power a:hover {
   padding: 0 !important;
 }
 
-@media (min-width: 280px) and (max-width: 575.98px) {
-  #movie-card {
-    height: 240px !important; /* Adjust card height for smaller screens */
-    min-width: 150px !important; /* Set a minimum width for the card */
-  }
-  #card-wrapper {
-    height: 240px !important;
-    min-width: 150px !important; /* Ensure wrapper respects the minimum width */
-  }
-  .card-img-top-af {
-    width: 100% !important;
-    height: 240px !important;
-    object-fit: cover !important; /* Ensure image scales correctly */
-  }
-}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1062,3 +1047,18 @@ footer .foot-cpyrht #power a:hover {
   }
 }
 
+@media (min-width: 280px) and (max-width: 575.98px) {
+  #movie-card {
+    height: 240px !important; /* Adjust card height for smaller screens */
+    min-width: 150px !important; /* Set a minimum width for the card */
+  }
+  #card-wrapper {
+    height: 240px !important;
+    min-width: 150px !important; /* Ensure wrapper respects the minimum width */
+  }
+  .card-img-top-af {
+    width: 100% !important;
+    height: 240px !important;
+    object-fit: cover !important; /* Ensure image scales correctly */
+  }
+}
