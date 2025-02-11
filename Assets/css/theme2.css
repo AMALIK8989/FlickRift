@@ -1062,3 +1062,7 @@ footer .foot-cpyrht #power a:hover {
     object-fit: cover !important; /* Ensure image scales correctly */
   }
 }
+.display-4 {
+    font-weight: 600 !important;
+    color: red !important;
+}
