@@ -17,7 +17,7 @@ jobs:
         run: pip install pillow
 
       - name: Run Image Compression
-        run: python compress.py
+        run: python .github/workflows/compress.py
 
       - name: Commit Changes
         run: |
