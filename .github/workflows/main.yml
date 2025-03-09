@@ -28,9 +28,9 @@ jobs:
         run: pip install pillow
 
       - name: Run Image Compression
-        run: python .github/workflows/compress.py
+        run: python .github/workflows/compress.py  # Corrected path
 
-            - name: Commit Changes
+      - name: Commit Changes
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
