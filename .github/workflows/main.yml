@@ -1,12 +1,23 @@
-name: Custom Image Compression
-on: [push, pull_request]
+.name: Compress Images
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write  # Allow GitHub Actions to push changes
 
 jobs:
-  compress:
+  optimize-images:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Disable default GitHub credentials
 
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -23,6 +34,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Optimized images" || exit 0
-          git push
+          git add assets/images uploads/images  # Commit only these folders
+          git commit -m "Optimized images in assets/images and uploads/images" || exit 0
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
