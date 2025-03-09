@@ -30,12 +30,13 @@ jobs:
       - name: Run Image Compression
         run: python .github/workflows/compress.py
 
-      - name: Commit Changes
+            - name: Commit Changes
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add Assets Assets/Img  # Commit only these folders
+          git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}.git
+          git add assets/images uploads/images
           git commit -m "Optimized images in assets/images and uploads/images" || exit 0
           git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
