@@ -1,4 +1,5 @@
 name: Compress Images
+
 on:
   push:
     branches:
@@ -17,7 +18,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Disable default GitHub credentials
+          persist-credentials: true  # Allow credentials for pushing changes
 
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -28,7 +29,7 @@ jobs:
         run: pip install pillow
 
       - name: Run Image Compression
-        run: python .github/workflows/compress.py  # Corrected path
+        run: python .github/workflows/compress.py  # Ensure this script exists
 
       - name: Commit Changes
         env:
@@ -40,3 +41,18 @@ jobs:
           git add Assets Assets/Img
           git commit -m "Optimized images in Assets and Assets/Img" || exit 0
           git push origin main
+
+  image-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Optimize Images with Image Actions
+        uses: calibreapp/image-actions@1.1.0
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for authentication
+          jpegQuality: 80  # Default JPEG quality
+          pngQuality: 80  # Default PNG quality
+          webpQuality: 80  # Default WEBP quality
+          ignorePaths: node_modules/**
