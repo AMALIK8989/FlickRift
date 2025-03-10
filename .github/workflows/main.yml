@@ -12,38 +12,6 @@ permissions:
   contents: write  # Allow GitHub Actions to push changes
 
 jobs:
-  optimize-images:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Set up SSH Deploy Key
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: pip install pillow
-
-      - name: Run Image Compression
-        run: python .github/workflows/compress.py  # Ensure this script exists
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add Assets Assets/Img
-          git commit -m "Optimized images in Assets and Assets/Img" || exit 0
-          git push git@github.com:${{ github.repository }}.git main
-
   image-actions:
     runs-on: ubuntu-latest
     steps:
@@ -54,7 +22,15 @@ jobs:
         uses: calibreapp/image-actions@1.1.0
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for authentication
-          jpegQuality: 80  # Default JPEG quality
-          pngQuality: 80  # Default PNG quality
-          webpQuality: 80  # Default WEBP quality
+          jpegQuality: 80  # Set JPEG compression quality
+          pngQuality: 80   # Set PNG compression quality
+          webpQuality: 80  # Set WEBP compression quality
           ignorePaths: node_modules/**
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Optimized images using Image Actions" || exit 0
+          git push
