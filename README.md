@@ -133,9 +133,4 @@ This project is licensed under the **MIT License**.
 💻 **GitHub**: [Your Profile](https://github.com/yourusername)  
 📧 **Email**: your-email@example.com  
 
----
 
-This version includes a **Donations** section with options for **Buy Me a Coffee, PayPal, and crypto donations**. Let me know if you want to add more payment options! 🚀🔥
-````
-
-You can now copy and paste this content into your `README.md` file in the `flick-rift` repository. If you need any further changes or additions, feel free to ask!
