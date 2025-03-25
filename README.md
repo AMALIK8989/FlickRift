@@ -88,6 +88,12 @@ That's it! Enjoy streaming movies and TV shows on **FlickRift**.
 
 ---
 
+## 🌐 Visit the Website
+
+Check out our website to start streaming: [FlickRift](https://flickrift.netlify.app/)
+
+---
+
 ## 🤝 Contributing  
 
 We welcome contributions! 🚀  
@@ -122,7 +128,7 @@ FlickRift is **completely free**, but maintaining and improving the platform req
 [![Donate via PayPal](https://img.shields.io/badge/Donate%20via%20PayPal-blue?style=flat-square&logo=paypal)](https://www.paypal.me/amalik8989)  
 
 ### 💳 Crypto Donations  
-🔹 **Bitcoin (BTC)**: `your-bitcoin-address`  
+🔹 **Bitcoin (BTC)**: `bc1q4e5wlzv8arcls9xq7xc64hxmk8xzq2mqcc3aq5`  
 🔹 **Ethereum (ETH)**: `your-ethereum-address`  
 🔹 **USDT (TRC20)**: `your-usdt-address`  
 
