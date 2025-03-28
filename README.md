@@ -1,6 +1,6 @@
 # 📺 FlickRift  
 
-![FlickRift Banner](https://github.com/AMALIK8989/FlickRift/blob/main/Assets/Logo.jpeg)  
+![FlickRift logo](https://github.com/AMALIK8989/FlickRift/blob/main/Assets/Logo.png)  
 
 **FlickRift** is your go-to streaming platform for free, high-quality movies and TV shows, offering a wide range of content for everyone—with **no login required**. Enjoy unlimited entertainment without subscriptions or sign-ups!  
 
