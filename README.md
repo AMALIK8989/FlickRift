@@ -146,6 +146,10 @@ FlickRift is **completely free** to use, but maintaining and improving the platf
 Donate via **JazzCash**: +923342267926  
 
 ---
+### 💳 **Crypto Donations**  
+🔹 **Bitcoin (BTC)**: bc1q4e5wlzv8arcls9xq7xc64hxmk8xzq2mqcc3aq5  
+🔹 **Ethereum (ETH)**: your-ethereum-address
+---
 
 ## 📜 **License**  
 
@@ -159,5 +163,3 @@ This project is licensed under the **MIT License**.
 📧 **Email**: amalik8989@gmail.com  
 
 ---
-
-This revision includes a cleaner, more futuristic layout while reducing the logo size and adding your requested changes.
