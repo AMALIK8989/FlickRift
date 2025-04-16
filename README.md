@@ -1,7 +1,3 @@
-Here’s an updated, futuristic-looking version of your README with the requested changes:
-
----
-
 # 📺 **FlickRift**  
 *The Future of Streaming*
 
