@@ -45,7 +45,6 @@
 | **WOW.js**      | <img src="https://wowjs.uk/img/wow.js-logo.png" width="50">                           |  
 | **Font Awesome**| <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Font_Awesome_5_logo_black.svg" width="50"> |  
 | **Owl Carousel**| <img src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png" width="50"> |  
-
 ---
 
 ## 📂 **Folder Structure**  
