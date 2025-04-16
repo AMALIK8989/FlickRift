@@ -98,7 +98,9 @@ cd FlickRift
 That’s it! Start streaming your favorite movies and shows on **FlickRift**.
 
 ---
+[![Netlify Status](https://api.netlify.com/api/v1/badges/822987fe-82e5-48d2-9268-95275d426a68/deploy-status)](https://app.netlify.com/sites/flickrift/deploys)
 
+---
 ## 📌 **Latest Commits**  
 
 🔹 **[Commit: Initial Setup](https://github.com/AMALIK8989/FlickRift/commit/123abc)** – Project structure & base UI added  
