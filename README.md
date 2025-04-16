@@ -60,7 +60,7 @@
 
 **Owl Carousel**  
 <img src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png" width="150">  
-
+---
 
 ## 📂 **Folder Structure**  
 
