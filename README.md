@@ -59,11 +59,22 @@ FlickRift/
 │   ├── js/           # Scripts  
 │   ├── images/       # Images & icons  
 │   ├── fonts/        # FontAwesome, custom fonts  
-│── components/       # Reusable components  
+│── Action/           # Action Movies  
+│── Romance/          # Romance Movies  
+│── Comedy/           # Comedy Movies  
+│── Drama/            # Drama Movies  
+│── Horror/           # Horror Movies  
+│── Adventure/        # Adventure Movies  
+│── Kids/             # Kids Movies  
+│── Thriller/         # Thriller Movies  
+│── Documentry/       # Documentary Movies  
+│── Animated/         # Animated Movies  
+│── Indie/            # Indie Movies  
+│── Tv-shows/         # TV Shows  
+│── App.html          # Application HTML file
 │── README.md         # Project documentation  
 │── LICENSE           # License file
 ```
-
 ---
 
 ## 🎬 **Getting Started**  
