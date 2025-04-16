@@ -36,15 +36,15 @@
 
 | Technology      | Logo                                                                                  |  
 |-----------------|---------------------------------------------------------------------------------------|  
-| **HTML5**       | <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="50">               |  
-| **CSS3**        | <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="50">                |  
-| **jQuery**      | <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg" width="50"> |  
-| **Bootstrap**   | <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" width="50">        |  
-| **Anime.js**    | <img src="https://avatars.githubusercontent.com/u/19534191?s=280&v=4" width="50">     |  
-| **Animate.css** | <img src="https://animate.style/img/favicon.ico" width="50">                          |  
-| **WOW.js**      | <img src="https://wowjs.uk/img/wow.js-logo.png" width="50">                           |  
-| **Font Awesome**| <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Font_Awesome_5_logo_black.svg" width="50"> |  
-| **Owl Carousel**| <img src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png" width="50"> |  
+| **HTML5**       | <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="150">               |  
+| **CSS3**        | <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="150">                |  
+| **jQuery**      | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmLME0hpAJOqBGhaVjcgkk8hIKS3S4GAqrLg&s" width="150"> |  
+| **Bootstrap**   | <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" width="150">        |  
+| **Anime.js**    | <img src="https://www.bypeople.com/wp-content/uploads/2017/12/javascript-animation-engine.png" width="150">     |  
+| **Animate.css** | <img src="https://animate.style/img/favicon.ico" width="150">                          |  
+| **WOW.js**      | <img src="https://wowjs.uk/img/wow-logo.jpg" width="150">                           |  
+| **Font Awesome**| <img src="https://blog.fontawesome.com/img/built/r6DY3ughI2-1000.jpeg" width="150"> |  
+| **Owl Carousel**| <img src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png" width="150"> |  
 ---
 
 ## 📂 **Folder Structure**  
