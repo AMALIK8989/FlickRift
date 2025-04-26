@@ -1,7 +1,7 @@
 # 📺 **FlickRift**  
 *The Future of Streaming*
 
-![FlickRift logo](https://github.com/AMALIK8989/FlickRift/blob/main/Assets/Logo.png)  
+![FlickRift logo](https://github.com/AMALIK8989/FlickRift/blob/main/Assets/Logo.jpeg)  
 
 **FlickRift** is your ultimate streaming destination for **free**, high-quality movies and TV shows. Stream without limits—**no sign-up required**, **no subscriptions needed**. Just pure entertainment, instantly accessible.
 
