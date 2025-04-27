@@ -67,6 +67,11 @@
 <changefreq>monthly</changefreq>
 </url>
 <url>
+<loc>https://flickrift.netlify.app/Comedy/Cruise</loc>
+<priority>1.0</priority>
+<changefreq>monthly</changefreq>
+</url>        
+<url>
 <loc>https://flickrift.netlify.app/animated</loc>
 <priority>1.0</priority>
 <changefreq>monthly</changefreq>
