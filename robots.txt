@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Sitemap: https://flickrift.netlify.app/sitemap.xml
 
-# Optional hint for favicon
-Host: flickrift.netlify.app
+# Algolia-Crawler-Verif: 5290F794B591C3C2
