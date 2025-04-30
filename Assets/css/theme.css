@@ -592,3 +592,79 @@ footer.container-fluid {
 #why-head{
     color: white !important;
 }
+#privacy-section {
+    background: #f8f9fa !important;
+    padding: 5rem 0 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    border-top: 4px solid #343a40 !important;
+    border-bottom: 4px solid #343a40 !important;
+}
+
+#privacy-container {
+    background-color: #ffffff !important;
+    padding: 2rem !important;
+    border-radius: 0.75rem !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+#privacy-container:hover {
+    transform: scale(1.01) !important;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+#privacy-title {
+    color: #212529 !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+    border-bottom: 3px solid #0d6efd !important;
+    padding-bottom: 0.75rem !important;
+    margin-bottom: 2rem !important;
+}
+
+#privacy-container h2 {
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+    color: #0d6efd !important;
+    font-weight: 700 !important;
+}
+
+#privacy-container p {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+    color: #495057 !important;
+    margin-bottom: 1.25rem !important;
+}
+
+#privacy-container ul.list-group {
+    margin-bottom: 2rem !important;
+}
+
+#privacy-container .list-group-item {
+    background-color: #f1f1f1 !important;
+    border: none !important;
+    font-size: 0.95rem !important;
+    color: #212529 !important;
+    padding: 0.75rem 1.25rem !important;
+    border-left: 4px solid #0d6efd !important;
+    margin-bottom: 0.5rem !important;
+}
+
+#privacy-container a {
+    color: #0d6efd !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+#privacy-container a:hover {
+    color: #084298 !important;
+    text-decoration: none !important;
+}
+
+#footer-note {
+    font-size: 0.85rem !important;
+    color: #6c757d !important;
+    border-top: 1px dashed #dee2e6 !important;
+    padding-top: 1rem !important;
+    display: inline-block !important;
+}
