@@ -35,6 +35,38 @@
   gtag('config', 'G-F203XLS0CS');
 </script>
 <!-- /Yandex.Metrika counter -->
+    <script>
+        fetch("https://api.indexnow.org/IndexNow", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json; charset=utf-8",
+    "Host": "api.indexnow.org"
+  },
+  body: JSON.stringify({
+    host: "www.example.org",
+    key: "c806ee2d61cb4899943ea23c912bc2f8",
+    keyLocation: "https://www.example.org/c806ee2d61cb4899943ea23c912bc2f8.txt",
+    urlList: [
+      "https://flickrift.netlify.app/",
+      "https://flickrift.netlify.app/app",
+      "https://flickrift.netlify.app/sitemap.xml"
+    ]
+  })
+})
+.then(response => {
+  if (!response.ok) {
+    throw new Error(`HTTP error! Status: ${response.status}`);
+  }
+  return response.json();
+})
+.then(data => {
+  console.log("IndexNow submission successful:", data);
+})
+.catch(error => {
+  console.error("IndexNow submission failed:", error);
+});
+
+    </script>
      <!-- Meta Description Tag (Organic + Inorganic Keywords) -->
     <meta name="description" content="Dive into endless entertainment with FlickRift. Stream top movies & series for free—no sign-up, no ads, just pure viewing pleasure.">
 
