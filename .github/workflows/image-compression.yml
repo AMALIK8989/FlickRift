@@ -1,0 +1,68 @@
+name: Compress Images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Assets/**/*.png'
+      - 'Assets/**/*.jpg'
+      - 'Assets/**/*.jpeg'
+      - 'Assets/**/*.gif'
+      - 'Assets/**/*.svg'
+      - 'Assets/**/*.webp'
+      - 'Assets/Img/**/*.png'
+      - 'Assets/Img/**/*.jpg'
+      - 'Assets/Img/**/*.jpeg'
+      - 'Assets/Img/**/*.gif'
+      - 'Assets/Img/**/*.svg'
+      - 'Assets/Img/**/*.webp'
+      - 'Assets/Img2/**/*.png'
+      - 'Assets/Img2/**/*.jpg'
+      - 'Assets/Img2/**/*.jpeg'
+      - 'Assets/Img2/**/*.gif'
+      - 'Assets/Img2/**/*.svg'
+      - 'Assets/Img2/**/*.webp'
+      - 'Assets/Img3/**/*.png'
+      - 'Assets/Img3/**/*.jpg'
+      - 'Assets/Img3/**/*.jpeg'
+      - 'Assets/Img3/**/*.gif'
+      - 'Assets/Img3/**/*.svg'
+      - 'Assets/Img3/**/*.webp'
+  pull_request:
+    paths:
+      - 'Assets/**/*.png'
+      - 'Assets/**/*.jpg'
+      - 'Assets/**/*.jpeg'
+      - 'Assets/**/*.gif'
+      - 'Assets/**/*.svg'
+      - 'Assets/**/*.webp'
+      - 'Assets/Img/**/*.png'
+      - 'Assets/Img/**/*.jpg'
+      - 'Assets/Img/**/*.jpeg'
+      - 'Assets/Img/**/*.gif'
+      - 'Assets/Img/**/*.svg'
+      - 'Assets/Img/**/*.webp'
+      - 'Assets/Img2/**/*.png'
+      - 'Assets/Img2/**/*.jpg'
+      - 'Assets/Img2/**/*.jpeg'
+      - 'Assets/Img2/**/*.gif'
+      - 'Assets/Img2/**/*.svg'
+      - 'Assets/Img2/**/*.webp'
+      - 'Assets/Img3/**/*.png'
+      - 'Assets/Img3/**/*.jpg'
+      - 'Assets/Img3/**/*.jpeg'
+      - 'Assets/Img3/**/*.gif'
+      - 'Assets/Img3/**/*.svg'
+      - 'Assets/Img3/**/*.webp'
+
+jobs:
+  compress-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Compress images
+        uses: calibreapp/image-actions@v1.1.1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
