@@ -189,6 +189,31 @@
       <img src="https://img.shields.io/github/commit-activity/y/AMALIK8989/FlickRift" alt="GitHub commit activity" class="me-2">
       <img src="https://img.shields.io/github/last-commit/AMALIK8989/FlickRift" alt="GitHub last commit">
     </div>
+    <h5 class="mt-4"><i class="fas fa-calendar-alt me-2"></i>Monthly Commits</h5>
+    <img src="https://img.shields.io/github/commit-activity/m/AMALIK8989/FlickRift?color=blue&label=commits%20per%20month" alt="Monthly Commits">
+    <h5 class="mt-4"><i class="fas fa-calendar-day me-2"></i>Day by Day Commit Stats</h5>
+    <img src="https://github-contributions-api.jogruber.de/v4/github-contributions?user=AMALIK8989&repo=FlickRift&format=svg" alt="Day by Day Commit Activity" style="max-width:100%;height:auto;">
+    <div class="small text-muted mt-1">Graphs generated using public GitHub badges and third-party SVG API.</div>
+  </section>
+
+  <hr class="my-5">
+
+  <section class="mb-5">
+    <h2><i class="fas fa-image me-2"></i>Screenshots</h2>
+    <div class="row g-3">
+      <!-- Replace with your actual screenshot file names below -->
+      <div class="col-md-4 col-12">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/screenshot1.png" alt="Screenshot 1" class="img-fluid rounded border">
+      </div>
+      <div class="col-md-4 col-12">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/screenshot2.png" alt="Screenshot 2" class="img-fluid rounded border">
+      </div>
+      <div class="col-md-4 col-12">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/screenshot3.png" alt="Screenshot 3" class="img-fluid rounded border">
+      </div>
+      <!-- Add more screenshot entries as needed -->
+    </div>
+    <div class="mt-2 small text-muted">For best results, add your screenshots in the <code>Screenshots/</code> folder and update the file names above.</div>
   </section>
 
   <hr class="my-5">
