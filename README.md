@@ -203,7 +203,7 @@
     <div class="row g-3">
       <!-- Replace with your actual screenshot file names below -->
       <div class="col-md-4 col-12">
-        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/screenshot1.png" alt="Screenshot 1" class="img-fluid rounded border">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/FlickRift.png" alt="Screenshot 1" class="img-fluid rounded border">
       </div>
       <div class="col-md-4 col-12">
         <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/screenshot2.png" alt="Screenshot 2" class="img-fluid rounded border">
