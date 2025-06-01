@@ -205,18 +205,19 @@
       <div class="col-md-4 col-12">
         <img src="https://github.com/AMALIK8989/FlickRift/raw/main/FlickRift.png" alt="Screenshot 1" class="img-fluid rounded border">
       </div>
-      <div class="col-md-4 col-12">
-        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-1" alt="Screenshot 2" class="img-fluid rounded border">
-      </div>
-      <div class="col-md-4 col-12">
-        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-2" alt="Screenshot 3" class="img-fluid rounded border">
-      </div>
-        <div class="col-md-4 col-12">
-        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-3" alt="Screenshot 3" class="img-fluid rounded border">
-      </div>
-        <div class="col-md-4 col-12">
-        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-4" alt="Screenshot 3" class="img-fluid rounded border">
-      </div>
+    <div class="col-md-4 col-12">
+  <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-1.png" alt="Screenshot 1" class="img-fluid rounded border">
+</div>
+<div class="col-md-4 col-12">
+  <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-2.png" alt="Screenshot 2" class="img-fluid rounded border">
+</div>
+<div class="col-md-4 col-12">
+  <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-3.png" alt="Screenshot 3" class="img-fluid rounded border">
+</div>
+<div class="col-md-4 col-12">
+  <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-4.png" alt="Screenshot 4" class="img-fluid rounded border">
+</div>
+
       <!-- Add more screenshot entries as needed -->
     </div>
     <div class="mt-2 small text-muted">For best results, add your screenshots in the <code>Screenshots/</code> folder and update the file names above.</div>
