@@ -206,10 +206,16 @@
         <img src="https://github.com/AMALIK8989/FlickRift/raw/main/FlickRift.png" alt="Screenshot 1" class="img-fluid rounded border">
       </div>
       <div class="col-md-4 col-12">
-        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/screenshot2.png" alt="Screenshot 2" class="img-fluid rounded border">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-1" alt="Screenshot 2" class="img-fluid rounded border">
       </div>
       <div class="col-md-4 col-12">
-        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/screenshot3.png" alt="Screenshot 3" class="img-fluid rounded border">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-2" alt="Screenshot 3" class="img-fluid rounded border">
+      </div>
+        <div class="col-md-4 col-12">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-3" alt="Screenshot 3" class="img-fluid rounded border">
+      </div>
+        <div class="col-md-4 col-12">
+        <img src="https://github.com/AMALIK8989/FlickRift/raw/main/Screenshots/landingpage-4" alt="Screenshot 3" class="img-fluid rounded border">
       </div>
       <!-- Add more screenshot entries as needed -->
     </div>
