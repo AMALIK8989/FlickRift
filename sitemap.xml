@@ -1,863 +1,779 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://flickrift.netlify.app/</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/app</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/app</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/privacy-policy</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/privacy-policy</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/terms-of-services</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/terms-of-services</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/adventure</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/adventure</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Kids.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Documentry.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/tv-shows</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/indie</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/atomic-blonde</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/tv-shows</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/the-jackal</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/atomic-blonde</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/tell-it-to-the-bees</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/the-jackal</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/the-voyeurs</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/tell-it-to-the-bees</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/coming-of-age/bloomington</loc>
+	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Abduction-Trailer.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/venom-3</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Abduction.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/deadpool-and-wolverine</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Ride-Or-Die-Trailer.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/avengers-age-of-ultron</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Ride-Or-Die.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/avenger-infinity-war</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Rebecca-Trailer.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/justice-league</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Rebecca.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/the-batman</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./The-Voyeurs-Trailer.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/argylle</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/the-voyeurs</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/doctor-strange-multiverse-of-madness</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Fractured-Trailer.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/iron-man</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Fractured.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/deadpool</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./The-Voyeurs.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/deadpool-2</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/coming-of-age/bloomington</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/action/night-teeth</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/venom-3</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/parisienne</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/deadpool-and-wolverine</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/mom-mom</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/avengers-age-of-ultron</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/home-alone</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/avenger-infinity-war</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/home-alone-2</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/justice-league</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/home-alone-3</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/the-batman</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/boogie-nights</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/argylle</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/whats-love-got-to-do-with-it</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/doctor-strange-multiverse-of-madness</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/am-i-okay</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/iron-man</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/cruise</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/deadpool</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/crush</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/deadpool-2</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/alto</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/action/night-teeth</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/chasing-the-wind</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/parisienne</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/debs</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/mom-mom</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/comedy/the-miseducation-of-cameron-post</loc>
+	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/home-alone</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/kiss-me</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/home-alone-2</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/ammonite</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/home-alone-3</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/love</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/boogie-nights</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/blue-is-the-warmest-color</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/whats-love-got-to-do-with-it</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/joyland</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/am-i-okay</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/colette</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/cruise</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/kill-for-me</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/crush</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/anatomy-of-a-love-seen</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/alto</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/elena-undone</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/chasing-the-wind</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/lost-and-derlious</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/debs</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/my-days-of-mercy</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/comedy/the-miseducation-of-cameron-post</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/my-fault</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/kiss-me</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/thirteen</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/ammonite</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/vita-and-virginia</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/love</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/cocaine-godmother</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/blue-is-the-warmest-color</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/imagine-me-and-you</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/joyland</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/the-reluctant-fundamentalist</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/colette</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/your-fault</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/kill-for-me</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/unfreedom</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/anatomy-of-a-love-seen</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/say-you-will</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/elena-undone</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/like-sunday-like-rain</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/lost-and-derlious</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/adam</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/my-days-of-mercy</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/ambrosia</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/my-fault</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/mosquita-y-mari</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/thirteen</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/the-maid</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/vita-and-virginia</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/drama/disobedience</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/cocaine-godmother</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/black-swan</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/imagine-me-and-you</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/fear-street-part-one</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/the-reluctant-fundamentalist</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/fear-street-part-two</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/your-fault</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/posession-of-hannah-grace</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/unfreedom</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/terrifier-3</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/say-you-will</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/the-jester</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/like-sunday-like-rain</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/jailbait</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/adam</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/piglet</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/ambrosia</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/lights-out</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/mosquita-y-mari</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/dark-beacon</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/the-maid</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/young-adam</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/drama/disobedience</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/strictly-confidential</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/black-swan</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/madame-web</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/fear-street-part-one</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/drag-me-to-hell</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/fear-street-part-two</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/lizzie</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/posession-of-hannah-grace</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/babysitter</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/terrifier-3</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/horror/the-babysitter-killer-queen</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/the-jester</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/adventure/jurassic-world</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/jailbait</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/adventure/jurassic-park-the-lost-world</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/piglet</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/adventure/jurassic-park-1998</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/lights-out</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/adventure/jurassic-world-fallen-kingdom</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/dark-beacon</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/adventure/jurassic-world-dominion</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/young-adam</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/below-her-mouth</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/strictly-confidential</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/good-kisser</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/madame-web</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/henry-%26-june</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/drag-me-to-hell</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/polarized</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/lizzie</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/desire</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/babysitter</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/i-cant-think-straight</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/horror/the-babysitter-killer-queen</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/girl-play</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/adventure/jurassic-world</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/porcupine-lake</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/adventure/jurassic-park-the-lost-world</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/portrait-of-a-lady-on-fire</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/adventure/jurassic-park-1998</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/water-lilies</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/adventure/jurassic-world-fallen-kingdom</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/bonnie-%26-bonnie</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/adventure/jurassic-world-dominion</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/purple-hearts</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/below-her-mouth</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/the-kissing-booth</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/good-kisser</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/the-kissing-booth-2</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/henry-&amp;-june</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/the-kissing-booth-3</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/polarized</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/the-beautiful-summer</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/desire</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/love-lies-%26-bleeding</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/i-cant-think-straight</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/princess-cyd</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/girl-play</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/a-ravens-touch</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/porcupine-lake</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/the-guest-house</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/portrait-of-a-lady-on-fire</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/you-can-live-forever</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/water-lilies</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/benedetta</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/bonnie-&amp;-bonnie</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/the-world-to-come</loc>
+	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/purple-hearts</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/wild-things-1</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/the-kissing-booth</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/wild-things-2</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/the-kissing-booth-2</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/wild-things-3</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/the-kissing-booth-3</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/wild-things-4</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/the-beautiful-summer</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/allure</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/love-lies-&amp;-bleeding</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/drive-away-dolls</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/princess-cyd</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/black-tar-road</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/a-ravens-touch</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/chloe</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/the-guest-house</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/heatwave</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/romance/you-can-live-forever</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/side-effects</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/wild-things-1</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/adan</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/wild-things-2</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/bound</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/wild-things-3</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/thriller/teenage-cocktail</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/wild-things-4</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/son-of-batman</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/allure</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-hush</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/drive-away-dolls</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-assault-on-arkham</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Thriller/Mullholland-Drive.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-the-doom-that-came-to-gotham</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/black-tar-road</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/justice-league-vs-teen-titans</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/chloe</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/justice-league-dark-apokolips-war</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/heatwave</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/justice-league-doom</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/side-effects</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-the-killing-joke</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/adan</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-and-harley-quinn</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/bound</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-under-the-red-hood</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/thriller/teenage-cocktail</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-soul-of-the-dragon</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/son-of-batman</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/tv-shows/ms-marvel</loc>
+	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/batman-hush</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/lockdown-lovers</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/batman-assault-on-arkham</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/my-first-summer</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/batman-the-doom-that-came-to-gotham</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/my-first-girl-crush</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/justice-league-vs-teen-titans</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/boy-meets-girl</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/justice-league-dark-apokolips-war</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/the-firefly</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/justice-league-doom</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/the-secrets</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/batman-the-killing-joke</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/blush</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/batman-and-harley-quinn</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/a-perfect-ending</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/batman-under-the-red-hood</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/fatal-exposure</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/animated/batman-soul-of-the-dragon</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/russian-doll</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/indie/lockdown-lovers</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/indie/circumstance</loc>
+	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/indie/my-first-summer</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/henry-%26-june</loc>
+	<lastmod>2025-06-05T20:21:16+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/indie/my-first-girl-crush</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/bonnie-%26-bonnie</loc>
+	<lastmod>2025-06-05T20:21:16+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://flickrift.netlify.app/./Indie/My-New-Girl-Crush.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/./Indie/My-Last-Girl-Crush.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/indie/boy-meets-girl</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/indie/the-firefly</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/indie/the-secrets</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/indie/blush</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/indie/a-perfect-ending</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/indie/fatal-exposure</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/indie/circumstance</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/./Tv-Shows/Supergirl.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/tv-shows/ms-marvel</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/./Tv-Shows/Black-Mirror.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/./Tv-Shows/The-L-Word-Generation-Q.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/./Tv-Shows/Dickinson.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/../Kids.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/../Documentry.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/./privacy-policy.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
-</url>
-<url>
-<loc>https://flickrift.netlify.app/./terms-of-services.html</loc>
-<changefreq>monthly</changefreq>
-<lastmod>2025-06-01</lastmod>
+	<loc>https://flickrift.netlify.app/romance/love-lies-%26-bleeding</loc>
+	<lastmod>2025-06-05T20:21:17+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 </urlset>
