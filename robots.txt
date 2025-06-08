@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Sitemap: https://flickrift.netlify.app/sitemap.xml
 
-# Algolia-Crawler-Verif: 5290F794B591C3C2
+
