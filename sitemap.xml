@@ -1,779 +1,2692 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 	<loc>https://flickrift.netlify.app/</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Logo.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Logo.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/app</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Atomic%2BBlonde.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://raw.githubusercontent.com/AMALIK8989/Ivflix1.0/main/img/Arrow%2BCover.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://m.media-amazon.com/images/M/MV5BN2RkYWVkZDQtNTMxMi00NWQ4LWE2ODctNmQzOWM2NjQzYzdlXkEyXkFqcGdeQXVyMjUzOTY1NTc%40._V1_.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://m.media-amazon.com/images/M/MV5BOWY2ZDFiOTktNzk0OC00NTc5LTkzOWItMTZhZTdjOTBmYzU5XkEyXkFqcGdeQXVyMjUzOTY1NTc%40._V1_FMjpg_UX1000_.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Venom+One+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/RoboCop+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Tell+It+To+The+Bees+Info-card.jfif</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Notebook.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/After-info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Anyone-But-You.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Shes-The-Man.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Abduction+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ride+or+die+info-card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Rebecca+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Voyeurs+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Fractured-info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Journey+To+The+Center+Of+The+Earth+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Journey+2+The+Mysterious+Island+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Inferno.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Uncharted+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Bloomington+Info-card+%282%29.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/privacy-policy</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/terms-of-services</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/sitemap</loc>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Venom+3+Info-card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Deadpool-Wolverine-Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Avengers-Age-Of-Ultron.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Avengers+infinity+war+info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Justice+League+Info-card+Image.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Batman.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Argylle.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Doctor+Strange+Multiverse+of+madness+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ironman+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Deadpool+One+Info-card.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Deadpool+2+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Night+Teeth.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://mc.yandex.ru/watch/100589486</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Parisienne-Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Mom+%2B+Mom+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Home-Alone-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Home+-+Alone+2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Home-Alone-3-Info-Card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Boogie+Nights+Info+-+card.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Whats+love+got+to+do+with+it+info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Am-I-Okay-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Cruise-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Crush-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Alto-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Chasing-The-Wind-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/D.E.B.S+-+Info+-+Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Miseducation-Of-Cameron-Post-Info-Card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kiss+Me+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ammonite+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+World+Unseen+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Love+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Blue+is+the+warmest+color+info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Joyland+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Colette+-+Info+-+card.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/KillForMe-Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Anatomy+Of+A+Love+Seen+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Elena+Undone+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lost+and+Delirious+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/My+Days+Of+Mercy+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/My+Fault+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Thirteen+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Vita-And-Virginia-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Cocaine-Godmother-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Imagine-Me-And-You-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+reluctant+fundamentalist+info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Your-Fault-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Unfreedom+info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Say+You+Will+Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Like-Sunday-Like-Rain-Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Adam-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Ambrosia-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Mosquita-Y-Mari-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Maid+Info-card_.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Disobedience-Info-card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/On-Swift-Horses-Info-Card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Black-Swan-Info-Card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Fear+Street+Part+One+1994+Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Fear+Street+Part+Two+1978+Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Possession-Of-Hannah-Grace.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Terrifier+3+Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Jester+Info-+Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Fear+Stree+Part+Three+1666+Info-card.jfif</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Piglet-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Lights-Out-Info-Card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Dark-Beacon-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Young+Adam+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Strictly+Confidential+Info+-+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Madame+Web+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Drag-me-to-hell-Info-card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lizzie+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/The-Babysitter-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Babysitter-Killer-Queen-Info-Card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/adventure</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jurassic+World.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jurassic+-+Park+-+2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jurassic+-+Park+-+1993.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jurassic+world+Fallen+Kingdom.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jurassic+world+Dominion.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/romance</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Below+Her+Mouth+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Good+Kisser+Info-card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Henry+%26+June+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Polarized.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Desire+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/I+Can%27t+Think+Straight+Info+Card+.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Girl+Play+Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Porcupine+Lake+info-card.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Portrait-Of-A-Lady-On-Fire+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Water+Lilies+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Bonnie+%26+Bonnie.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Purple+Hearts+Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Kissing+Booth.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Kissing+Booth+2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The+Kissing+Booth+3.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/The-Beautiful-Summer.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Love-Lies-%26-Bleeding-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Princess-Cyd.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Ravens-Touch-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/The-Guest-House-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/You-Can-Live-Forever-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Benedetta-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/The-World-To-Come-Info-Card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/WildThings.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Wild+Things+2+info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Wild+Things+3+info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Wild+Things+4+info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Allure+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Drive+Away+Dolls+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jailbait+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Mulholland+drive+info-card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Black+Tar+Road+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Chloe+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Heatwave+Info+card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Side-Effects-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Adan-Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Bound-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Teenage-Cocktails-Info-Card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Son+Of+Batman+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Batman-Hush-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Batman-Assault-On-Arkham-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Batman-The-Doom-That-Came-To-Gotham-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Justice-League-Vs-Teen-Titans.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Justice+League+Dark+Apokolips+War+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Justice-League-Doom.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Batman-The-Killing-Joke+Info+-+Card+.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Batman-And-Harley-Quinn+Info-+Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Batman-Under-The-Red-Hood+Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Batman-+The-Soul-Of-The-Dragon+Info-Card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/LockDown-Lovers-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/My-First-Summer-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/My-First-Girl-Crush-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/My-New-Girl-Crush-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/My-Last-Girl-Crush-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Boy%2C-Meets-Girl-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/The-Firefly-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/The-secrets-Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Blush-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/A-Perfect-Ending-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Fatal-Exposure-Info-Card.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Russian-Dolls-Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Circumstance-Info-Card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Steal-Her-Breath-Info-Card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/tv-shows</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Supergirl+Info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ms-Marvel-Info-card-.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Black+mirror+info-card.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/The-L-Word-Generation-Q.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Dickinson+Info-card.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/atomic-blonde</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Charlize+Theron.jfif</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/James+Macavoy.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sofia+Boutella.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/the-jackal</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Richard+Gere.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Bruce+Willis.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/tell-it-to-the-bees</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Anna+Paquin.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Holliday+Grainger.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/the-notebook</loc>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/after</loc>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Glen+Powell.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sydney+sweeney.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/anyone-but-you</loc>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/she-the-man</loc>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/the-voyeurs</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Sydney-Sweeney.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Justice+Smith.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ben+Hardy.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Natasha+Liu+Bordizzo.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Cait+Alexander.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Katherine+King+So.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/fractured</loc>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/coming-of-age/bloomington</loc>
-	<lastmod>2025-06-05T20:21:03+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:10+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sarah+Stouffer.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Allison+McAtee.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Katherine+Ann+Mcgregor.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/venom-3</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Tom+Hardy.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Juno+Temple.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Naomi+Harris.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Rhys+Ifans.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/deadpool-and-wolverine</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/action/avengers-age-of-ultron</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/avenger-infinity-war</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://flickrift.netlify.app/action/avengers-age-of-ultron</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Robert+downey+jr.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Chris+evans.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Scarlett-Johansson-2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Mark+ruffalo.jpeg</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://flickrift.netlify.app/action/justice-league</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/the-batman</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Robert+Pattinson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Zoe+Kravitz.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Paul+Dano.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Colin+Farrell.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jeffrey+Wright.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/John+Turturro.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Andy+Serkis.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/argylle</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Henry+Cavill.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Dua+Lipa.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/John+Cena.png</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/doctor-strange-multiverse-of-madness</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/iron-man</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Gwyneth-Paltrow.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Jon-Favreau.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Terrence-Howard.jfif</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Leslie+bibb.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Clark+gregg.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jeff+bridges.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Paul+bettany.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/deadpool</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Gina-Carano.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ed+Skrein.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Taylor-Hickson.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/action/deadpool-2</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/action/night-teeth</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Ryan-Reynolds.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Morenna+Baccarin.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Leslie+Uggams.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Josh-Brolin.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Briana-Hildebrand.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Zazie-Beetz.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Julian-Dennison.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/T.J.Miller.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/parisienne</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Manal+Issa.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Vincent-Lacoste.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/DamienChapelle.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Paul-Hamy.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Bastien-Boullion.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Dominique_Blanc_Deauville.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/action/night-teeth</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Debby+Ryan.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lucy+Fry.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Megan+fox.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/mom-mom</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Linda+Caridi.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Anna+Bellato.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Maria+Roveran.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Silvia+Gallerano.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/home-alone</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/comedy/home-alone-2</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/John-Candy.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/home-alone-3</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Alex-D-Linz.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Haviland-Morris.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Seth-Smith.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kevin-kilner.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Rya-Kihlstedt.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/David-Thornton.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lenny-Von-Dohlen.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Aleksander-Krupa.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Marian-Seldes.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/comedy/home-alone-2</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Maccaulay-Culkin.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Joe-Pesci.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Daniel_Stern.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Catherine-O-Hara.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Tim-Curry.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/comedy/whats-love-got-to-do-with-it</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/boogie-nights</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/comedy/whats-love-got-to-do-with-it</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/am-i-okay</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Dakota+Johnson.webp</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/cruise</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Emily-Ratajkowski.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Sonoyo-Mizuno.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Kiersey-Clemons.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Tig-Nataro.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Molly-Gordon.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Jermaine-Fowler.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/crush</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/comedy/alto</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Isabella-Fereira.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Rowan-Blanchard.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Tyler-Alvarez.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/chasing-the-wind</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Hande-Er%C3%A7el.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Baris-Arduc.jpeg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/comedy/alto</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/debs</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/comedy/the-miseducation-of-cameron-post</loc>
-	<lastmod>2025-06-05T20:21:05+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/drama/kiss-me</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/ammonite</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kate+winslet.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Saoirse+ronan+.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Fiona-Shaw.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/James-McArdle.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/drama/kiss-me</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ruth+Vega+Fernandez.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Liv+Mjones.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Josefine+Tengblad.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lena+Endre.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Krister+Henriksson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/drama/Assets/Logo.png</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/love</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Aomi+Muyock.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Karl+Glusman.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Klara+Kristin.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Vincent+Maraval.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/blue-is-the-warmest-color</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/drama/joyland</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Adele+exarchopoulos.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Gasper+Noe.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lea+seydoux.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jeremie+Laheurte.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sandor+Funtek.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Deborah+Revy.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/colette</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Keira+Knightley.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Dominic-West.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Eleanor+Tomlinson.jpeg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/drama/joyland</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ali+Junejo.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Alina+Khan.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Rasti+Farooq.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/kill-for-me</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Katie+cassidy.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Tracy+Spiridakos.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Donal-Logue.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Adam-DiMarco.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Torrance-Coombs.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Shannon-Chan-Kent.webp</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/anatomy-of-a-love-seen</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sharon+Hinendael.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jill+Evyn.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Marina+Rice+Bader.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/elena-undone</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/drama/lost-and-derlious</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Traci+Dinwiddie.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Necar+Zadegan.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Gary+Weeks.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jane+Clark.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Connor+Kramme.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Erin+Carufel.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/my-days-of-mercy</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kate+Mara.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/my-fault</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Nicole+Wallace.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Gabriel+Guevara.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Fran-Berenguer.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Marta-Hazas.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Noah-Casas.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Iv%C3%A1n-Massagu%C3%A9.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/thirteen</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Nikki+Reed.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Evan+Rachel+Wood.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Holly+Hunter.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/vita-and-virginia</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Elizabeth-Debicki.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Gemma-Arterton.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Isabella-Rossellini.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Emerald-Fennell.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Karla-Crome.jpgbp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Peter-Ferdinando.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/cocaine-godmother</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Catherine-Zeta-Jones.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/imagine-me-and-you</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Piper+Perabo.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/the-reluctant-fundamentalist</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Keifer+sutherland.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kate+hudson.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Riz+Ahmed.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/your-fault</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/drama/unfreedom</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/say-you-will</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Katherine+C+Hughes.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Travis+Tope.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Israel+Broussard.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/drama/unfreedom</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Adil+Hussain.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Victor-Banerjee.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Preeti-Gupta.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Bhanu-Uday.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Breton-Tyner-Bryan.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Harry-Key.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/like-sunday-like-rain</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/adam</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/drama/ambrosia</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Lubna-Azabal.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Douae-Belkhaouda.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Hasna-Tamtaoui.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Aziz-Hattab.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/mosquita-y-mari</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Venecia-Troncoso.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Fenessa-Pineda.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Marisela-Uscanga.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Dulce-Maria-Solis.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Laura-Patalano.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Joaqu%C3%ADn-Garrido.JPG</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Armando-Cosio.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/the-maid</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Claire+Kahane.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ryan+Cerenko.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Olivia+Jewson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Keith+Hill.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/drama/ambrosia</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Sahar-Biniaz.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Chamyar-Chai.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Heather-Doerksen.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Veenu-Sandhu.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Pauline-Egan.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/drama/disobedience</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Rachel+Weisz.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Rachel+Mcadams.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/black-swan</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Natalie+Portman.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Mila+Kunis.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Wiona+Ryder.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Vanessa+Williams.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Barbara+Hershey.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/fear-street-part-one</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kianna+Madeira.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Olivia+Scott+Welch.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Benjamin+Flores+Jr.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/fear-street-part-two</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/horror/posession-of-hannah-grace</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/horror/terrifier-3</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/the-jester</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/jailbait</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sara+Malakul+Lane.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/horror/terrifier-3</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Samantha+Scaffidi.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Alexa+Blair+Robertson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lauren+Lavera.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/David+Howard+Thornton.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Elliot+Fullam.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Antonella+Rose.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Margaret+Ann+Florence.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/piglet</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Judah-Lewis.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Emily-Alyn-Lind.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jenna+Ortega.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Samara-Weaving.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Robbie-Amell.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Bella-Thorne.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/lights-out</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/horror/dark-beacon</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/young-adam</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kristen+Stewart.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Chloe+Sevigny.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/horror/dark-beacon</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Lynne-Anne-Rodgers.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Kendra-Mei.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/April-Pearson.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/John-Campling.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Toby-Osmond.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/strictly-confidential</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Elizabeth+Hurley.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Lauren-Mcqueen.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Georgia-Lock.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Genevieve-Gaunt.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Pear-Chiravara.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Freddie-Thorp.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/madame-web</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Isabela+Merced.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Celeste+O%27Connor.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Emma+Roberts.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Adam+Scott.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Tahar+Rahim.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Zosia+Mamet.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/drag-me-to-hell</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Alison-Lohman.png</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/lizzie</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/horror/babysitter</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/horror/the-babysitter-killer-queen</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/adventure/jurassic-world</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Chris+pratt.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Katie+Mcgrath.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Bryce+dallas+howard.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Vincent+D%27Onofrio.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ty+Simpkins.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Nick+Robinson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Irrfan+Khan.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/horror/the-babysitter-killer-queen</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/adventure/jurassic-park-the-lost-world</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Julianne+Moore.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Vince_Vaughn.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jeff_Goldblum.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/adventure/jurassic-park-1998</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sam+Neil.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Laura+Dern.jpeg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/adventure/jurassic-world-dominion</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/adventure/jurassic-world-fallen-kingdom</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/adventure/jurassic-world-dominion</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/below-her-mouth</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/good-kisser</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/henry-%26-june</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/polarized</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/desire</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/i-cant-think-straight</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/girl-play</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/porcupine-lake</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/portrait-of-a-lady-on-fire</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/water-lilies</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/bonnie-%26-bonnie</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/purple-hearts</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/the-kissing-booth</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/the-kissing-booth-2</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/the-kissing-booth-3</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/the-beautiful-summer</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/love-lies-%26-bleeding</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/princess-cyd</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/a-ravens-touch</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/the-guest-house</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/you-can-live-forever</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/benedetta</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/romance/the-world-to-come</loc>
-	<lastmod>2025-06-05T20:21:06+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Daniella+Pineda.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/BD+Wong.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Isabella+Sermon.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Toby+jones.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/wild-things-1</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Neve+Campbell.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Denise+Richards.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kevin+Bacon.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Matt+Dillon.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/wild-things-2</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Leila+Arcieri.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Susan+Ward.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Isiah+Washington.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Linden+Ashby.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Joe+Michael+Burke.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/wild-things-3</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Serah+D%27Laine.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sandra+Mccoy.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Dina+Meyer+1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Brad+Johnson.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/wild-things-4</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Marnette+Patterson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jillian+Murray.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/John+Schneider.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Ashley+Parker+Angel.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jessie+Nickson.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/allure</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/thriller/drive-away-dolls</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Julia+Sarah+Stone.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Denis+O+Hare.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Maxim+Roy.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/black-tar-road</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Amber+Dawn+Lee.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Noelle+Messier.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/James+R+Black.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Maria+Olsen.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/thriller/drive-away-dolls</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Geraldine+Viswanathan.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Margaret+Qualley.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Beanie+Feldstein.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Annie+Gonzalez.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Joey+Slotnick.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Pedro+Pascal.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/chloe</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Amanda+seyfried.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Liam+Neeson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Nina+dobrev.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Max+Theriot.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Mishu+Vellani.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/heatwave</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kat+Graham.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Meritt+Patterson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sebastian+Roche.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kayla+Wallace.jfif</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Roger+Cross.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/side-effects</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Channing-Tatum.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jude+law.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Andrea-Bogart.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Mamie-Gummer.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Vinessa-Shaw.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/adan</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Cindy-Miranda.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Rhen-Escano.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Bembol-Roco.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Jiad-Arroyo.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/bound</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Jennifer-Tilly.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Gina-Gershon.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/thriller/teenage-cocktail</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Fabianne-Therese.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Nichole-Sakura.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Michelle-Borth.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/AJ-Bowen.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/son-of-batman</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Dwayne+Johnson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Josh+Hutcherson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Vanessa+Hudgens.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Michael+Caine.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Luis+Guzman.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kristin+Davis.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/batman-hush</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/animated/batman-assault-on-arkham</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/animated/batman-the-doom-that-came-to-gotham</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/justice-league-vs-teen-titans</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://flickrift.netlify.app/animated/justice-league-dark-apokolips-war</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<loc>https://flickrift.netlify.app/animated/batman-the-doom-that-came-to-gotham</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/animated/batman-assault-on-arkham</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/justice-league-doom</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/animated/justice-league-dark-apokolips-war</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/batman-the-killing-joke</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/batman-and-harley-quinn</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/batman-under-the-red-hood</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/animated/batman-soul-of-the-dragon</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/tv-shows/ms-marvel</loc>
-	<lastmod>2025-06-05T20:21:07+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/lockdown-lovers</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/my-first-summer</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Stevie-Mckeon.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Kate-Mayhew.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Lin-Yin.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/my-first-girl-crush</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/boy-meets-girl</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/the-firefly</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/indie/the-secrets</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/blush</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/indie/the-secrets</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/a-perfect-ending</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Sivan-Noam-Shimon.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Hadas-Jade-Sakori.jpg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/fatal-exposure</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://flickrift.netlify.app/indie/russian-doll</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
-	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Sofia-Masson.jpeg</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/indie/circumstance</loc>
-	<lastmod>2025-06-05T20:21:08+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Nikohl+Boosheri.jfif</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Sarah-Kazemy.jpeg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/indie/russian-doll</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/below-her-mouth</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Natalie+Krill.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Erika+Linder.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Mayko+Nguyen.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Daniela+Barbosa.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sebastian+Pigott.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Andrea+Stefancikova.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/good-kisser</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Julia+Eringer.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Rachel+Paulson.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kari+Alison+Hodge.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/henry-%26-june</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Uma+Thurman.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Fred+Ward.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Maria+De+Madeiros.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Richard+E+Grant.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kevin+Spacey.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/polarized</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Maxine+Denis.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Holly+Deveaux.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Tara+Samuel.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Adam+Hurtig.jfif</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/desire</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Helene+Zimmer.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Johnny+Amaro.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Gowan+Didi.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/girl-play</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Robin+Greenspan.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lacie+Harmon.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/i-cant-think-straight</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lisa+Ray+.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sheetal+Sheth+.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Antonio-Frering.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Dalip-Tahil.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Nina-Wadia.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Ernest+Ignatius.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/porcupine-lake</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Lucinda+Armstrong.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Charlotte+Salisbury.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Delphine+Roussel.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Christopher+Bolton.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/portrait-of-a-lady-on-fire</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Adele+Hanael.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Noemie+Merlant.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Luana+Bajrami.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Valeria+Golino.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Armande+Boulanger.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/bonnie-%26-bonnie</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Emma+Drogunova.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sarah+Mahita.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kasem+Hoxha.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Milena+Tscharntke.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/water-lilies</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Pauline+Acquart.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Louise+Blachere.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Warren+Jacquin.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Marie+Gili-Pierre.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/purple-hearts</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Sofia+Carson.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Nicholas+Galitzine.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Chosen+Jacobs.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/the-kissing-booth</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/the-kissing-booth-3</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Joey+King.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jacob+Elordi.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Joel+Courtney.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/the-kissing-booth-2</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/the-beautiful-summer</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Deva-Cassel.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/love-lies-%26-bleeding</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/katy-O-Brian.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Ed-Harris.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Jena-Malone.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Anna+baryshnikov.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Dave-Franco.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Keith-Jardine.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/princess-cyd</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Jessie-Pinnick.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/a-ravens-touch</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/the-guest-house</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Dreya-Webber.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/benedetta</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/you-can-live-forever</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Anwen-O%27-Driscoll.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/June-LaPorte.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Juliette-Gari%C3%A9py.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Liane-Balaban.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Lenni-Kim.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Deragh-Campbell.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Chanel-Mings.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/%C3%88ve-Lemieux.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/romance/the-world-to-come</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/tv-shows/ms-marvel</loc>
+	<lastmod>2025-06-09T03:33:12+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/drama/the-world-unseen</loc>
+	<lastmod>2025-06-09T03:33:13+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Nandana+Sen.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Parvin-Dabas.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Natalie+Becker.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Colin+Moss.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/drama/lost-and-derlious</loc>
+	<lastmod>2025-06-09T03:33:13+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Jessica+Pare.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Mischa+Barton.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/drama/on-swift-horses</loc>
+	<lastmod>2025-06-09T03:33:13+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Sasha-Calle.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Will-Poulter.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Don-Swayze.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Diego-Calva.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img2/Daisy-Edgar-Jones.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/horror/posession-of-hannah-grace</loc>
+	<lastmod>2025-06-09T03:33:13+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Shay-Mitchell.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Grey+Damon.jfif</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://flickrift.netlify.app/Assets/Img/Kirby+Johnson.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://flickrift.netlify.app/indie/steal-her-breath</loc>
+	<lastmod>2025-06-09T03:33:15+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/romance/henry-%26-june</loc>
-	<lastmod>2025-06-05T20:21:16+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:31+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/romance/bonnie-%26-bonnie</loc>
-	<lastmod>2025-06-05T20:21:16+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:31+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://flickrift.netlify.app/romance/love-lies-%26-bleeding</loc>
-	<lastmod>2025-06-05T20:21:17+01:00</lastmod>
+	<lastmod>2025-06-09T03:33:32+01:00</lastmod>
+	<changefreq>always</changefreq>
 	<priority>0.8</priority>
 </url>
 </urlset>
