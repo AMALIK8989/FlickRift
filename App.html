@@ -1069,4 +1069,96 @@
     </footer>
     
   </body>
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+  let movieData = [];
+
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+  const autocompleteList = document.getElementById('autocompleteList');
+  const searchBtn = document.getElementById('searchBtn');
+
+  // Fetch movies from Firebase when modal opens
+  document.getElementById('searchModal').addEventListener('show.bs.modal', async () => {
+    if (movieData.length === 0) {
+      try {
+        const response = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/.json');
+        movieData = await response.json() || [];
+      } catch (err) {
+        console.error('Failed to fetch movie data:', err);
+      }
+    }
+  });
+
+  // Search movies by full title match
+  function searchMovies(query) {
+    const q = query.toLowerCase().trim();
+    const filtered = movieData.filter(movie =>
+      movie.title.toLowerCase().includes(q)
+    );
+
+    renderSearchResults(filtered);
+  }
+
+  function renderSearchResults(filtered) {
+    searchResults.innerHTML = '';
+    autocompleteList.innerHTML = '';
+
+    if (filtered.length === 0) {
+      searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+      return;
+    }
+
+    filtered.forEach(movie => {
+      searchResults.innerHTML += `
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white h-100">
+            <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
+            <div class="card-body">
+              <h6 class="card-title">${movie.title}</h6>
+              <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
+              <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  // Autocomplete suggestions
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase().trim();
+    autocompleteList.innerHTML = '';
+
+    if (!query || movieData.length === 0) return;
+
+    const suggestions = movieData
+      .filter(movie => movie.title.toLowerCase().startsWith(query))
+      .slice(0, 5); // Limit to 5 suggestions
+
+    suggestions.forEach(movie => {
+      const item = document.createElement('a');
+      item.classList.add('list-group-item', 'list-group-item-action', 'bg-dark', 'text-white');
+      item.textContent = movie.title;
+      item.addEventListener('click', () => {
+        searchInput.value = movie.title;
+        autocompleteList.innerHTML = '';
+        searchMovies(movie.title);
+      });
+      autocompleteList.appendChild(item);
+    });
+  });
+
+  // Search on button click or Enter
+  searchBtn.addEventListener('click', () => searchMovies(searchInput.value));
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      searchMovies(searchInput.value);
+      autocompleteList.innerHTML = '';
+    }
+  });
+});
+  </script>
+  
 </html>
