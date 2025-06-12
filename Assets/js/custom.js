@@ -374,6 +374,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-const resp = await fetch('/.netlify/functions/getFirebaseConfig');
+async function initFirebase() {
+  const resp = await fetch('/.netlify/functions/getFirebaseConfig');
+  const config = await resp.json();
+  firebase.initializeApp(config);
+}
+
+initFirebase(); // ✅ Don't forget to call it!
 
 
