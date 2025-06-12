@@ -330,3 +330,47 @@ document.addEventListener("click", function(event) {
         navbarCollapse.classList.remove("show");
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll('img[src]');
+
+    images.forEach(img => {
+      const originalSrc = img.src;
+      img.setAttribute('data-lazy-src', originalSrc);
+      img.removeAttribute('src');
+    });
+
+    const lazyImages = document.querySelectorAll('img[data-lazy-src]');
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.src = img.getAttribute('data-lazy-src');
+            img.removeAttribute('data-lazy-src');
+            observer.unobserve(img);
+          }
+        });
+      });
+
+      lazyImages.forEach(img => observer.observe(img));
+    } else {
+      // Fallback
+      const lazyLoad = () => {
+        lazyImages.forEach(img => {
+          const rect = img.getBoundingClientRect();
+          if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+            img.src = img.getAttribute('data-lazy-src');
+            img.removeAttribute('data-lazy-src');
+          }
+        });
+      };
+
+      document.addEventListener("scroll", lazyLoad);
+      window.addEventListener("resize", lazyLoad);
+      window.addEventListener("orientationchange", lazyLoad);
+      lazyLoad(); // Run initially
+    }
+  });
+
