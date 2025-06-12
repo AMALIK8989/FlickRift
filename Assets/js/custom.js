@@ -374,3 +374,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+const resp = await fetch('/.netlify/functions/getFirebaseConfig');
+
+
