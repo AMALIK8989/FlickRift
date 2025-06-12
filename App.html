@@ -1008,6 +1008,7 @@
     </div>
 </section>-->
       <!-- Search Modal -->
+<!-- Search Modal -->
 <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content bg-dark text-white">
@@ -1016,12 +1017,17 @@
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <input type="text" id="searchInput" class="form-control mb-3" placeholder="Search by title...">
-        <div id="searchResults" class="row g-3"></div>
+        <div class="input-group mb-3">
+          <input type="text" id="searchInput" class="form-control" placeholder="Search by title...">
+          <button class="btn btn-outline-light" id="searchBtn">Search</button>
+        </div>
+        <div id="autocompleteList" class="list-group position-absolute z-3"></div>
+        <div id="searchResults" class="row g-3 mt-4"></div>
       </div>
     </div>
   </div>
 </div>
+
 
     </main>
     <footer class="container-fluid">
