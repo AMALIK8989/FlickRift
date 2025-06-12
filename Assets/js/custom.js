@@ -382,4 +382,45 @@ async function initFirebase() {
 
 initFirebase(); // ✅ Don't forget to call it!
 
+document.addEventListener('DOMContentLoaded', () => {
+  let movieData = [];
+
+  // Fetch movies once when modal loads
+  document.getElementById('searchModal').addEventListener('show.bs.modal', async () => {
+    if (movieData.length === 0) {
+      const response = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/.json');
+      movieData = await response.json();
+    }
+  });
+
+  // Search and display
+  document.getElementById('searchInput').addEventListener('input', function () {
+    const query = this.value.trim().toLowerCase();
+    const resultsContainer = document.getElementById('searchResults');
+    resultsContainer.innerHTML = '';
+
+    if (query === '') return;
+
+    const filtered = movieData.filter(movie => movie.title.toLowerCase().includes(query));
+
+    if (filtered.length === 0) {
+      resultsContainer.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+    } else {
+      filtered.forEach(movie => {
+        resultsContainer.innerHTML += `
+          <div class="col-md-4">
+            <div class="card bg-secondary text-white h-100">
+              <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
+              <div class="card-body">
+                <h6 class="card-title">${movie.title}</h6>
+                <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
+                <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+    }
+  });
+});
 
