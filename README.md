@@ -86,38 +86,22 @@
   <hr class="my-5">
 
   <section class="mb-5">
-    <h2><i class="fas fa-cogs me-2"></i>Tech Stack</h2>
-    <div class="table-responsive-sm">
-      <table class="table table-bordered align-middle text-center mt-3">
-        <thead class="table-light">
-          <tr>
-            <th>Technology</th>
-            <th>Logo</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td><strong>HTML5</strong></td>
-            <td><img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="80" alt="HTML5"></td></tr>
-          <tr><td><strong>CSS3</strong></td>
-            <td><img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="80" alt="CSS3"></td></tr>
-          <tr><td><strong>jQuery</strong></td>
-            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmLME0hpAJOqBGhaVjcgkk8hIKS3S4GAqrLg&s" width="80" alt="jQuery"></td></tr>
-          <tr><td><strong>Bootstrap</strong></td>
-            <td><img src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" width="80" alt="Bootstrap"></td></tr>
-          <tr><td><strong>Anime.js</strong></td>
-            <td><img src="https://www.bypeople.com/wp-content/uploads/2017/12/javascript-animation-engine.png" width="80" alt="Anime.js"></td></tr>
-          <tr><td><strong>Animate.css</strong></td>
-            <td><img src="https://animate.style/img/animatecss-opengraph.jpg" width="80" alt="Animate.css"></td></tr>
-          <tr><td><strong>WOW.js</strong></td>
-            <td><img src="https://wowjs.uk/img/wow-logo.jpg" width="80" alt="WOW.js"></td></tr>
-          <tr><td><strong>Font Awesome</strong></td>
-            <td><img src="https://blog.fontawesome.com/img/built/r6DY3ughI2-1000.jpeg" width="80" alt="Font Awesome"></td></tr>
-          <tr><td><strong>Owl Carousel</strong></td>
-            <td><img src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png" width="80" alt="Owl Carousel"></td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
+  <h2><i class="fas fa-cogs me-2"></i>Tech Stack</h2>
+  <div class="mt-3 d-flex flex-wrap align-items-center gap-3">
+    <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" height="40" alt="HTML5" />
+    <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" height="40" alt="CSS3" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" height="40" alt="Bootstrap" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="40" alt="jQuery" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="Firebase" />
+    <img src="https://www.bypeople.com/wp-content/uploads/2017/12/javascript-animation-engine.png" height="40" alt="Anime.js" />
+    <img src="https://animate.style/img/animatecss-opengraph.jpg" height="40" alt="Animate.css" />
+    <img src="https://wowjs.uk/img/wow-logo.jpg" height="40" alt="WOW.js" />
+    <img src="https://blog.fontawesome.com/img/built/r6DY3ughI2-1000.jpeg" height="40" alt="Font Awesome" />
+    <img src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png" height="40" alt="Owl Carousel" />
+  </div>
+</section>
+
 
   <hr class="my-5">
 
