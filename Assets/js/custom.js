@@ -331,96 +331,67 @@ document.addEventListener("click", function(event) {
     }
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll('img[src]');
+$(document).ready(function () {
+  // Step 1: Inject lazy-load CSS styles dynamically into <head>
+  const lazyStyles = `
+    <style>
+      .lazy {
+        opacity: 0;
+        transition: opacity 0.5s ease-in;
+        background: #f0f0f0 url('/images/loading.gif') no-repeat center center;
+        display: block;
+        min-height: 200px; /* adjust based on layout */
+        background-size: 40px 40px;
+      }
+      .lazy.loaded {
+        opacity: 1;
+        background: none;
+      }
+    </style>
+  `;
+  $('head').append(lazyStyles);
 
-    images.forEach(img => {
-      const originalSrc = img.src;
-      img.setAttribute('data-lazy-src', originalSrc);
-      img.removeAttribute('src');
-    });
+  // Step 2: Prepare all card images for lazy loading
+  $('.card-img-top, .card-img-top-pf, .card-img-top-af').each(function () {
+    var $img = $(this);
+    var src = $img.attr('src');
 
-    const lazyImages = document.querySelectorAll('img[data-lazy-src]');
+    if (src && !$img.attr('data-src')) {
+      $img.attr('data-src', src);  // Move src to data-src
+      $img.removeAttr('src');      // Prevent immediate loading
+      $img.addClass('lazy');       // Add 'lazy' class for styling
+    }
+  });
 
-    if ('IntersectionObserver' in window) {
-      const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const img = entry.target;
-            img.src = img.getAttribute('data-lazy-src');
-            img.removeAttribute('data-lazy-src');
-            observer.unobserve(img);
+  // Step 3: Lazy load function on scroll/resize
+  let lazyLoadThrottleTimeout;
+
+  function lazyLoad() {
+    if (lazyLoadThrottleTimeout) {
+      clearTimeout(lazyLoadThrottleTimeout);
+    }
+
+    lazyLoadThrottleTimeout = setTimeout(function () {
+      const scrollTop = $(window).scrollTop();
+      const windowHeight = $(window).height();
+
+      $('.lazy').each(function () {
+        const $img = $(this);
+
+        if ($img.attr('src')) return; // Already loaded
+
+        if ($img.offset().top < (scrollTop + windowHeight + 150)) {
+          const realSrc = $img.attr('data-src');
+          if (realSrc) {
+            $img.attr('src', realSrc).on('load', function () {
+              $img.addClass('loaded'); // Trigger fade-in
+            });
           }
-        });
+        }
       });
+    }, 200);
+  }
 
-      lazyImages.forEach(img => observer.observe(img));
-    } else {
-      // Fallback
-      const lazyLoad = () => {
-        lazyImages.forEach(img => {
-          const rect = img.getBoundingClientRect();
-          if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-            img.src = img.getAttribute('data-lazy-src');
-            img.removeAttribute('data-lazy-src');
-          }
-        });
-      };
-
-      document.addEventListener("scroll", lazyLoad);
-      window.addEventListener("resize", lazyLoad);
-      window.addEventListener("orientationchange", lazyLoad);
-      lazyLoad(); // Run initially
-    }
-  });
-
-async function initFirebase() {
-  const resp = await fetch('/.netlify/functions/getFirebaseConfig');
-  const config = await resp.json();
-  firebase.initializeApp(config);
-}
-
-initFirebase(); // ✅ Don't forget to call it!
-
-document.addEventListener('DOMContentLoaded', () => {
-  let movieData = [];
-
-  // Fetch movies once when modal loads
-  document.getElementById('searchModal').addEventListener('show.bs.modal', async () => {
-    if (movieData.length === 0) {
-      const response = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/.json');
-      movieData = await response.json();
-    }
-  });
-
-  // Search and display
-  document.getElementById('searchInput').addEventListener('input', function () {
-    const query = this.value.trim().toLowerCase();
-    const resultsContainer = document.getElementById('searchResults');
-    resultsContainer.innerHTML = '';
-
-    if (query === '') return;
-
-    const filtered = movieData.filter(movie => movie.title.toLowerCase().includes(query));
-
-    if (filtered.length === 0) {
-      resultsContainer.innerHTML = '<p class="text-center text-muted">No results found.</p>';
-    } else {
-      filtered.forEach(movie => {
-        resultsContainer.innerHTML += `
-          <div class="col-md-4">
-            <div class="card bg-secondary text-white h-100">
-              <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
-              <div class="card-body">
-                <h6 class="card-title">${movie.title}</h6>
-                <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
-                <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
-              </div>
-            </div>
-          </div>
-        `;
-      });
-    }
-  });
+  $(window).on('scroll resize', lazyLoad);
+  lazyLoad(); // Initial call
 });
-
