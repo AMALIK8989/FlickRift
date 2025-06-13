@@ -419,7 +419,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function loadMovieData() {
     if (movieData.length === 0) {
       try {
-        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/search.json');
+        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/.json');
         const data = await res.json();
 
         const moviesObj = data.movies || {};
