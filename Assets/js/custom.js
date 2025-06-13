@@ -419,33 +419,58 @@ document.addEventListener('DOMContentLoaded', () => {
   async function loadMovieData() {
     if (movieData.length === 0) {
       try {
-        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/.json');
+        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/search.json');
         const data = await res.json();
 
-        const moviesObj = data.movies || {};
-        const tvShowsObj = data.tvshows || {};
+        console.log("📦 Raw fetched data:", data);
 
-        const movies = Object.keys(moviesObj).map(key => moviesObj[key]);
-        const tvshows = Object.keys(tvShowsObj).map(key => tvShowsObj[key]);
+        const cleanArray = (arr) => {
+          if (!Array.isArray(arr)) return [];
+          return arr
+            .filter(item => item && item.title)
+            .map(item => ({
+              title: String(item.title),
+              year: item.year || item.Year || 'Unknown',
+              category: item.category || item.Category || 'Misc',
+              url: item.url || item.Url || '#',
+              image_poster: item.image_poster,
+            }));
+        };
 
+        const movies = cleanArray(data.movies);
+        const tvshows = cleanArray(data.tvshows);
         movieData = [...movies, ...tvshows];
+
+        alert(`✅ Loaded ${movies.length} movies and ${tvshows.length} TV shows.`);
+        console.log(`✅ Total loaded items: ${movieData.length}`);
+        console.log("🎬 All items:", movieData);
+
       } catch (err) {
-        console.error('Error fetching movie/tvshow data:', err);
+        alert('🔥 Error fetching data: ' + err.message);
+        console.error('🔥 Fetch error:', err);
       }
     }
   }
 
-  function searchMovies(query) {
-    const q = query.toLowerCase().trim();
-    const filtered = movieData.filter(item => item.title.toLowerCase().includes(q));
+  function searchMovies(q) {
+    const query = q.toLowerCase().trim();
+    const filtered = movieData.filter(item =>
+      item.title.toLowerCase().includes(query)
+    );
+
+    console.log(`🔍 Searching for: "${query}"`);
+    console.log("🔎 Found items:", filtered);
+
     renderSearchResults(filtered);
   }
 
   function renderSearchResults(filtered) {
     searchResults.innerHTML = '';
 
-    if (!filtered.length) {
-      searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+    if (filtered.length === 0) {
+      searchResults.innerHTML = '<p class="text-center">No results found.</p>';
+      alert('⚠️ No results found.');
+      console.warn('⚠️ No results found for current search.');
       return;
     }
 
@@ -463,19 +488,23 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `;
     });
+
+    alert(`✅ Found ${filtered.length} result(s).`);
+    console.log(`📺 Rendered ${filtered.length} search result(s).`);
   }
 
   function setupAutocomplete() {
     const titles = movieData.map(item => item.title);
+    console.log("🧠 Autocomplete Titles:", titles);
 
     $('#searchInput').autocomplete({
-      source: (request, response) => {
-        const results = titles.filter(title =>
-          title.toLowerCase().startsWith(request.term.toLowerCase())
-        );
-        response(results.slice(0, 7));
+      source(request, response) {
+        const q = request.term.toLowerCase();
+        const matches = titles.filter(t => t.toLowerCase().startsWith(q)).slice(0, 7);
+        console.log(`💡 Autocomplete suggestions for "${q}":`, matches);
+        response(matches);
       },
-      select: function (event, ui) {
+      select(event, ui) {
         $('#searchInput').val(ui.item.value);
         searchMovies(ui.item.value);
         return false;
@@ -484,17 +513,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   $('#searchModal').on('show.bs.modal', async () => {
+    console.log("📥 Modal opened: Loading data and setting up autocomplete...");
     await loadMovieData();
     setupAutocomplete();
   });
 
   searchBtn.addEventListener('click', () => {
+    console.log("👆 Search button clicked");
     searchMovies(searchInput.value);
   });
 
   searchInput.addEventListener('keydown', e => {
     if (e.key === 'Enter') {
       e.preventDefault();
+      console.log("🔑 Enter key pressed");
       searchMovies(searchInput.value);
     }
   });
