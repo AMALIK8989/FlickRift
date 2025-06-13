@@ -1,0 +1,50 @@
+{
+  "movies": [
+    {
+      "title": "After",
+      "year": 2019,
+      "category": "Romance",
+      "url": "https://flickrift.netlify.app/after",
+      "image_poster": "https://flickrift.netlify.app/Assets/Img/After-info-card.jpg"
+    },
+    {
+      "title": "Mom + Mom",
+      "year": 2018,
+      "category": "Comedy",
+      "url": "https://flickrift.netlify.app/Assets/Img/Mom%20+%20Mom%20Info-card.jpg",
+      "image_poster": "https://flickrift.netlify.app/comedy/mom-mom"
+    },
+    {
+      "title": "My First Summer",
+      "year": 2020,
+      "category": "Indie",
+      "url": "https://flickrift.netlify.app/indie/my-first-summer",
+      "image_poster": "https://flickrift.netlify.app/Assets/Img2/My-First-Summer-Info-Card.jpg"
+    }
+    // Add remaining movie items here...
+  ],
+  "tvshows": [
+    {
+      "title": "The Handmaid's Tale",
+      "year": 2017,
+      "category": "Drama",
+      "url": "https://flickrift.netlify.app/shows/handmaids-tale",
+      "image_poster": "https://flickrift.netlify.app/Assets/Img/Handmaids-Tale.jpg"
+    },
+    {
+      "title": "Sex Education",
+      "year": 2019,
+      "category": "Comedy",
+      "url": "https://flickrift.netlify.app/shows/sex-education",
+      "image_poster": "https://flickrift.netlify.app/Assets/Img/Sex-Education.jpg"
+    },
+    {
+      "title": "Killing Eve",
+      "year": 2018,
+      "category": "Thriller",
+      "url": "https://flickrift.netlify.app/shows/killing-eve",
+      "image_poster": "https://flickrift.netlify.app/Assets/Img/Killing-Eve.jpg"
+    }
+    // Add more TV show items here...
+  ]
+}
