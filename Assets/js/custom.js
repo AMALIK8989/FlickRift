@@ -331,67 +331,173 @@ document.addEventListener("click", function(event) {
     }
 });
 
+
 $(document).ready(function () {
-  // Step 1: Inject lazy-load CSS styles dynamically into <head>
+  // Step 1: Inject lazy-load CSS styles into <head>
   const lazyStyles = `
-    <style>
+    <style id="lazy-style-block">
       .lazy {
         opacity: 0;
-        transition: opacity 0.5s ease-in;
+        transition: opacity 0.5s ease-in-out;
         background: #f0f0f0 url('/images/loading.gif') no-repeat center center;
-        display: block;
-        min-height: 200px; /* adjust based on layout */
         background-size: 40px 40px;
+        display: block;
+        min-height: 200px;
       }
       .lazy.loaded {
         opacity: 1;
-        background: none;
+        background: none !important;
       }
     </style>
   `;
-  $('head').append(lazyStyles);
+  if (!$('#lazy-style-block').length) {
+    $('head').append(lazyStyles);
+  }
 
-  // Step 2: Prepare all card images for lazy loading
+  // Step 2: Convert images to lazy load format
   $('.card-img-top, .card-img-top-pf, .card-img-top-af').each(function () {
-    var $img = $(this);
-    var src = $img.attr('src');
+    const $img = $(this);
+    const src = $img.attr('src');
 
     if (src && !$img.attr('data-src')) {
-      $img.attr('data-src', src);  // Move src to data-src
-      $img.removeAttr('src');      // Prevent immediate loading
-      $img.addClass('lazy');       // Add 'lazy' class for styling
+      $img.attr('data-src', src);
+      $img.removeAttr('src'); // Remove src to prevent auto-loading
+      $img.addClass('lazy');
     }
   });
 
-  // Step 3: Lazy load function on scroll/resize
+  // Step 3: Lazy load handler
+  function lazyLoad() {
+    const scrollTop = $(window).scrollTop();
+    const windowHeight = $(window).height();
+
+    $('.lazy').each(function () {
+      const $img = $(this);
+
+      // Skip if already loaded
+      if ($img.attr('src')) return;
+
+      const imgTop = $img.offset().top;
+
+      if (imgTop < (scrollTop + windowHeight + 200)) {
+        const realSrc = $img.attr('data-src');
+        if (realSrc) {
+          $img.attr('src', realSrc).on('load', function () {
+            $img.addClass('loaded');
+          });
+        }
+      }
+    });
+  }
+
+  // Throttle with timeout
   let lazyLoadThrottleTimeout;
 
-  function lazyLoad() {
+  function throttledLazyLoad() {
     if (lazyLoadThrottleTimeout) {
       clearTimeout(lazyLoadThrottleTimeout);
     }
-
-    lazyLoadThrottleTimeout = setTimeout(function () {
-      const scrollTop = $(window).scrollTop();
-      const windowHeight = $(window).height();
-
-      $('.lazy').each(function () {
-        const $img = $(this);
-
-        if ($img.attr('src')) return; // Already loaded
-
-        if ($img.offset().top < (scrollTop + windowHeight + 150)) {
-          const realSrc = $img.attr('data-src');
-          if (realSrc) {
-            $img.attr('src', realSrc).on('load', function () {
-              $img.addClass('loaded'); // Trigger fade-in
-            });
-          }
-        }
-      });
-    }, 200);
+    lazyLoadThrottleTimeout = setTimeout(lazyLoad, 200);
   }
 
-  $(window).on('scroll resize', lazyLoad);
-  lazyLoad(); // Initial call
+  // Hook to scroll, resize, and initial call
+  $(window).on('scroll resize', throttledLazyLoad);
+  lazyLoad(); // First trigger
 });
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  let movieData = [];
+
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+  const searchBtn = document.getElementById('searchBtn');
+
+  async function loadMovieData() {
+    if (movieData.length === 0) {
+      try {
+        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/search.json');
+        const data = await res.json();
+
+        const moviesObj = data.movies || {};
+        const tvShowsObj = data.tvshows || {};
+
+        const movies = Object.keys(moviesObj).map(key => moviesObj[key]);
+        const tvshows = Object.keys(tvShowsObj).map(key => tvShowsObj[key]);
+
+        movieData = [...movies, ...tvshows];
+      } catch (err) {
+        console.error('Error fetching movie/tvshow data:', err);
+      }
+    }
+  }
+
+  function searchMovies(query) {
+    const q = query.toLowerCase().trim();
+    const filtered = movieData.filter(item => item.title.toLowerCase().includes(q));
+    renderSearchResults(filtered);
+  }
+
+  function renderSearchResults(filtered) {
+    searchResults.innerHTML = '';
+
+    if (!filtered.length) {
+      searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+      return;
+    }
+
+    filtered.forEach(item => {
+      searchResults.innerHTML += `
+        <div class="col-md-4 mb-3">
+          <div class="card bg-secondary text-white h-100">
+            <img src="${item.image_poster}" class="card-img-top" alt="${item.title}">
+            <div class="card-body">
+              <h6 class="card-title">${item.title}</h6>
+              <p class="card-text"><small>${item.year} | ${item.category}</small></p>
+              <a href="${item.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  function setupAutocomplete() {
+    const titles = movieData.map(item => item.title);
+
+    $('#searchInput').autocomplete({
+      source: (request, response) => {
+        const results = titles.filter(title =>
+          title.toLowerCase().startsWith(request.term.toLowerCase())
+        );
+        response(results.slice(0, 7));
+      },
+      select: function (event, ui) {
+        $('#searchInput').val(ui.item.value);
+        searchMovies(ui.item.value);
+        return false;
+      }
+    });
+  }
+
+  $('#searchModal').on('show.bs.modal', async () => {
+    await loadMovieData();
+    setupAutocomplete();
+  });
+
+  searchBtn.addEventListener('click', () => {
+    searchMovies(searchInput.value);
+  });
+
+  searchInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      searchMovies(searchInput.value);
+    }
+  });
+});
+
+
