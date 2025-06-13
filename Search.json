@@ -14,8 +14,14 @@
         "category": "Comedy",
         "url": "https://flickrift.netlify.app/comedy/mom-mom",
         "image_poster": "https://flickrift.netlify.app/Assets/Img/Mom%20+%20Mom%20Info-card.jpg"
+      },
+      "2": {
+        "title": "My First Summer",
+        "year": 2020,
+        "category": "Indie",
+        "url": "https://flickrift.netlify.app/indie/my-first-summer",
+        "image_poster": "https://flickrift.netlify.app/Assets/Img2/My-First-Summer-Info-Card.jpg"
       }
-      // Add more movies as "2", "3", etc.
     },
     "tvshows": {
       "0": {
@@ -32,7 +38,6 @@
         "url": "https://flickrift.netlify.app/shows/sex-education",
         "image_poster": "https://flickrift.netlify.app/Assets/Img/Sex-Education.jpg"
       }
-      // Add more TV shows
     }
   }
 }
