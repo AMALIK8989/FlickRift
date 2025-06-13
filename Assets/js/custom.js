@@ -410,20 +410,21 @@ $(document).ready(function () {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  let movieData = [];
+ let movieData = [];
 
-  const searchInput = document.getElementById('searchInput');
-  const searchResults = document.getElementById('searchResults');
-  const searchBtn = document.getElementById('searchBtn');
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+const searchBtn = document.getElementById('searchBtn');
+const yearFilter = document.getElementById('yearFilter');
+const categoryFilter = document.getElementById('categoryFilter');
 
-  async function loadMovieData() {
-    if (movieData.length === 0) {
-      try {
-        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/search.json');
-        const data = await res.json();
-
-        console.log("📦 Raw fetched data:", data);
-
+function loadMovieData() {
+  if (movieData.length === 0) {
+    $.ajax({
+      url: 'https://flickrift-88d83-default-rtdb.firebaseio.com/search.json',
+      method: 'GET',
+      dataType: 'json',
+      success: function (data) {
         const cleanArray = (arr) => {
           if (!Array.isArray(arr)) return [];
           return arr
@@ -439,97 +440,105 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const movies = cleanArray(data.movies);
         const tvshows = cleanArray(data.tvshows);
+
         movieData = [...movies, ...tvshows];
 
-        alert(`✅ Loaded ${movies.length} movies and ${tvshows.length} TV shows.`);
-        console.log(`✅ Total loaded items: ${movieData.length}`);
-        console.log("🎬 All items:", movieData);
-
-      } catch (err) {
-        alert('🔥 Error fetching data: ' + err.message);
-        console.error('🔥 Fetch error:', err);
+        setupAutocomplete();
+        populateFilters();
+      },
+      error: function (xhr, status, error) {
+        alert('Error loading data: ' + error);
+        console.error(error);
       }
-    }
+    });
+  }
+}
+
+function populateFilters() {
+  const years = [...new Set(movieData.map(item => item.year).filter(Boolean))].sort((a, b) => b - a);
+  const categories = [...new Set(movieData.map(item => item.category).filter(Boolean))].sort();
+
+  years.forEach(year => {
+    yearFilter.innerHTML += `<option value="${year}">${year}</option>`;
+  });
+
+  categories.forEach(cat => {
+    categoryFilter.innerHTML += `<option value="${cat}">${cat}</option>`;
+  });
+}
+
+function searchMovies(query = '') {
+  const q = query.toLowerCase().trim();
+  const selectedYear = yearFilter.value;
+  const selectedCategory = categoryFilter.value;
+
+  const filtered = movieData.filter(movie => {
+    const matchTitle = movie.title.toLowerCase().includes(q);
+    const matchYear = selectedYear ? movie.year == selectedYear : true;
+    const matchCategory = selectedCategory ? movie.category === selectedCategory : true;
+    return matchTitle && matchYear && matchCategory;
+  });
+
+  console.log("Filtered Results:", filtered);
+  renderSearchResults(filtered);
+}
+
+function renderSearchResults(filtered) {
+  searchResults.innerHTML = '';
+  if (!filtered.length) {
+    searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+    return;
   }
 
-  function searchMovies(q) {
-    const query = q.toLowerCase().trim();
-    const filtered = movieData.filter(item =>
-      item.title.toLowerCase().includes(query)
-    );
-
-    console.log(`🔍 Searching for: "${query}"`);
-    console.log("🔎 Found items:", filtered);
-
-    renderSearchResults(filtered);
-  }
-
-  function renderSearchResults(filtered) {
-    searchResults.innerHTML = '';
-
-    if (filtered.length === 0) {
-      searchResults.innerHTML = '<p class="text-center">No results found.</p>';
-      alert('⚠️ No results found.');
-      console.warn('⚠️ No results found for current search.');
-      return;
-    }
-
-    filtered.forEach(item => {
-      searchResults.innerHTML += `
-        <div class="col-md-4 mb-3">
-          <div class="card bg-secondary text-white h-100">
-            <img src="${item.image_poster}" class="card-img-top" alt="${item.title}">
-            <div class="card-body">
-              <h6 class="card-title">${item.title}</h6>
-              <p class="card-text"><small>${item.year} | ${item.category}</small></p>
-              <a href="${item.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
-            </div>
+  filtered.forEach(movie => {
+    searchResults.innerHTML += `
+      <div class="col-md-4 mb-3">
+        <div class="card bg-secondary text-white h-100">
+          <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
+          <div class="card-body">
+            <h6 class="card-title">${movie.title}</h6>
+            <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
+            <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
           </div>
         </div>
-      `;
-    });
-
-    alert(`✅ Found ${filtered.length} result(s).`);
-    console.log(`📺 Rendered ${filtered.length} search result(s).`);
-  }
-
-  function setupAutocomplete() {
-    const titles = movieData.map(item => item.title);
-    console.log("🧠 Autocomplete Titles:", titles);
-
-    $('#searchInput').autocomplete({
-      source(request, response) {
-        const q = request.term.toLowerCase();
-        const matches = titles.filter(t => t.toLowerCase().startsWith(q)).slice(0, 7);
-        console.log(`💡 Autocomplete suggestions for "${q}":`, matches);
-        response(matches);
-      },
-      select(event, ui) {
-        $('#searchInput').val(ui.item.value);
-        searchMovies(ui.item.value);
-        return false;
-      }
-    });
-  }
-
-  $('#searchModal').on('show.bs.modal', async () => {
-    console.log("📥 Modal opened: Loading data and setting up autocomplete...");
-    await loadMovieData();
-    setupAutocomplete();
+      </div>
+    `;
   });
+}
 
-  searchBtn.addEventListener('click', () => {
-    console.log("👆 Search button clicked");
-    searchMovies(searchInput.value);
-  });
+function setupAutocomplete() {
+  const titles = movieData.map(movie => movie.title);
 
-  searchInput.addEventListener('keydown', e => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      console.log("🔑 Enter key pressed");
-      searchMovies(searchInput.value);
+  $('#searchInput').autocomplete({
+    source: (request, response) => {
+      const results = titles.filter(title =>
+        title.toLowerCase().startsWith(request.term.toLowerCase())
+      );
+      response(results.slice(0, 7));
+    },
+    select: function (event, ui) {
+      $('#searchInput').val(ui.item.value);
+      searchMovies(ui.item.value);
+      return false;
     }
   });
+}
+
+$('#searchModal').on('show.bs.modal', () => {
+  loadMovieData();
 });
 
+searchBtn.addEventListener('click', () => {
+  searchMovies(searchInput.value);
+});
 
+searchInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    searchMovies(searchInput.value);
+  }
+});
+
+// 🔥 Filter trigger events
+yearFilter.addEventListener('change', () => searchMovies(searchInput.value));
+categoryFilter.addEventListener('change', () => searchMovies(searchInput.value));
