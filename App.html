@@ -1082,31 +1082,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchResults = document.getElementById('searchResults');
   const searchBtn = document.getElementById('searchBtn');
 
-  // Load movie data from Firebase
   async function loadMovieData() {
     if (movieData.length === 0) {
       try {
-        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/movies.json');
+        const res = await fetch('https://flickrift-88d83-default-rtdb.firebaseio.com/search.json');
         const data = await res.json();
-        if (Array.isArray(data)) {
-          movieData = data;
+
+        if (data && typeof data === 'object') {
+          const movies = Object.values(data.movies || {});
+          const tvshows = Object.values(data.tvshows || {});
+          movieData = [...movies, ...tvshows];
         } else {
-          console.error('Invalid movie data format');
+          console.error('Invalid Firebase data format');
         }
       } catch (err) {
-        console.error('Error fetching movies:', err);
+        console.error('Error fetching movie/tvshow data:', err);
       }
     }
   }
 
-  // Search Movies
   function searchMovies(query) {
     const q = query.toLowerCase().trim();
-    const filtered = movieData.filter(movie => movie.title.toLowerCase().includes(q));
+    const filtered = movieData.filter(item => item.title.toLowerCase().includes(q));
     renderSearchResults(filtered);
   }
 
-  // Render search results
   function renderSearchResults(filtered) {
     searchResults.innerHTML = '';
 
@@ -1115,15 +1115,15 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    filtered.forEach(movie => {
+    filtered.forEach(item => {
       searchResults.innerHTML += `
         <div class="col-md-4 mb-3">
           <div class="card bg-secondary text-white h-100">
-            <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
+            <img src="${item.image_poster}" class="card-img-top" alt="${item.title}">
             <div class="card-body">
-              <h6 class="card-title">${movie.title}</h6>
-              <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
-              <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
+              <h6 class="card-title">${item.title}</h6>
+              <p class="card-text"><small>${item.year} | ${item.category}</small></p>
+              <a href="${item.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
             </div>
           </div>
         </div>
@@ -1131,16 +1131,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Setup jQueryUI Autocomplete
   function setupAutocomplete() {
-    const titles = movieData.map(movie => movie.title);
+    const titles = movieData.map(item => item.title);
 
     $('#searchInput').autocomplete({
       source: (request, response) => {
         const results = titles.filter(title =>
           title.toLowerCase().startsWith(request.term.toLowerCase())
         );
-        response(results.slice(0, 7)); // Limit to 7
+        response(results.slice(0, 7));
       },
       select: function (event, ui) {
         $('#searchInput').val(ui.item.value);
@@ -1150,13 +1149,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Initialize modal: fetch & autocomplete setup
   $('#searchModal').on('show.bs.modal', async () => {
     await loadMovieData();
     setupAutocomplete();
   });
 
-  // Search handlers
   searchBtn.addEventListener('click', () => {
     searchMovies(searchInput.value);
   });
@@ -1169,6 +1166,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
+
 
   
 </html>
