@@ -3,17 +3,17 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-$(document).ready(function() {
-  $(".owl-carousel").owlCarousel({
-    items: 1,              // One item per slide
-    loop: true,            // Infinite loop
-    autoplay: true,        // Auto-play
-    autoplayTimeout: 10000, // Time between transitions
-    dots: true,            // Show navigation dots
-    nav: false             // Hide navigation arrows
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 4000,
+      nav: true,
+      dots: true,
+      animateOut: 'fadeOut'
+    });
   });
-});
-
 // document.addEventListener("DOMContentLoaded", () => {
 // 	const isDesktop = () => window.innerWidth > 767.9;
 
