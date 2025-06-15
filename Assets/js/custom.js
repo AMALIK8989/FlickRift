@@ -112,7 +112,7 @@ $(function () {
       .lazy {
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
-        background: #f0f0f0 url('/images/loading.gif') no-repeat center center;
+        background: #f0f0f0 url('./Assets/loading.gif') no-repeat center center;
         background-size: 40px 40px;
         display: block;
         min-height: 200px;
