@@ -1,94 +1,280 @@
 $(function () {
-  if (typeof WOW === 'function') new WOW().init();
+  // ✅ WOW Init
+  if (typeof WOW === 'function') {
+    new WOW().init();
+  }
 
-  if ($(".owl-carousel").length) $(".owl-carousel").owlCarousel({ items: 1, loop: true, autoplay: true, autoplayTimeout: 4000, nav: true, dots: true, animateOut: 'fadeOut' });
+  // ✅ Owl Carousel Init
+  if ($(".owl-carousel").length) {
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 4000,
+      nav: true,
+      dots: true,
+      animateOut: 'fadeOut'
+    });
+  }
+
+  // ✅ Celebration Images & Wish
+  function getHanukkahStartDate(year) {
+    return 25 + Math.floor((234 - 23 * year / 4 + 19 * Math.floor(year / 4)) % 19) - Math.floor(year / 4);
+  }
 
   const celebrations = [
-    { name: "New Year", date: new Date(new Date().getFullYear(), 0, 1), image: "new_year.jpg", wish: "Happy New Year!" },
-    { name: "Pride Day", date: new Date(new Date().getFullYear(), 6, 28), image: "../Assets/Img/Footer Pride.png", wish: "Happy Pride Day!" },
-    { name: "Thanksgiving Day", date: new Date(new Date().getFullYear(), 10, 23), image: "thanksgiving.jpg", wish: "Happy Thanksgiving!" },
-    { name: "Independence Day (USA)", date: new Date(new Date().getFullYear(), 6, 4), image: "4th_july.jpg", wish: "Happy 4th of July!" },
-    { name: "Independence Day (India/Pakistan)", date: new Date(new Date().getFullYear(), 7, 14), image: "15th_august.jpg", wish: "Happy Independence Day!" },
-    { name: "Christmas", date: new Date(new Date().getFullYear(), 11, 25), image: "christmas.jpg", wish: "Merry Christmas!" },
-    { name: "Hanukkah", date: new Date(new Date().getFullYear(), 11, 25 + Math.floor((234 - 23 * new Date().getFullYear() / 4 + 19 * Math.floor(new Date().getFullYear() / 4)) % 19) - Math.floor(new Date().getFullYear() / 4)), image: "hanukkah.jpg", wish: "Happy Hanukkah!" }
+    {
+      name: "New Year",
+      date: new Date(new Date().getFullYear(), 0, 1),
+      image: "new_year.jpg",
+      wish: "Happy New Year!"
+    },
+    {
+      name: "Pride Day",
+      date: new Date(new Date().getFullYear(), 6, 28),
+      image: "../Assets/Img/Footer Pride.png",
+      wish: "Happy Pride Day!"
+    },
+    {
+      name: "Thanksgiving Day",
+      date: new Date(new Date().getFullYear(), 10, new Date('November ' + (new Date().getFullYear()) + ' ' + '4').getDate()),
+      image: "thanksgiving.jpg",
+      wish: "Happy Thanksgiving!"
+    },
+    {
+      name: "Independence Day (USA)",
+      date: new Date(new Date().getFullYear(), 6, 4),
+      image: "4th_july.jpg",
+      wish: "Happy 4th of July!"
+    },
+    {
+      name: "Independence Day (India/Pakistan)",
+      date: new Date(new Date().getFullYear(), 7, 14),
+      image: "15th_august.jpg",
+      wish: "Happy Independence Day!"
+    },
+    {
+      name: "Christmas",
+      date: new Date(new Date().getFullYear(), 11, 25),
+      image: "christmas.jpg",
+      wish: "Merry Christmas!"
+    },
+    {
+      name: "Hanukkah",
+      date: new Date(new Date().getFullYear(), 11, getHanukkahStartDate(new Date().getFullYear())),
+      image: "hanukkah.jpg",
+      wish: "Happy Hanukkah!"
+    }
   ];
-  const next = celebrations.filter(c => c.date >= new Date()).sort((a, b) => a.date - b.date)[0];
-  if (next) $(".celebration-images").html(`<img src="${next.image}" alt="${next.name}"><p>${next.wish}</p>`);
 
-  $(".nav-item.dropdown").each(function () {
-    const $d = $(this), $t = $d.find(".dropdown-toggle"), $m = $d.find(".dropdown-menu");
-    $d.hover(() => window.innerWidth < 992 && $m.addClass("show"), () => window.innerWidth < 992 && $m.removeClass("show"));
-    $t.click(e => { if (window.innerWidth >= 992) { e.preventDefault(); $(".dropdown-menu.show").removeClass("show"); $m.toggleClass("show"); } });
+  const today = new Date();
+  const upcoming = celebrations.filter(c => c.date >= today).sort((a, b) => a.date - b.date);
+  if (upcoming.length > 0) {
+    const next = upcoming[0];
+    $(".celebration-images").html(`<img src="${next.image}" alt="${next.name}"><p>${next.wish}</p>`);
+  }
+
+  // ✅ Dropdown for Navbar
+  const dropdowns = document.querySelectorAll(".nav-item.dropdown");
+  dropdowns.forEach(dropdown => {
+    const toggle = dropdown.querySelector(".dropdown-toggle");
+    const menu = dropdown.querySelector(".dropdown-menu");
+
+    dropdown.addEventListener("mouseenter", () => {
+      if (window.innerWidth < 992) menu.classList.add("show");
+    });
+    dropdown.addEventListener("mouseleave", () => {
+      if (window.innerWidth < 992) menu.classList.remove("show");
+    });
+
+    toggle.addEventListener("click", (e) => {
+      if (window.innerWidth >= 992) {
+        e.preventDefault();
+        const open = menu.classList.contains("show");
+        document.querySelectorAll(".dropdown-menu.show").forEach(m => m.classList.remove("show"));
+        if (!open) menu.classList.add("show");
+      }
+    });
   });
 
-  $(document).click(e => {
-    if (!$(e.target).closest(".nav-item.dropdown").length) $(".dropdown-menu.show").removeClass("show");
-    if (!$(e.target).closest(".navbar-toggler, .navbar-collapse").length) $("#navbarNav").removeClass("show");
+  document.addEventListener("click", e => {
+    if (!e.target.closest(".nav-item.dropdown")) {
+      document.querySelectorAll(".dropdown-menu.show").forEach(m => m.classList.remove("show"));
+    }
+    if (!e.target.closest(".navbar-toggler, .navbar-collapse")) {
+      document.getElementById("navbarNav")?.classList.remove("show");
+    }
   });
 
-  if (!$('#lazy-style-block').length) $('head').append(`<style id="lazy-style-block">.lazy{opacity:0;transition:opacity .5s ease-in-out;background:#f0f0f0 url('./Assets/loading.gif') no-repeat center;background-size:40px 40px;min-height:200px;display:block}.lazy.loaded{opacity:1;background:none!important}</style>`);
+  // ✅ Lazy Image Loader
+  const lazyStyles = `
+    <style id="lazy-style-block">
+      .lazy {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        background: #f0f0f0 url('/images/loading.gif') no-repeat center center;
+        background-size: 40px 40px;
+        display: block;
+        min-height: 200px;
+      }
+      .lazy.loaded {
+        opacity: 1;
+        background: none !important;
+      }
+    </style>
+  `;
+  if (!$('#lazy-style-block').length) {
+    $('head').append(lazyStyles);
+  }
 
   $('.card-img-top, .card-img-top-pf, .card-img-top-af').each(function () {
-    const $i = $(this), s = $i.attr('src');
-    if (s && !$i.attr('data-src')) $i.attr({ 'data-src': s }).removeAttr('src').addClass('lazy');
+    const $img = $(this);
+    const src = $img.attr('src');
+    if (src && !$img.attr('data-src')) {
+      $img.attr('data-src', src);
+      $img.removeAttr('src');
+      $img.addClass('lazy');
+    }
   });
 
   function lazyLoad() {
-    const st = $(window).scrollTop(), wh = $(window).height();
+    const scrollTop = $(window).scrollTop();
+    const windowHeight = $(window).height();
     $('.lazy').each(function () {
-      const $i = $(this);
-      if (!$i.attr('src') && $i.offset().top < (st + wh + 200)) {
-        $i.attr('src', $i.attr('data-src')).on('load', () => $i.addClass('loaded'));
+      const $img = $(this);
+      if ($img.attr('src')) return;
+      const imgTop = $img.offset().top;
+      if (imgTop < (scrollTop + windowHeight + 200)) {
+        const realSrc = $img.attr('data-src');
+        if (realSrc) {
+          $img.attr('src', realSrc).on('load', function () {
+            $img.addClass('loaded');
+          });
+        }
       }
     });
   }
-  $(window).on('scroll resize', () => setTimeout(lazyLoad, 200));
+
+  let lazyTimeout;
+  function throttledLazyLoad() {
+    if (lazyTimeout) clearTimeout(lazyTimeout);
+    lazyTimeout = setTimeout(lazyLoad, 200);
+  }
+
+  $(window).on('scroll resize', throttledLazyLoad);
   lazyLoad();
 
-  let movieData = [], $input = $('#searchInput'), $results = $('#searchResults'), $btn = $('#searchBtn'), $year = $('#yearFilter'), $cat = $('#categoryFilter');
+  // ✅ Search Modal Movie Data
+  let movieData = [];
+
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+  const searchBtn = document.getElementById('searchBtn');
+  const yearFilter = document.getElementById('yearFilter');
+  const categoryFilter = document.getElementById('categoryFilter');
 
   function loadMovieData() {
-    if (movieData.length) return;
-    $.getJSON('https://flickrift-88d83-default-rtdb.firebaseio.com/search.json', data => {
-      const clean = arr => Array.isArray(arr) ? arr.filter(x => x?.title).map(x => ({ title: String(x.title), year: x.year || x.Year || 'Unknown', category: x.category || x.Category || 'Misc', url: x.url || x.Url || '#', image_poster: x.image_poster })) : [];
-      movieData = [...clean(data.movies), ...clean(data.tvshows)];
-      setupAutocomplete();
-      populateFilters();
-    });
+    if (movieData.length === 0) {
+      $.ajax({
+        url: 'https://flickrift-88d83-default-rtdb.firebaseio.com/search.json',
+        method: 'GET',
+        dataType: 'json',
+        success: function (data) {
+          const cleanArray = (arr) => {
+            if (!Array.isArray(arr)) return [];
+            return arr.filter(item => item && item.title).map(item => ({
+              title: String(item.title),
+              year: item.year || item.Year || 'Unknown',
+              category: item.category || item.Category || 'Misc',
+              url: item.url || item.Url || '#',
+              image_poster: item.image_poster,
+            }));
+          };
+          const movies = cleanArray(data.movies);
+          const tvshows = cleanArray(data.tvshows);
+          movieData = [...movies, ...tvshows];
+          setupAutocomplete();
+          populateFilters();
+        },
+        error: function (xhr, status, error) {
+          alert('Error loading data: ' + error);
+          console.error(error);
+        }
+      });
+    }
   }
 
   function populateFilters() {
-    const ys = [...new Set(movieData.map(x => x.year?.toString().trim()).filter(Boolean))].sort((a, b) => b - a);
-    const cs = [...new Set(movieData.map(x => x.category?.toString().trim()).filter(Boolean))].sort();
-    $year.html('<option value="">All Years</option>' + ys.map(y => `<option value="${y}">${y}</option>`).join(''));
-    $cat.html('<option value="">All Categories</option>' + cs.map(c => `<option value="${c}">${c}</option>`).join(''));
+    const years = [...new Set(movieData.map(item => item.year).filter(Boolean))].sort((a, b) => b - a);
+    const categories = [...new Set(movieData.map(item => item.category).filter(Boolean))].sort();
+    years.forEach(year => yearFilter.innerHTML += `<option value="${year}">${year}</option>`);
+    categories.forEach(cat => categoryFilter.innerHTML += `<option value="${cat}">${cat}</option>`);
+  }
+
+  function searchMovies(query = '') {
+    const q = query.toLowerCase().trim();
+    const selectedYear = yearFilter.value;
+    const selectedCategory = categoryFilter.value;
+
+    const filtered = movieData.filter(movie => {
+      const matchTitle = movie.title.toLowerCase().includes(q);
+      const matchYear = selectedYear ? movie.year == selectedYear : true;
+      const matchCategory = selectedCategory ? movie.category === selectedCategory : true;
+      return matchTitle && matchYear && matchCategory;
+    });
+
+    renderSearchResults(filtered);
   }
 
   function renderSearchResults(filtered) {
-    if (!filtered.length) return $results.html('<p class="text-center text-muted">No results found.</p>');
-    $results.html(filtered.map(m => `
-      <a href="${m.url}" target="_blank" class="search-item d-flex align-items-center gap-3 p-2 mb-2 rounded" style="text-decoration: none; background-color: #1e1e1e; color: #fff;">
-        <img src="${m.image_poster}" alt="${m.title}" class="img-thumbnail" style="width:60px;height:90px;object-fit:cover;">
-        <div><div class="fw-bold">${m.title}</div><div class="text-muted small">${m.year} | ${m.category}</div></div>
-      </a>`).join(''));
-  }
+    searchResults.innerHTML = '';
+    if (!filtered.length) {
+      searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+      return;
+    }
 
-  function searchMovies(q = '') {
-    const s = q.toLowerCase().trim(), y = $year.val(), c = $cat.val();
-    const f = movieData.filter(m => m.title.toLowerCase().includes(s) && (!y || m.year == y) && (!c || m.category === c));
-    renderSearchResults(f);
-  }
-
-  function setupAutocomplete() {
-    $input.autocomplete({
-      minLength: 1,
-      source: (req, res) => res(movieData.map(m => m.title).filter(t => t.toLowerCase().startsWith(req.term.toLowerCase())).slice(0, 10)),
-      select: (e, ui) => { $input.val(ui.item.value); searchMovies(ui.item.value); return false; }
+    filtered.forEach(movie => {
+      searchResults.innerHTML += `
+        <div class="col-md-4 mb-3">
+          <div class="card bg-secondary text-white h-100">
+            <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
+            <div class="card-body">
+              <h6 class="card-title">${movie.title}</h6>
+              <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
+              <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
+            </div>
+          </div>
+        </div>
+      `;
     });
   }
 
-  $('#searchModal').on('show.bs.modal', loadMovieData);
-  $btn.click(() => searchMovies($input.val()));
-  $input.keydown(e => { if (e.key === 'Enter') { e.preventDefault(); searchMovies($input.val()); } });
-  $year.add($cat).change(() => searchMovies($input.val()));
+  function setupAutocomplete() {
+    const titles = movieData.map(movie => movie.title);
+    $('#searchInput').autocomplete({
+      source: (request, response) => {
+        const results = titles.filter(title =>
+          title.toLowerCase().startsWith(request.term.toLowerCase())
+        );
+        response(results.slice(0, 7));
+      },
+      select: function (event, ui) {
+        $('#searchInput').val(ui.item.value);
+        searchMovies(ui.item.value);
+        return false;
+      }
+    });
+  }
+
+  $('#searchModal').on('show.bs.modal', () => loadMovieData());
+  searchBtn.addEventListener('click', () => searchMovies(searchInput.value));
+  searchInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      searchMovies(searchInput.value);
+    }
+  });
+
+  yearFilter.addEventListener('change', () => searchMovies(searchInput.value));
+  categoryFilter.addEventListener('change', () => searchMovies(searchInput.value));
 });
