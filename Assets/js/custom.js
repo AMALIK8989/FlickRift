@@ -204,12 +204,26 @@ $(function () {
     }
   }
 
-  function populateFilters() {
-    const years = [...new Set(movieData.map(item => item.year).filter(Boolean))].sort((a, b) => b - a);
-    const categories = [...new Set(movieData.map(item => item.category).filter(Boolean))].sort();
-    years.forEach(year => yearFilter.innerHTML += `<option value="${year}">${year}</option>`);
-    categories.forEach(cat => categoryFilter.innerHTML += `<option value="${cat}">${cat}</option>`);
-  }
+function populateFilters() {
+  const seenYears = new Set();
+  const seenCategories = new Set();
+
+  const years = movieData
+    .map(item => item.year?.toString().trim())
+    .filter(year => year && !seenYears.has(year) && seenYears.add(year))
+    .sort((a, b) => b - a);
+
+  const categories = movieData
+    .map(item => item.category?.toString().trim())
+    .filter(cat => cat && !seenCategories.has(cat) && seenCategories.add(cat))
+    .sort();
+
+  yearFilter.innerHTML = '<option value="">All Years</option>';
+  categoryFilter.innerHTML = '<option value="">All Categories</option>';
+
+  years.forEach(year => yearFilter.innerHTML += `<option value="${year}">${year}</option>`);
+  categories.forEach(cat => categoryFilter.innerHTML += `<option value="${cat}">${cat}</option>`);
+}
 
   function searchMovies(query = '') {
     const q = query.toLowerCase().trim();
