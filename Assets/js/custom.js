@@ -226,29 +226,35 @@ $(function () {
     renderSearchResults(filtered);
   }
 
-  function renderSearchResults(filtered) {
-    searchResults.innerHTML = '';
-    if (!filtered.length) {
-      searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
-      return;
-    }
-
-    filtered.forEach(movie => {
-      searchResults.innerHTML += `
-        <div class="col-md-4 mb-3">
-          <div class="card bg-secondary text-white h-100">
-            <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
-            <div class="card-body">
-              <h6 class="card-title">${movie.title}</h6>
-              <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
-              <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
-            </div>
-          </div>
-        </div>
-      `;
-    });
+ function renderSearchResults(filtered) {
+  searchResults.innerHTML = '';
+  if (!filtered.length) {
+    searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+    return;
   }
 
+  filtered.forEach(movie => {
+    const movieEl = document.createElement('div');
+    movieEl.className = 'search-item d-flex align-items-center gap-3 p-2 rounded hover-shadow mb-2';
+    movieEl.style.cursor = 'pointer';
+    movieEl.style.backgroundColor = '#1e1e1e';
+    movieEl.style.color = '#fff';
+
+    movieEl.innerHTML = `
+      <img src="${movie.image_poster}" alt="${movie.title}" class="img-thumbnail" style="width: 60px; height: 90px; object-fit: cover;">
+      <div class="span">
+        <div class="fw-bold">${movie.title}</div>
+        <div class="text-muted small">${movie.year} | ${movie.category}</div>
+      </div>
+    `;
+
+    movieEl.addEventListener('click', () => {
+      window.open(movie.url, '_blank');
+    });
+
+    searchResults.appendChild(movieEl);
+  });
+}
   function setupAutocomplete() {
     const titles = movieData.map(movie => movie.title);
     $('#searchInput').autocomplete({
