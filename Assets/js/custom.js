@@ -226,28 +226,28 @@ $(function () {
     renderSearchResults(filtered);
   }
 
-  function renderSearchResults(filtered) {
-    searchResults.innerHTML = '';
-    if (!filtered.length) {
-      searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
-      return;
-    }
+function renderSearchResults(filtered) {
+  searchResults.innerHTML = '';
 
-    filtered.forEach(movie => {
-      searchResults.innerHTML += `
-        <div class="col-md-4 mb-3">
-          <div class="card bg-secondary text-white h-100">
-            <img src="${movie.image_poster}" class="card-img-top" alt="${movie.title}">
-            <div class="card-body">
-              <h6 class="card-title">${movie.title}</h6>
-              <p class="card-text"><small>${movie.year} | ${movie.category}</small></p>
-              <a href="${movie.url}" class="btn btn-outline-light btn-sm" target="_blank">Watch</a>
-            </div>
-          </div>
-        </div>
-      `;
-    });
+  if (!filtered.length) {
+    searchResults.innerHTML = '<p class="text-center text-muted">No results found.</p>';
+    return;
   }
+
+  filtered.forEach(movie => {
+    const item = `
+      <a href="${movie.url}" target="_blank" class="search-item d-flex align-items-center gap-3 p-2 mb-2 rounded" style="text-decoration: none; background-color: #1e1e1e; color: #fff;">
+        <img src="${movie.image_poster}" alt="${movie.title}" class="img-thumbnail" style="width: 60px; height: 90px; object-fit: cover;">
+        <div>
+          <div class="fw-bold">${movie.title}</div>
+          <div class="text-muted small">${movie.year} | ${movie.category}</div>
+        </div>
+      </a>
+    `;
+    searchResults.innerHTML += item;
+  });
+}
+
 
   function setupAutocomplete() {
     const titles = movieData.map(movie => movie.title);
