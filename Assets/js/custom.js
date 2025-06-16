@@ -249,22 +249,25 @@ function renderSearchResults(filtered) {
 }
 
 
-  function setupAutocomplete() {
-    const titles = movieData.map(movie => movie.title);
-    $('#searchInput').autocomplete({
-      source: (request, response) => {
-        const results = titles.filter(title =>
-          title.toLowerCase().startsWith(request.term.toLowerCase())
-        );
-        response(results.slice(0, 7));
-      },
-      select: function (event, ui) {
-        $('#searchInput').val(ui.item.value);
-        searchMovies(ui.item.value);
-        return false;
-      }
-    });
-  }
+function setupAutocomplete() {
+  const titles = movieData.map(movie => movie.title);
+
+  $('#searchInput').autocomplete({
+    minLength: 1,
+    source: function (request, response) {
+      const input = request.term.toLowerCase();
+      const filteredTitles = titles.filter(title =>
+        title.toLowerCase().startsWith(input)
+      );
+      response(filteredTitles.slice(0, 10)); // limit to 10 suggestions
+    },
+    select: function (event, ui) {
+      $('#searchInput').val(ui.item.value);
+      searchMovies(ui.item.value); // this will show only matched results
+      return false;
+    }
+  });
+}
 
   $('#searchModal').on('show.bs.modal', () => loadMovieData());
   searchBtn.addEventListener('click', () => searchMovies(searchInput.value));
