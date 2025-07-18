@@ -678,101 +678,94 @@ hr{
 } */
 
 .casts {
-  text-align: center; /* Center content within the 'casts' container */
+  text-align: center;
   padding: 50px 0 !important;
 }
 
 .casts .row {
   display: flex !important;
+  flex-wrap: wrap;
   justify-content: center !important;
 }
 
 .casted-card {
   display: flex;
-  width: auto;
   flex-direction: column;
-  align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
-  border: 1px solid #ccc !important;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid #ff1c1c !important;
   border-radius: 10px;
-  padding: 15px;
-  background-color: #333;
-  width: 100% !important;
-  flex: 1 1 30% !important;
-  height: 100% !important;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  background-color: #1a1a1a;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  min-height: 550px; /* Fixed minimum card height */
 }
 
-.card-img-top-pf {
-  height: 320px !important;
+/* Image: consistent height + aspect ratio */
+.card-img-top {
   width: 100% !important;
+  height: 350px !important;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
+/* Card content stays at the bottom */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+/* Text styling */
 .card-title,
 .card-text {
   color: white;
+  margin-bottom: 0.5rem;
 }
+
+/* Responsive fixes */
 @media (max-width: 575.98px) {
-  .casts {
-    padding: 30px 0;
-  }
-
   .casted-card {
-    flex: 1 1 100% !important;
-    margin-bottom: 20px;
+    min-height: 450px;
   }
 
-  .card-img-top-pf {
-    height: 250px;
+  .card-img-top {
+    height: 250px !important;
   }
 }
 
-/* Small devices (tablets, 576px and up) */
 @media (min-width: 576px) {
-  .casts {
-    padding: 40px 0;
-  }
-
   .casted-card {
-    flex: 1 1 45% !important;
-    margin-bottom: 30px;
+    min-height: 500px;
   }
 
-  .card-img-top-pf {
-    height: 300px;
+  .card-img-top {
+    height: 300px !important;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
-  .casts {
-    padding: 50px 0;
-  }
-
   .casted-card {
-    flex: 1 1 30% !important;
-    margin-bottom: 40px;
+    min-height: 550px;
   }
 
-  .card-img-top-pf {
-    height: 350px;
+  .card-img-top {
+    height: 350px !important;
   }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .casts {
-    padding: 60px 0;
-  }
-
   .casted-card {
-    flex: 1 1 25% !important;
-    margin-bottom: 50px;
+    min-height: 600px;
   }
 
-  .card-img-top-pf {
-    height: 400px;
+  .card-img-top {
+    height: 400px !important;
   }
 }
 
@@ -1232,4 +1225,48 @@ img.img-thumbnail:hover {
   box-shadow: 0 0 12px rgba(255, 165, 0, 0.6), 0 0 20px rgba(255, 255, 255, 0.3) !important;
   z-index: 2 !important;
 }
+/* Main section background (remove Bootstrap light bg) */
+#Episodes {
+  background-color: #000 !important;
+  color: #fff !important;
+}
 
+/* Heading styling */
+#Episodes h1 {
+  color: #ff1c1c !important;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* Container spacing if needed */
+#episode-btn-wrapper-1 {
+  padding: 1rem;
+}
+
+/* Episode Buttons */
+.custom-ep-btn {
+  background-color: #ff1c1c !important;
+  color: #fff !important;
+  border: 2px solid #ff1c1c !important;
+  border-radius: 0 !important;
+  padding: 0.6rem 1.2rem !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
+}
+
+/* Hover + Focus states */
+.custom-ep-btn:hover,
+.custom-ep-btn:focus {
+  background-color: transparent !important;
+  color: #ff1c1c !important;
+  border-color: #ff1c1c !important;
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.6) !important;
+  transform: scale(1.05);
+}
+
+/* Optional: On active (pressed) state */
+.custom-ep-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.4);
+}
