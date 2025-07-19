@@ -1,6 +1,0 @@
-[functions]
-  directory = "netlify/functions"
-
-[[functions]]
-  function = "weekly-rebuild"
-  schedule = "@weekly"
