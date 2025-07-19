@@ -209,7 +209,19 @@
         <iframe src="https://short.icu/v_rnYJXxu" frameborder="0" scrolling="0" allowfullscreen id="show-episode"></iframe>
     </div>
 </section>
-<section id="Episodes" class="my-5 py-4 bg-light">
+<section class="my-5 py-4 text-center">
+  <div class="container">
+    <h2 class="text-primary fw-bold mb-3">Select a Season to Watch</h2>
+    <select id="season-selector" class="form-select w-auto d-inline-block">
+      <option value="" selected disabled>Select Season</option>
+      <option value="1">Season 1</option>
+      <option value="2">Season 2</option>
+      <option value="3">Season 3</option>
+    </select>
+  </div>
+  <script src="./season.js"></script>
+</section>
+<section id="Episodes Episodes-1" class="my-5 py-4 "  data-season="1">
   <div class="container" id="episode-btn-wrapper-1">
     <h1 class="text-center text-primary fw-bold">Season 1:</h1>
     <div id="ep-btns" class="d-flex flex-wrap gap-3 justify-content-start">
@@ -227,7 +239,7 @@
   </div>
 </section>
 
-<section id="Episodes" class="my-5 py-4 bg-light">
+<section id="Episodes Episodes-2 class="my-5 py-4 bg-light"  data-season="2">
   <div class="container" id="episode-btn-wrapper-2">
     <h1 class="text-center text-primary fw-bold">Season 2:</h1>
     <div id="s2-ep-btns" class="d-flex flex-wrap gap-3 justify-content-start">
@@ -245,7 +257,7 @@
   </div>
 </section>
 
-<section id="Episodes" class="my-5 py-4 bg-light">
+<section id="Episodes Episodes-3" class="my-5 py-4"  data-season="3">
   <div class="container" id="episode-btn-wrapper-3">
     <h1 class="text-center text-primary fw-bold">Season 3:</h1>
     <div id="s3-ep-btns" class="d-flex flex-wrap gap-3 justify-content-start">
