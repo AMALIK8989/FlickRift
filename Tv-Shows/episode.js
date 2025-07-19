@@ -1,48 +1,43 @@
 $(document).ready(function () {
   try {
-    // Handle episode button click
-    $('#ep-btns button').on('click', function () {
+    $('#ep-btns button').on('click', function (e) {
       try {
-        const newSrc = $(this).data('src');
+        console.log('Episode button clicked:', e);
 
+        const newSrc = $(this).data('src');
         if (!newSrc) throw new Error("Invalid video source");
 
-        // Store in localStorage
         localStorage.setItem('selectedEpisodeSrc', newSrc);
 
         const $iframe = $('#show-episode');
-
-        // Clear current src
         $iframe.attr('src', '');
 
-        // Lazy load with delay
         setTimeout(() => {
           $iframe.attr('src', newSrc);
           showToast('✅ Episode loaded successfully');
         }, 100);
       } catch (err) {
+        console.error('Error in button click handler:', err);
         showToast(`❌ Error loading episode: ${err.message}`, true);
       }
     });
 
-    // Load saved src from localStorage on page load
     const savedSrc = localStorage.getItem('selectedEpisodeSrc');
     if (savedSrc) {
       $('#show-episode')
         .attr('src', savedSrc)
-        .attr('loading', 'lazy'); // Enable lazy loading
+        .attr('loading', 'lazy');
     }
 
-    // Clear localStorage on exit
     $(window).on('beforeunload', function () {
       localStorage.removeItem('selectedEpisodeSrc');
     });
 
   } catch (err) {
+    console.error('Critical setup error:', err);
     showToast(`❌ Critical error: ${err.message}`, true);
   }
 
-  // Toast function
   function showToast(message, isError = false) {
     const toastId = `toast-${Date.now()}`;
     const toastHtml = `
@@ -61,7 +56,6 @@ $(document).ready(function () {
 
     toastEl.show();
 
-    // Optional: auto-remove toast DOM after hiding
     setTimeout(() => {
       $(`#${toastId}`).remove();
     }, 3500);
