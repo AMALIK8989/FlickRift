@@ -677,66 +677,95 @@ hr{
     font-size: 1.2rem !important;
 } */
 
+/* ==========================
+   Cast Section Container
+   ========================== */
 .casts {
   text-align: center;
-  padding: 50px 0 !important;
+  padding: 50px 0;
 }
 
 .casts .row {
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center !important;
+  margin-left: 0;
+  margin-right: 0;
 }
 
+
+/* ==========================
+   Individual Cast Card
+   ========================== */
 .casted-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  border: 1px solid #ff1c1c !important;
+  border: 1px solid #ff1c1c;
   border-radius: 10px;
-  padding: 0;
   background-color: #1a1a1a;
-  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
   height: 100%;
-  min-height: 550px; /* Fixed minimum card height */
+  min-height: 500px;
 }
 
-/* Image: consistent height + aspect ratio */
-.card-img-top-pf {
-  margin-top: 10px !important;
-  width: 320px !important;
-  height: 550px !important;
-  object-fit: cover;
+.casted-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+}
+
+/* ==========================
+   Image Holder with Aspect Ratio
+   ========================== */
+.casted-card-image-holder {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: #111;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  position: relative;
 }
 
-/* Card content stays at the bottom */
+.card-img-top-pf {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.casted-card-image-holder:hover .card-img-top-pf {
+  transform: scale(1.05);
+}
+
+/* ==========================
+   Card Body
+   ========================== */
 .card-body {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 1;
   padding: 1rem;
+  text-align: center;
 }
 
-/* Text styling */
 .card-title,
 .card-text {
-  color: white;
+  color: #fff;
   margin-bottom: 0.5rem;
+  line-height: 1.4;
 }
 
-/* Responsive fixes */
+/* ==========================
+   Responsive Adjustments
+   ========================== */
 @media (max-width: 575.98px) {
   .casted-card {
-    min-height: 490px;
+    min-height: 450px;
   }
 
-  .card-img-top-pf {
-    height: 290px !important;
+  .casted-card-image-holder {
+    aspect-ratio: 3 / 4;
   }
 }
 
@@ -745,8 +774,8 @@ hr{
     min-height: 500px;
   }
 
-  .card-img-top-pf {
-    height: 300px !important;
+  .casted-card-image-holder {
+    aspect-ratio: 3 / 4;
   }
 }
 
@@ -754,19 +783,11 @@ hr{
   .casted-card {
     min-height: 550px;
   }
-
-  .card-img-top-pf{
-    height: 350px !important;
-  }
 }
 
 @media (min-width: 992px) {
   .casted-card {
     min-height: 600px;
-  }
-
-  .card-img-top {
-    height: 500px !important;
   }
 }
 
