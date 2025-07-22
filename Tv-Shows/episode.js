@@ -8,13 +8,24 @@ $(document).ready(function () {
       return;
     }
 
+    // --- Auto-clear after 45 minutes (2700000 ms) ---
+    const EXPIRY_KEY = 'episodeSrcExpiry';
+    const now = Date.now();
+
+    // If expired, clear it
+    const expiry = localStorage.getItem(EXPIRY_KEY);
+    if (expiry && now > parseInt(expiry)) {
+      localStorage.removeItem('selectedEpisodeSrc');
+      localStorage.removeItem(EXPIRY_KEY);
+    }
+
     // Load saved episode from localStorage
     const savedSrc = localStorage.getItem('selectedEpisodeSrc');
     if (savedSrc) {
       $iframe.attr('src', savedSrc).attr('loading', 'lazy');
     }
 
-    // Event delegation (better if buttons are loaded dynamically)
+    // Event delegation for episode buttons
     $epBtns.on('click', 'button', function () {
       try {
         const newSrc = $(this).data('src');
@@ -27,13 +38,12 @@ $(document).ready(function () {
           return;
         }
 
-        // Store new source in localStorage
+        // Store new source in localStorage and reset expiry
         localStorage.setItem('selectedEpisodeSrc', newSrc);
+        localStorage.setItem(EXPIRY_KEY, Date.now() + 45 * 60 * 1000); // 45 minutes
 
-        // Optional: Add loading spinner here
+        // Show loading effect
         $iframe.addClass('opacity-50');
-
-        // Graceful reload
         $iframe.attr('src', '');
         setTimeout(() => {
           $iframe.attr('src', newSrc);
@@ -47,9 +57,11 @@ $(document).ready(function () {
       }
     });
 
-    // Optional: Persist until manually cleared
-    // If you still want auto-clear:
-    // $(window).on('beforeunload', () => localStorage.removeItem('selectedEpisodeSrc'));
+    // --- Clear on tab close or refresh ---
+    $(window).on('beforeunload unload', () => {
+      localStorage.removeItem('selectedEpisodeSrc');
+      localStorage.removeItem(EXPIRY_KEY);
+    });
 
   } catch (err) {
     console.error('🔥 Script Init Error:', err);
@@ -68,7 +80,6 @@ $(document).ready(function () {
         </div>
       </div>
     `;
-
     $('body').append(toastHtml);
     const toast = new bootstrap.Toast(document.getElementById(toastId), { delay: 3000 });
     toast.show();
